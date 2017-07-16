@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#15005923"
+    android:padding="2dp" >
+
+
+    <ImageView
+        android:id="@+id/resturent_pic2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerVertical="true"
+        />
+
+
+    <TextView
+        android:id="@+id/resturent_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resturent"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/resturent_pic2"
+        android:layout_toEndOf="@+id/resturent_pic2"
+        />
+
+    <TextView
+        android:id="@+id/resturent_email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="#ff0"
+        android:text="kmparvez2@gmail.com"
+        android:textSize="15dp"
+        android:layout_below="@+id/resturent_name2"
+        android:layout_alignLeft="@+id/resturent_name2"
+        android:layout_alignStart="@+id/resturent_name2" />
+
+    <TextView
+        android:id="@+id/resturent_mobile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:text="hello its for test"
+
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/resturent_email2"
+        android:layout_toRightOf="@+id/resturent_pic2"
+        android:layout_toEndOf="@+id/resturent_pic2" />
+    <!--
+        <Button
+            android:text="Btnextra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_below="@+id/hospital_mobile"/>
+    -->
+</RelativeLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:id="@+id/activity_main"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/linlayoutmain"
+    android:background="@drawable/backgroung"
+    android:weightSum="15"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="14"
+        android:weightSum="12">
+
+        <LinearLayout
+            android:id="@+id/weatherUpdate"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:layout_weight="4.5">
+            <LinearLayout
+                android:layout_weight="2"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent">
+                    <Button android:id="@+id/improject"
+                        android:layout_width="match_parent"
+                        android:text="PROJECT"
+                        android:textSize="25dp"
+                        android:background="#30123fd1"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <Button android:id="@+id/imservices"
+                        android:layout_width="match_parent"
+                        android:text="SERVICES"
+                        android:textSize="25dp"
+                        android:background="#302d50c4"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <Button android:id="@+id/imfutureplan"
+                        android:layout_width="match_parent"
+                        android:text="FUTURE PLAN"
+                        android:textSize="25dp"
+                        android:background="#302d50c4"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <Button android:id="@+id/imlive"
+                        android:text="LIVE"
+                        android:textSize="25dp"
+                        android:layout_width="match_parent"
+                        android:background="#30123fd1"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gvLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingTop="20dp"
+
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+            android:layout_weight="7.5">
+            <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gridview"
+
+                android:numColumns="4"
+                android:stretchMode="columnWidth"
+                android:horizontalSpacing="5dp"
+                android:verticalSpacing="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+
+            >
+            <ImageButton
+                android:id="@+id/btnfba"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ifb"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/btnyoutube"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/iyoutube"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/btnwebsite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/iwebsite"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/btnabtus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/iabtus"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/scrollLine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:lines="1"
+                android:foregroundGravity="bottom"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="1dp"
+                android:scrollHorizontally="true"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:text="আপনার শহরকে পরিষ্কার পরিচ্ছন্ন রাখুন । আইনশৃঙ্খলা মেনে চলুন । বিপদজনক এলাকায় সতর্কতা অবলম্বন করুণ , নিরাপদ থাকুন । যে কোন ধরনের বিপদে আইন শৃঙ্খলা বাহিনীর সাহায্য নিন । "
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginBottom="7dp" />
+        </LinearLayout>
+
+
+
+</LinearLayout>
+</RelativeLayout>

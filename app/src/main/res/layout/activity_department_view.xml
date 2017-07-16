@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_form_list"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:background="@drawable/backgroung"
+android:paddingRight="@dimen/activity_horizontal_margin"
+tools:context="com.parvez_n_jabed_co.ccc_project.DepartmentViewActivity">
+<ImageView
+    android:id="@+id/topHeader"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:src="@drawable/commonback"/>
+<TextView
+    android:id="@+id/dept_title"
+    android:layout_below="@+id/topHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="17dp"
+    android:textColor="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:text="Department Name"/>
+<TextView
+    android:id="@+id/dotdottxt"
+    android:layout_below="@+id/placeTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:textColor="@android:color/black"
+    android:text="----------------------------------------------------------------"/>
+<ScrollView
+    android:layout_below="@id/dotdottxt"
+    android:id="@+id/scrollView1"
+    android:paddingTop="5dp"
+    android:layout_weight="4"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/dept_head_image"
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head3"
+            app:civ_border_color="#ffffff"/>
+
+        <TextView
+            android:text="Mohammed Nasir Uddin"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/dept_head_name" />
+        <TextView
+            android:text="Contact: "
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/dept_head_contact" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0"
+            android:text="Responsibilities: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/deptInfoTxt"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deptAccounts2"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

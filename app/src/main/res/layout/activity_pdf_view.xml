@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_complain_"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backgroung"
+    tools:context="com.parvez_n_jabed_co.ccc_project.PdfViewActivity">
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="প্রেস রিলিজ"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:text="-----------------------------------------------------------"/>
+<com.github.barteksc.pdfviewer.PDFView
+    android:layout_width="match_parent"
+    android:id="@+id/pdfView"
+    android:layout_height="match_parent" />
+
+</LinearLayout>

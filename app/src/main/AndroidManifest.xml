@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parvez_n_jabed_co.ccc_project">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ccc"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebViewActivity">
+            <intent-filter>
+                <action android:name="WEB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GroupListViewActivity" />
+        <activity android:name=".Icon_name_List_view" />
+        <activity android:name=".Complain_Activity" />
+        <activity android:name=".Mayor_CEOActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GroupFixedImgLVActivity" />
+        <activity android:name=".FormRelatedActivities.FormListActivity" />
+        <activity android:name=".FormRelatedActivities.TaxRelatedFormsActivity" />
+        <activity android:name=".FormRelatedActivities.TenderRelatedFormsActivity" />
+        <activity android:name=".FormRelatedActivities.OtherVariousFormsActivity" />
+        <activity android:name=".FormRelatedActivities.TreadLisenseForms" />
+        <activity android:name=".TaxRelatedActivities.TaxActivity" />
+        <activity android:name=".TaxRelatedActivities.HoldingTaxPayment1" />
+        <activity android:name=".TaxRelatedActivities.HoldingTaxPayment2" />
+        <activity android:name=".TaxRelatedActivities.HoldingTaxPaymentFinal" />
+        <activity android:name=".TaxRelatedActivities.ReCheckTaxActivity1" />
+        <activity android:name=".TaxRelatedActivities.TaxPaymentInfoActivity" />
+        <activity android:name=".TaxRelatedActivities.TradeLiscenceInfoActivity" />
+        <activity android:name=".TaxRelatedActivities.RevenueCircleInfo" />
+        <activity android:name=".TaxRelatedActivities.RevenueCircleOfficeInfo" />
+        <activity android:name=".HistoricalPlacesActivities.PlacesNameActivity" />
+        <activity android:name=".HistoricalPlacesActivities.PlacesViewActivity" />
+        <activity android:name=".TestActivities.LiveTestActivity" />
+        <activity android:name=".CommuwithMeyor" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".TenderActivity" />
+        <activity android:name=".ListViewNormalSecond" />
+        <activity android:name=".IconNameList2" />
+        <activity android:name=".DepartmentListActivity" />
+        <activity android:name=".DepartmentViewActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".PdfViewActivity" />
+        <activity android:name=".PressPdfListActivity" />
+        <activity android:name=".DefaultListView" />
+        <activity android:name=".NotificationActivity">
+            <intent-filter>
+                <action android:name="NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".OnlyClasses.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".CommunicationActivity"></activity>
+    </application>
+
+</manifest>

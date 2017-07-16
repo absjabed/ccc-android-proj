@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- City corporation General Hospital-->
+    <string-array name="generalcc_doc_name">
+        <item>ডাঃ আর.পি আসিফ খান</item>
+        <item>ডাঃ রহিমা খাতুন</item>
+        <item>ডাঃ সুশান্ত বড়–য়া</item>
+        <item>ডাঃ দীপা ত্রিপুরা</item>
+        <item>ডাঃ রিয়াজ আহমদ</item>
+        <item>ডাঃ নিবেদিতা দেবী</item>
+        <item>ডাঃ হোসনে আরা বেগম</item>
+        <item>ডাঃ জোনাকী দেবী</item>
+        <item>ডাঃ নাজিয়া খুরশিদ</item>
+        <item>ডাঃ জয়ন্তী সরকার</item>
+        <item>ডাঃ শর্মিলা রায়</item>
+        <item>ডাঃ সন্দীপন রুদ্র</item>
+        <item>ডাঃ জুয়েল মহাজন</item>
+        <item>ডাঃ শারমিন আকতার</item>
+        <item>ডাঃ সামন্তী মুহুরী</item>
+        <item>ডাঃ এ.আর.এম মাসুদ নিজাম</item>
+        <item>ডাঃ খাদিজা বেগম</item>
+        <item>ডাঃ লিপা মল্লিক</item>
+        <item>ডাঃ মোঃ রেজাউল করিম</item>
+    </string-array>
+
+
+    <string-array name="generalcc_doc_post">
+        <item>ইনচার্জ</item>
+        <item>জুনিয়র কনসালটেন্ট (গাইনী)</item>
+        <item>কনসালটেন্ট (শিশু) </item>
+        <item>আবাসিক মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার (এনেসথেসিয়া)</item>
+        <item>মেডিকেল অফিসার (চক্ষু)</item>
+        <item>মেডিকেল অফিসার (শিশু)</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+    </string-array>
+
+
+    <string-array name="general_doc_phone">
+        <item>০১৭১৪-০৮৭৮২৮</item>
+        <item>০১৮১৯-৩২৮৪৯৭</item>
+        <item>০১৭১১-৯৬৭০০১</item>
+        <item>০১৮১৯-৩০৮৬৯৮</item>
+        <item>০১৮১৯-৮৫৭৭৭৮</item>
+        <item>০১৮১৬-৮০৪৩৪৪</item>
+        <item>০১১৯৯-২৯১৬৫৭</item>
+        <item>০১৮১৮-৮০৭১৯৬</item>
+        <item>০১৯২২-৭৬১৬১১</item>
+        <item>০১৭১৬-৩৬০০০৫</item>
+        <item>০১৮১৭-৭২৩৩৮৪ </item>
+        <item>০১৭২৬-০৮১২৯৭</item>
+        <item>০১৭১২-৬৫২৪৮৫</item>
+        <item>০১৬৭৬-৪৪৭৫৭২</item>
+        <item>০১৮১৬-৩৬৯৪১৯</item>
+        <item>০১৭১৭-১৪৬৭০০</item>
+        <item>০১৭৯৩-২৪০৩০৮</item>
+        <item>০১৭০৪-০৪৩১৫৩</item>
+        <item>০১৬১৬-৩৩৮৩০৮</item>
+    </string-array>
+
+
+    <!-- City corporation Memon Matrisodon-->
+    <string-array name="memoncc_doc_name">
+        <item>ডাঃ আশীষ কুমার মুখার্জী</item>
+        <item>ডাঃ প্রীতি বড়–য়া</item>
+        <item>ডাঃ দিদারুল মনির রুবেল</item>
+        <item>ডাঃ মোঃ আলমগীর</item>
+        <item>ডাঃ ইসরাত জাহান বেগম</item>
+        <item>ডাঃ রোকসানা পারভীন</item>
+        <item>ডাঃ শাহীন পারভীন</item>
+        <item>ডাঃ ফাহমিদা জেসমিন (সিলভি)</item>
+        <item>ডাঃ রাশেদুল ইসলাম</item>
+        <item>ডাঃ পঙ্কজ কুমার দেওয়ানজী</item>
+        <item>ডাঃ বাবলী মল্লিক</item>
+        <item>ডাঃ এনামুল হক চৌধুরী</item>
+        <item>ডাঃ অনামিকা দেব</item>
+        <item>ডাঃ রাহেলা হোসেন</item>
+        <item>ডাঃ শামীমা আকতার</item>
+        <item>ডাঃ শামসুন্নাহার (সানু)</item>
+        <item>ডাঃ শামীম আক্তার (কাকলী)</item>
+        <item>ডাঃ শিল্পী ভৌমিক</item>
+        <item>ডাঃ ডালিয়া পাল</item>
+        <item>ডাঃ তিথি বড়–য়া</item>
+        <item>ডাঃ নিখাত আকতার নিশু</item>
+        <item>ডাঃ নাসরিন সুলতানা</item>
+        <item>ডাঃ শায়লা শারমীন</item>
+        <item>ডাঃ অনন্যা বড়–য়া</item>
+        <item>ডাঃ রিনি সাহা </item>
+        <item>ডাঃ শামীমা রহমান</item>
+        <item>ডাঃ শবনম মুশতারী</item>
+        <item>ডাঃ মোঃ নাদিম হায়দার</item>
+        <item>ডাঃ নাদিয়া সুলতানা জেবু</item>
+        <item>ডাঃ ডালিয়া ভট্টাচার্য্য</item>
+    </string-array>
+
+
+    <string-array name="memoncc_doc_post">
+        <item>ইনচার্জ</item>
+        <item>সিনিয়র কনসালটেন্ট</item>
+        <item>কনসালটেন্ট (শিশু)</item>
+        <item>কনসালটেন্ট (শিশু)</item>
+        <item>আবাসিক মেডিকেল অফিসার</item>
+        <item>আবাসিক মেডিকেল অফিসার</item>
+        <item>আবাসিক মেডিকেল অফিসার</item>
+        <item>সিনিয়র মেডিকেল অফিসার </item>
+        <item>মেডিকেল অফিসার (এনেসথেসিয়া)</item>
+        <item>মেডিকেল অফিসার (এনেসথেসিয়া)</item>
+        <item>মেডিকেল অফিসার (শিশু)</item>
+        <item>মেডিকেল অফিসার (শিশু)</item>
+        <item>মেডিকেল অফিসার (শিশু)</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>রেডিওলজিষ্ট</item>
+    </string-array>
+
+
+    <string-array name="memon_doc_phone">
+        <item>০১৭৬০-৪৮৬৭৭৭</item>
+        <item>০১৭১৩-১২৩১০০</item>
+        <item>০১৮১৯-৩৯৮২৬০</item>
+        <item>০১৭১১-২৮৩২৯৮</item>
+        <item>০১৮১৯-৬৪১৮৩৯</item>
+        <item>০১৮১৯-৩৬০৯৮৯</item>
+        <item>০১৭১০-৮০০৬০৯</item>
+        <item>০১৫৫৪-৩৩৩৩১৩</item>
+        <item>০১৮১৯-৩২৮৪৭৪</item>
+        <item>০১৮১৯-৩৮৬০৫২</item>
+        <item>০১৮১৯-৩৩০০৩৪</item>
+        <item>০১৮১৯-৩২৯৪৯২</item>
+        <item>০১৬৭৫-৪৩৬৩০২</item>
+        <item>০১৭১১-৭৯৯৪৪৩</item>
+        <item>০১৮১৪-৮১৯৬৩২</item>
+        <item>০১৭১১-৯৫৩৯৭০</item>
+        <item>০১৮১৯-৬৪১২৫২</item>
+        <item>০১৭১১-৩০৭৯৭১</item>
+        <item>০১৭১৪-১৩৬১৭৯</item>
+        <item>০১৭১৮-৫৫২৫১৬</item>
+        <item>০১৯২৪-২৬৭৬৬১</item>
+        <item>০১৭৮৯-৪৬৯৫৪৬</item>
+        <item>০১৭৪১-৬১৮০৩৮</item>
+        <item>০১৯২৩-৮৯৬৭০২</item>
+        <item>০১৭৭৫-২৫২৭২৭</item>
+        <item>০১৭২২-১৭০১৫১</item>
+        <item></item>
+        <item>০১৭১৩-৪৬২১১৯</item>
+        <item>০১৮১৫-১০৯৩৬৯</item>
+        <item>০১৮১৫-৫১৯২১২</item>
+    </string-array>
+
+    <!-- Mostofa Hakim CC Hospital-->
+    <string-array name="mostofacc_doc_name">
+        <item>ডাঃ নাছিম ভূঁইয়া</item>
+        <item>ডাঃ নাসরিন আক্তার</item>
+        <item>ডাঃ হারুন অর রশিদ</item>
+        <item>ডাঃ মিজানুর রহমান</item>
+        <item>ডাঃ সেলিনা পারভীন</item>
+        <item>ডাঃ আরিহা তাহসিন</item>
+        <item>ডাঃ দিলরুবা পারভীন</item>
+        <item>ডাঃ ইফফাত জাহান</item>
+        <item>ডাঃ সাদিয়া আফরিন মনি</item>
+        <item>ডাঃ কৃপা দেব দাশ </item>
+        <item>ডাঃ শারমিন আজাদ</item>
+        <item>ডাঃ প্রিয়াংকা চৌধুরী</item>
+        <item>ডাঃ রুমী রানী চৌধুরী </item>
+        <item>ডাঃ আনজুমান আরা </item>
+    </string-array>
+
+
+    <string-array name="mostofacc_doc_post">
+        <item>ইনচার্জ</item>
+        <item>কনসালটেন্ট</item>
+        <item>কনসালটেন্ট (শিশু)</item>
+        <item>মেডিকেল অফিসার (শিশু)</item>
+        <item>মেডিকেল অফিসার (রেডিও এন্ড সনোলজি)</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+    </string-array>
+
+
+    <string-array name="mostofa_doc_phone">
+        <item>০১৮১৯-৩১৭৭৭৮</item>
+        <item>০১৮১৯-৮৯২৮২৯</item>
+        <item>০১৮১৯-৬১৪৭২৯</item>
+        <item>০১৭১৪-১০৫১৬৬</item>
+        <item>০১৮১৯-৩৬৮২৩৭</item>
+        <item>০১৯৩৭-৮৮৭৬৫২</item>
+        <item>০১৮১৭-২০১০৪২</item>
+        <item>০১৭৫২-৭৬৬৬৯৩</item>
+        <item></item>
+        <item>০১৭৮১-৮৮৯০১৫</item>
+        <item>০১৬৭০-০২২২৭১</item>
+        <item>০১৮২৭-১২৯৩০৩</item>
+        <item>০১৬৭৬-০০১৯৬১</item>
+        <item>০১৭১২-৮৫৯৯৭৯</item>
+    </string-array>
+
+    <!-- prosasonik karzaloy-->
+    <string-array name="prosasonik_doc_name">
+        <item>ডাঃ সেলিম আকতার চৌধুরী</item>
+        <item>ডাঃ মোহাম্মদ আলী</item>
+    </string-array>
+
+
+    <string-array name="prosasonik_doc_post">
+        <item>প্রধান স্বাস্থ্য কর্মকর্তা</item>
+        <item>স্বাস্থ্য কর্মকর্তা</item>
+    </string-array>
+
+
+    <string-array name="prosasonik_doc_phone">
+        <item>০১৮১৯-৩১৯১৩৭, ০১৭০৬-২২২২২২</item>
+        <item>০১৮১৯-৬৪৮৮৮৫</item>
+    </string-array>
+
+    <!-- Safa Motaleb Matrisodon Hospital-->
+    <string-array name="safacc_doc_name">
+        <item>ডাঃ তৌহিদুল আনোয়ার খান</item>
+        <item>ডাঃ কাওসার পারভীন</item>
+        <item>ডাঃ জ্যোস্না রাণী রায়</item>
+        <item>ডাঃ সাজিয়া আফরিন</item>
+        <item>ডাঃ ওয়াহিদা বেগম</item>
+        <item>ডাঃ রনজিত পাল</item>
+        <item>ডাঃ কুসুম আকতার</item>
+        <item>ডাঃ মোচ্ছাম্মৎ তানজিমা পারভীন</item>
+        <item>ডাঃ অনন্যা পালিত</item>
+    </string-array>
+
+
+    <string-array name="safacc_doc_post">
+        <item>ইনচার্জ</item>
+        <item>কনসালটেন্ট (গাইনি)</item>
+        <item>আবাসিক মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+        <item>মেডিকেল অফিসার</item>
+    </string-array>
+
+
+    <string-array name="safa_doc_phone">
+        <item>০১৮১৯-৩৮০৭৮৫</item>
+        <item>০১৮১৭-৭৭২৪৪৭</item>
+        <item>০১৭১৪-২৮৩২৯৮</item>
+        <item>০১৭১২-৬১৯৮১৮</item>
+        <item>০১৭২৬-১৭৬৫২৯</item>
+        <item>০১৮১৯-৩০৭০৬৫</item>
+        <item>০১৭১১-৪৪৪৫৫৫</item>
+        <item>০১৯৮৭-২৮৭১৭৩</item>
+        <item>০১৭৩৯-০৭৩২১৬</item>
+    </string-array>
+
+    <!-- ward wise sastho kendro o medical officers-->
+    <string-array name="wardwise_clinic_name">
+        <item>দক্ষিণ পাহাড়তলী সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড  ০১</item>
+        <item>নরেশ মল্লিক সি/ক নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০১</item>
+        <item>গুড়া মিয়া মাহমুদা খাতুন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০২</item>
+        <item>পাঁচলাইশ আব্দুর রহিম সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ০৩</item>
+        <item>ওয়াজেদ আলী খান প্রাঃ স্বাস্থ্যঃ পঃ কেন্দ্র\nওয়ার্ড ০৩</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৪(ক)</item>
+        <item>মঞ্জু পারভীন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৪(খ)</item>
+        <item>সালেহ আহম্মদ খান নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৫ </item>
+        <item> হাজী তাজুল ইসলাম, হাজী মোঃ শরীফ  নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৬</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৭</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৮</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৯(ক)</item>
+        <item>নুরুল আমিন মিয়া নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ০৯(খ)</item>
+        <item>উত্তর কাট্টলী  সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ১০</item>
+        <item>দক্ষিণ কাট্টলী সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ১১</item>
+        <item>ছধু চৌধুরী নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ১১</item>
+        <item>সরাইপাড়া সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ১২</item>
+        <item>হাজী এম.এ মালেক নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ১২</item>
+        <item>লালখান বাজার সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ১৪</item>
+        <item>চকবাজার সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ১৬</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ১৬</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ১৭</item>
+        <item>পূর্ব বাকলিয়া সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ১৮</item>
+        <item>হাজী ওয়াইজ খাতুন সি/ক মাতৃঃ হাসঃ (বহিঃ বিভাগ)\nওয়ার্ড ১৮</item>
+        <item>সৈয়দা তুম্বিয়া খাতুন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ১৮</item>
+        <item>নুরুল ইসলাম বিএসসি সি/ক মাতৃঃ হাসঃ (বহিঃ বিভাগ)\nওয়ার্ড ১৯</item>
+        <item>দেওয়ান বাজার সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২০</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২০</item>
+        <item>এনায়েত বাজার সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২২</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২১</item>
+        <item>সুলতান আহমদ দেওয়ান সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২৩</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২৩</item>
+        <item>মনসুরাবাদ খান সাহেব সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২৪ </item>
+        <item>এয়াকুব আলী নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২৫</item>
+        <item>আরাবিয়া সালেহ নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২৬(ক)</item>
+        <item>আলহাজ্ব আবুলিয়া নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২৬(খ)</item>
+        <item>দক্ষিণ আগ্রাবাদ সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২৭</item>
+        <item>এম.এ ছালাম নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২৭</item>
+        <item>পাঠানটুলী সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২৮</item>
+        <item>আমীর হোসেন দোভাষ নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ২৮</item>
+        <item>পশ্চিম মাদারবাড়ী সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ২৯</item>
+        <item>ইউনুছ মিয়া সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ৩১</item>
+        <item>আব্দুল কাদের আঃ মাঃ সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ৩২</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৩২</item>
+        <item>ফিরিঙ্গী বাজার সি/ক দাতব্য চিকিৎসালয়\nওয়ার্ড ৩৩</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৩৪</item>
+        <item>নেয়ামত জব্বার নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৩৫</item>
+        <item>আব্দুল কাদের নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৩৬</item>
+        <item>আনোয়ারা জাকারিয়া নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৩৭ </item>
+        <item>গাজী ওমর শাহ নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৩৮</item>
+        <item>নুরুল গণি মিয়া নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড৩৯</item>
+        <item>সিটি কর্পোরেশন নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৪০</item>
+        <item>আহমেদুর রহমান নগর স্বাস্থ্য কেন্দ্র\nওয়ার্ড ৪১</item>
+    </string-array>
+
+
+    <string-array name="wardwise_clinic_doc_name">
+        <item>ডাঃ সলিল চৌধুরী</item>
+        <item>ডাঃ বিজয় কৃষ্ণ সরকার</item>
+        <item>ডাঃ মোঃ ফরিদুল আলম</item>
+        <item>ডাঃ মুজিবুল আলম চৌধুরী</item>
+        <item>ডাঃ মোসলেম উদ্দিন</item>
+        <item>ডাঃ তাসরিনা রহমান</item>
+        <item>ডাঃ আব্দুল মজিদ সিকদার</item>
+        <item>ডাঃ মোঃ কাশেফুল আলম</item>
+        <item>ডাঃ আবুল কালাম আজাদ</item>
+        <item>ডাঃ ইসরাতুল জান্নাত</item>
+        <item>ডাঃ পাপড়ী দত্ত</item>
+        <item>ডাঃ সাজিয়া আরোফিন</item>
+        <item>ডাঃ আখিল মোহাম্মদ (নাফে)</item>
+        <item>ডাঃ দ্বীপায়ন দাশগুপ্ত</item>
+        <item>---</item>
+        <item>ডাঃ আফরোজা রাবিয়া হাসান</item>
+        <item>ডাঃ সেলিম কাশেম চৌধুরী</item>
+        <item>ডাঃ সেলিনা আকতার </item>
+        <item>ডাঃ মোঃ ইসমাইল</item>
+        <item>ডাঃ রফিকুল ইসলাম</item>
+        <item>ডাঃ উম্মে কুলসুম সুমি</item>
+        <item>ডাঃ আতিকুল হক</item>
+        <item>---</item>
+        <item>ডাঃ হিমেল আচার্য্য</item>
+        <item>ডাঃ মোঃ হাবিবুর রহমান</item>
+        <item>ডাঃ রাজিব বিশ্বাস</item>
+        <item>ডাঃ তপন কুমার চক্রবর্তী</item>
+        <item>ডাঃ হুমে আরা ফেরদৌসী</item>
+        <item>ডাঃ নাজমা সুলতানা</item>
+        <item>ডাঃ হাজেরা নাজনিন</item>
+        <item>ডাঃ বিদ্যুৎ ভূষণ দাশগুপ্ত</item>
+        <item>ডাঃ খুকুমনি বড়–য়া</item>
+        <item>ডাঃ বশির উদ্দিন</item>
+        <item>ডাঃ কিশোর কুমার আচার্য্য</item>
+        <item>ডাঃ উম্মে তাসলিমা আকতার</item>
+        <item>ডাঃ উম্মে তাসলিমা আকতার</item>
+        <item>ডাঃ সুমন তালুকদার</item>
+        <item>ডাঃ বিজয় তালুকদার</item>
+        <item>ডাঃ জসিম উদ্দিন চৌধুরী</item>
+        <item>ডাঃ মোঃ মেজবাহ উদ্দিন</item>
+        <item>ডাঃ ইমাম হোসেন রানা</item>
+        <item>ডাঃ তন্দ্রা চৌধুরী</item>
+        <item>ডাঃ নাদিয়া রহমান</item>
+        <item>ডাঃ শামীম আরা বেগম</item>
+        <item>ডাঃ আমেনা বেগম</item>
+        <item>ডাঃ ইফতেখারুল ইসলাম</item>
+        <item>ডাঃ ইমাম হোসাইন সোবহানী</item>
+        <item>ডাঃ জয়া রাণী বণিক</item>
+        <item>ডাঃ রুবাইয়া নাজের সোনিয়া</item>
+        <item>ডাঃ হাসান মুরাদ চৌধুরী</item>
+        <item>ডাঃ মোঃ শাহাজাহান হেলালী</item>
+        <item>ডাঃ ফেরদৌসী বেগম</item>
+        <item>ডাঃ মামুন উদ্দিন</item>
+    </string-array>
+
+
+    <string-array name="wardwise_clinic_phone">
+        <item>০১৭১১-২৬৭৩৬৮</item>
+        <item>০১৭২৭-৭১৯০৬৫</item>
+        <item>০১৮১৭-৭৮২৬৯৯</item>
+        <item>০১৮১৯-৩৫৫৫২৬</item>
+        <item>০১৭১১-১৩০৭২১</item>
+        <item>০১৭২৯-৯৪৫৭৫৩</item>
+        <item>০১৮২২-৮৪৭৯৫৭</item>
+        <item>০১৮১৮-১৬৩২৪০</item>
+        <item>০১৮১৯-৩৮৭১০০</item>
+        <item>০১৮৫৩-২৮৬৮৪৮</item>
+        <item>০১৮১৯-২৯০৭৩১</item>
+        <item>০১৮২৪-৭১২৫৭৭</item>
+        <item>০১৬৭০-৪৯৭২৮৬</item>
+        <item>০১৬১৪-৪১৫০৫০</item>
+        <item></item>
+        <item>০১৬২৩-৫২৬৫৭৯</item>
+        <item>০১৭২৩-৩৫০৭৭৭</item>
+        <item>০১৬৭৩-৯৬৪৮৮০</item>
+        <item>০১৬৭৩-৮৭৬৪০৩</item>
+        <item>০১৮১৯-৩১৪০২৭</item>
+        <item>০১৭১৭-০২৯৫৯৫</item>
+        <item>০১৮৪২-২৬৭৩১১</item>
+        <item></item>
+        <item>০১৭১৫-২৬৩৮৪৫</item>
+        <item>০১৮১৯-৩৬১৭৪৩</item>
+        <item>০১৭১৫-৩০৭২২৭</item>
+        <item>০১৮১৫-১৩১৬৪৭</item>
+        <item>০১৮৫৬-১৯৫৫৮৪</item>
+        <item>০১৭৫১-৭৪৪০২৪</item>
+        <item>০১৯১১-৭৪৯৮৪৪</item>
+        <item>০১৭১১-৩০৫৫৫০</item>
+        <item>০১৮১৫-৬৬৪৯১৫ </item>
+        <item>০১৮১৯-৬২০১৩০</item>
+        <item>০১৮১৭-৭২১২৩৩</item>
+        <item>০১৭১১-০৫৪৮২০</item>
+        <item>০১৭১১-০৫৪৮২০ </item>
+        <item>০১৭১১-১৬৮৪১৩</item>
+        <item>০১৭৬০-৮৭৮৫৫৯</item>
+        <item>০১৮১৬-৯৩২১৭৭</item>
+        <item>০১৮৫১-৩৫৮৭১৫</item>
+        <item>০১৮১৭-৭০৬০৫৫</item>
+        <item>০১৮৫০-৩৭২৫২৬</item>
+        <item>০১৯১৪-০০৬৫৪৯</item>
+        <item>০১৬১৬-৫১৭৬৩৭</item>
+        <item>০১৮১৬-৮৩৫৫৩৫</item>
+        <item>০১৭৫৭-০০১১৩৭</item>
+        <item>০১৭৩০-৩৩৮৫৮৮</item>
+        <item>০১৭২০-০২৯৮৬৫</item>
+        <item>০১৭১৫-৯৭৮৫১৭</item>
+        <item>০১৫৫৪-৩২৯৬৭১</item>
+        <item>০১৭১৫-৫৪২২১৪</item>
+        <item>০১৭১২-৬৬০৬১০</item>
+        <item>০১৬৭০-২২২৭৭০</item>
+    </string-array>
+
+    <!-- মিডওয়াইফারী ইনিষ্টিটিউট ঃ-->
+    <string-array name="midwifari_doc_name">
+        <item>ডাঃ দিল আফরোজ খানম</item>
+    </string-array>
+
+
+    <string-array name="midwifari_doc_post">
+        <item>পরিচালক (ভারপ্রাপ্ত)</item>
+    </string-array>
+
+
+    <string-array name="midwifari_doc_phone">
+        <item>০১৭১৫-৫০২০৫০</item>
+    </string-array>
+
+
+
+    <!-- ইনষ্টিটিউট অব হেলথ টেকনোলজি-->
+
+    <string-array name="iht_doc_name">
+        <item>ডাঃ শাহনাজ আক্তার</item>
+        <item>ডাঃ পলাশ দাশ</item>
+        <item>ডাঃ শিমু মহাজন</item>
+    </string-array>
+
+    <string-array name="iht_doc_post">
+        <item>প্রভাষক (ডেন্টিষ্ট্রি)</item>
+        <item>প্রভাষক (ডেন্টিষ্ট্রি)</item>
+        <item>প্রভাষক (বেসিক/ক্লিনিক্যাল) </item>
+    </string-array>
+
+
+    <string-array name="iht_doc_phone">
+        <item>০১৭১২-০৩৬৩৭০</item>
+        <item>০১৮১৮-১৪২৯৪৪</item>
+        <item>০১৮১৩-৬৭০৮৩৬</item>
+    </string-array>
+
+    <string-array name="event_name">
+        <item>ভবিষ্যৎ পরিকল্পনা সমূহ</item>
+    </string-array>
+    <string-array name="project_name">
+        <item>চলমান প্রোজেক্ট সমূহ</item>
+        <item>আসন্ন প্রোজেক্ট সমূহ</item>
+    </string-array>
+
+
+</resources>

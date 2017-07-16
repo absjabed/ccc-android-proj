@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_holding_tax_payment_final"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp"
+    android:background="@drawable/backgroung"
+    tools:context="com.parvez_n_jabed_co.ccc_project.TaxRelatedActivities.HoldingTaxPaymentFinal">
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="হোল্ডিং ট্যাক্স পরিশোধ"/>
+    <TextView
+        android:layout_below="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="-----------------------------------------------------------------"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Get Receipt"
+        android:background="@drawable/btnbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLink"
+        android:layout_marginTop="31dp"
+        android:onClick="getReceipt"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="আপনার লেনদেন সফল হয়েছে।
+	আপনার মেইল হতে রিসিট নিতে
+	পারেন কিংবা নিচের লিঙ্কে ক্লিক করে রিসিট নিতে পারেন।"
+        android:layout_marginTop="24dp"
+        android:textColor="#ff0000"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

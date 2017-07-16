@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Head Name Array -->
+
+
+    <string-array name="head_pic">
+        <item>@drawable/head1</item>
+        <item>@drawable/head2</item>
+        <item>@drawable/head3</item>
+        <item>@drawable/head4</item>
+        <item>@drawable/head5</item>
+        <item>@drawable/head6</item>
+        <item>@drawable/head7</item>
+        <item>@drawable/head8</item>
+        <item>@drawable/head9</item>
+        <item>@drawable/head10</item>
+        <item>@drawable/head11</item>
+        <item>@drawable/head12</item>
+        <item>@drawable/head13</item>
+        <item>@drawable/head14</item>
+        <item>@drawable/head15</item>
+        <item>@drawable/head16</item>
+        <item>@drawable/head17</item>
+        <item>@drawable/head18</item>
+        <item>@drawable/head19</item>
+        <item>@drawable/head20</item>
+        <item>@drawable/head21</item>
+        <item>@drawable/head22</item>
+    </string-array>
+
+
+    <string-array name="head_name">
+        <item>মোঃ সামসুদ্দোহা</item>
+        <item>মোহাম্মদ আবুল হোসেন</item>
+        <item>লেঃ কর্ণেল মহিউদ্দিন আহমেদ</item>
+        <item>ড. মুহাম্মদ মুস্তাফিজুর রহমান</item>
+        <item>নাজিয়া শিরিন</item>
+        <item>মোহাম্মদ মঞ্জুরুল ইসলাম</item>
+        <item>সনজীদা শরমিন</item>
+        <item>ডা. সেলিম আকতার চৌধুরী</item>
+        <item>মোহাম্মদ সাইফুদ্দিন</item>
+        <item>শেখ শফিকুল মান্নান সিদ্দিকী</item>
+        <item>জনাব রফিকুল ইসলাম</item>
+        <item>জনাব আনোয়ার হোছাইন</item>
+        <item>জনাব কামরুল ইসলাম</item>
+        <item>জনাব আবু ছালেহ</item>
+        <item>জনাব মুনিরুল হুদা</item>
+        <item>মোঃ মাহফুজুল হক</item>
+        <item>এ কে এম রেজাউল করিম</item>
+        <item> আশেক রসুল চৌধুরী (টিপু)</item>
+        <item>মোহাম্মদ ইকবাল হাসান</item>
+        <item>মোঃ সরওয়ার-ই-আলম</item>
+        <item>আবদুর রহিম</item>
+        <item>মোঃ কামাল উদ্দিন</item>
+
+    </string-array>
+
+
+
+    <string-array name="head_post_name">
+        <item>(যুগ্ম সচিব)\nপ্রধান নির্বাহী কর্মকর্তা\nচট্টগ্রাম সিটি কর্পোরেশন</item>
+        <item>সচিব\nচট্টগ্রাম সিটি কর্পোরেশন।</item>
+        <item>প্রধান প্রকৌশলী</item>
+        <item>(উপসচিব)\nপ্রধান রাজস্ব কর্মকর্তা</item>
+        <item>(উপসচিব)\nপ্রধান শিক্ষা কর্মকর্তা </item>
+        <item>(সিনিয়ার সহাকারী সচিব)\nমাননীয় মেয়র এর একান্ত সচিব</item>
+        <item>এক্সিকিউটিভ ম্যাজিস্ট্রেট</item>
+        <item>প্রধান স্বাস্থ্য কর্মকর্তা</item>
+        <item>প্রধান হিসাবরক্ষণ কর্মকর্তা</item>
+        <item>প্রধান পরিচ্ছন্ন কর্মকর্তা</item>
+        <item>তত্ত্বাবধায়ক প্রকৌশলী (ডিভিশন-১,২)</item>
+        <item>তত্ত্বাবধায়ক প্রকৌশলী (ডিভিশন-৩,৪)</item>
+        <item>তত্ত্বাবধায়ক প্রকৌশলী (ডিভিশন-৫,৬)</item>
+        <item>তত্ত্বাবধায়ক প্রকৌশলী (ডিভিশন-৭,৮)</item>
+        <item>তত্ত্বাবধায়ক প্রকৌশলী (ডিভিশন-৯)</item>
+        <item>তত্ত্বাবধায়ক প্রকৌশলী (যান্ত্রিক ও বিদ্যুৎ)</item>
+        <item>প্রধান নগর পরিকল্পনাবিদ</item>
+        <item>উপ-সচিব</item>
+        <item>আইটি অফিসার</item>
+        <item>আইন কর্মকর্তা</item>
+        <item>জনসংযোগ কর্মকর্তা</item>
+        <item>নিরাপত্তা কর্মকর্তা</item>
+
+    </string-array>
+
+
+    <string-array name="head_phone_no">
+        <item>০১৭১১১৯৬৬৬৮</item>
+        <item>০১৫৫৬৫৬১০৯৮</item>
+        <item>০১৭৯৪-৪৯৩৪৮৬</item>
+        <item>০১৫৫৩০০৩০৩৩</item>
+        <item>০১৭১৩১০২৫৩৫</item>
+        <item>০১৮১৯৩৩৯৯৯২</item>
+        <item>০১৭১৭৫৭০৫৩৬</item>
+        <item>০১৮১৯৩১৯১৩৭</item>
+        <item>০১৮১৯৩৮৫০৪৬</item>
+        <item>০১৭১২২৫২৬১৫</item>
+        <item>০১৮১৯-৩২৮০২৩</item>
+        <item>০১৬৭৩-৯০৬০৮১</item>
+        <item>০১৯১৪-৫৯৩৮০৪</item>
+        <item>০১৮২৫-০০৩০২২</item>
+        <item>০১৮১৯-৬১৮৭৫৮</item>
+        <item>০১৮১৯-৩৮৭৪৬৩</item>
+        <item>০১৭১৫০৭০৭০৮</item>
+        <item>০১৯১৫-৭৯৫১৪২</item>
+        <item>০১৯১১৪৩৫৬২৭</item>
+        <item>০১৮১৯৩৬২০৮৯</item>
+        <item>০১৭২৭-৩০৬১৩২</item>
+        <item>০১৮১৭-৭৬০৩২০</item>
+
+
+
+
+    </string-array>
+
+
+    <string-array name="head_email">
+        <item>e-mail: cccmayor@gmail.com</item>
+        <item>e-mail-</item>
+        <item>e-mail- ctgccceo@gmail.com</item>
+        <item>e-mail- hossain.admn@gmail.com</item>
+        <item>e-mail- ce.cc.ctg@gmail.com</item>
+        <item>e-mail- mustafiz_ac@hotmail.com</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail- drsalim_ac@yahoo.com</item>
+        <item>e-mail- cao@ccc.org.bd</item>
+        <item>e-mail- jishucco@yahoo.com</item>
+        <item>e-mail- morshedul.alam73@yahoo.com</item>
+        <item>e-mail- sheikhhasanccc3@gmail.com</item>
+        <item>e-mail- rafiqcc@gmail.com</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail- eng.biplobdas@gmail.com</item>
+        <item>e-mail- xen3.cc.ctg@gmail.com</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail- barua_ashim@yahoo.com</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail-</item>
+        <item>e-mail- profficecccc@gmail.com</item>
+        <item>e-mail- ashekrasulchy@yahoo.com</item>
+        <item>email- iqbalhasanctg@yahoo.com</item>
+        <item>e-mail-</item>
+        <item>email- lawofficeccc@gmail.com</item>
+    </string-array>
+
+
+    <string-array name="tenderarray_name">
+        <item>সি/ক টেন্ডার সমূহের ওয়েবলিংক</item>
+    <item>06-04-2017</item>
+    <item>27-03-2017</item>
+    <item>22-03-2017</item>
+    <item>03-04-2017</item>
+    <item>16-02-2017</item>
+    <item>30-12-2016</item>
+    <item>24-11-2016</item>
+    <item>21-08-2016</item>
+    <item>18-07-2016</item>
+    <item>30-06-2016</item>
+    <item>16-06-2016</item>
+    <item>16-06-2016</item>
+    </string-array>
+    <!-- Counsilors Name Array -->
+    <string-array name="daily_newspaper_name">
+        <item>Daily Azadi</item>
+        <item>Daily Purbokone</item>
+        <item>Daily Prothom-Alo</item>
+        <item>Daily Observer</item>
+        <item>The Daily Star</item>
+    </string-array>
+
+
+    <!-- Counsilors Phone No Array -->
+    <string-array name="daily_newspaper_phone">
+        <item>Ph: 612328,612380</item>
+        <item>Ph: 650909,651968</item>
+        <item>Ph: 617988</item>
+        <item>Ph: 637390</item>
+        <item>Ph: 618618</item>
+
+    </string-array>
+
+
+    <!-- Counsilors Name Array -->
+    <string-array name="fire_station_name">
+        <item>Agrabad Fire Station</item>
+        <item>Chandanpura Fire Station</item>
+        <item>Nandankanan Fire Station</item>
+        <item>Lamabazar Fire Station</item>
+        <item>Kalurghat Fire Station</item>
+        <item>B.Bostami Fire Station</item>
+        <item>Bandar Fire Station</item>
+        <item>E.P.Z Patenga Fire Station</item>
+        <item>Newmooring Fire Station</item>
+    </string-array>
+
+
+    <!-- Counsilors Phone No Array -->
+    <string-array name="fire_station_phone">
+        <item>Ph: 716326</item>
+        <item>Ph: 619575</item>
+        <item>Ph: 630334</item>
+        <item>Ph: 630233</item>
+        <item>Ph: 670066</item>
+        <item>Ph: 683080</item>
+        <item>Ph: 502139</item>
+        <item>Ph: 502275</item>
+        <item>Ph: 740854</item>
+    </string-array>
+
+
+    <!-- Counsilors Name Array -->
+    <string-array name="chittagong_wasa_administration_name">
+        <item>Chairman</item>
+        <item>Chief Engineer</item>
+    </string-array>
+
+
+    <!-- Counsilors Phone No Array -->
+    <string-array name="chittagong_wasa_administration_phone">
+        <item>Ph: 621606</item>
+        <item>Ph: 612898,614663</item>
+    </string-array>
+
+
+
+
+
+
+    <!-- Counsilors drawable picture Array -->
+
+    <!-- Counsilors Name Array -->
+    <string-array name="hospital_name">
+        <item>C.M.H</item>
+        <item>Ctg Medical College Hospital</item>
+        <item>Ctg General Hospital</item>
+        <item>T.B.Hospital</item>
+        <item>I.D.Hospital</item>
+        <item>Eye Hospital</item>
+        <item>American Hospital</item>
+        <item>Police Hospital</item>
+        <item>Ctg Shishu Hospital </item>
+        <item>Holy Crescent Hospital</item>
+        <item>Metropolitan Hospital</item>
+        <item>Panoroma Hospital</item>
+        <item>Red Crescent Maternity Hospital</item>
+    </string-array>
+
+
+    <!-- Counsilors Phone No Array -->
+    <string-array name="hospital_phone">
+        <item>Ph: 68195-9,680359</item>
+        <item>Ph: 616819-5</item>
+        <item>Ph: 630536</item>
+        <item>Ph: 751444</item>
+        <item>Ph: 573777</item>
+        <item>Ph: 615710-2,659018-19</item>
+        <item>Ph: 502349</item>
+        <item>Ph: 616379</item>
+        <item>Ph: 771236</item>
+        <item>Ph: 620025,6L6001-4</item>
+        <item>Ph: 637135,637235</item>
+        <item>Ph: 619927,630549</item>
+        <item>Ph: 637419,634545</item>
+    </string-array>
+
+
+
+
+
+    <!-- Counsilors drawable picture Array -->
+
+    <!-- Counsilors Name Array -->
+    <string-array name="police_station_name">
+        <item>Police Commissioner</item>
+        <item>Addl: Police Commissioner</item>
+        <item>D.I.G</item>
+        <item>S.P</item>
+        <item>D.C Traffic</item>
+        <item>Kotowali Thana</item>
+        <item>Double Mooring Thana</item>
+        <item>Panchlaish Thana</item>
+        <item>Chandgaon Thana</item>
+        <item>Pahartali Thana</item>
+        <item>Port Thana</item>
+        <item>Halishahar Thana</item>
+        <item>Khulshi Thana</item>
+        <item>Bakalia Thana</item>
+        <item>Bayzid Thana</item>
+        <item>Police Control</item>
+    </string-array>
+
+
+    <!-- Counsilors Phone No Array -->
+    <string-array name="police_station_phone">
+        <item>Ph: 624100</item>
+        <item>Ph: 621566</item>
+        <item>Ph: 650120</item>
+        <item>Ph: 650644</item>
+        <item>Ph: 620972</item>
+        <item>Ph: 619922,630521</item>
+        <item>Ph: 505103,502040</item>
+        <item>Ph: 652797</item>
+        <item>Ph: 670040</item>
+        <item>Ph: 751335</item>
+        <item>Ph: 502240</item>
+        <item>Ph: 715790</item>
+        <item>Ph: 655537</item>
+        <item>Ph: 616347</item>
+        <item>Ph: 683033</item>
+        <item>Ph: 683033</item>
+    </string-array>
+
+    <string name="deptSecretariat1">SECRETARIAT - সচিবালয়ের বিভাগ</string>
+<string name="deptSecretariat2">To manage human resources of CCC (Legal Action)
+\nTo prepare monthly salary.
+\nTo monitor all employees’ daily attendance.
+\nTo arrange monthly general meeting.
+\nTo prepare proceedings of monthly general meeting.
+\nTo evict illegal possession.
+\nTo operate anti-adulteration operation
+</string>
+
+    <string name="deptHealth1">HEALTH - স্বাস্থ্য"</string>
+    <string name="deptHealth2">To care citizen health (Mother and child health)
+\nTo register, issue  birth and death certificates.
+\nRoutine immunization program and control of communicable diseases.
+\nTo prevent worm infestation to different school/ kindergarten/ slum areas/ madrasha of City area in cycle way.
+\nRoutine check up and treatment given to the different orphanages in City area.
+\nImplementation of govt. pure food ordinance 1959 in different Hotel, Restaurant, Oil-Mill, Sweetmeat, Snakes Bar, Pastry shop, Ice-cream and Chocolate factory, Bakery and Mobile Restaurant for supply of food to the people by health inspector.
+\nTo maintain CCC Muslim grave yard and CCC burning places of Hindu Buddhist dead body.
+\nTo observe of national immunization (NID) population day, nutrition week, vit "A" week, safe motherhood day, womens day, world health day, world AIDS day, Breast feeding week and many other national days/ weeks according to government instructions.
+\nDisease surveillance
+\nEmergency health care services during natural calamities.
+\nDengue control program.
+\nDead body preservation, washing and transport facilities
+\nFamily planning activities.
+\nNational integrated family health program.
+\nEvening shift outdoor treatment for working women.
+ \nCircumcision, ear and nose piercing program for poor people
+\nBlood bank
+\nCoordination between health agencies
+\n\tRabies control program:
+\n\t\tExterminating Straying doss.
+\n\t\tSupply of Anti Rabies Vaccines.
+</string>
+
+
+    <string name="deptRevenue1">REVENUE - রাজস্ব বিভাগ</string>
+    <string name="deptRevenue2">Holding Tax assessment.
+ \nHolding Tax collection.
+ \nTo issue trade license and rickshaw  license.
+ \nPermission for erection and establishment of advertising signs.
+ \nTo Maintain the immovable/ movable property of City   Corporation. (Estate Dept.)
+\nLease out of hat-bazar, floor, commercial space etc.
+</string>
+
+
+    <string name="deptConservancy1">CONSERVANCY - কনসার্ভেন্সী বিভাগ</string>
+    <string name="deptConservancy2">To clean road, lane, footpath, drain, Small canals etc.
+\nTo collect waste from dustbin.
+\nTo control mosquitoes.
+\nTo remove sludge dirt of septic tanks.
+\nTo ensure sanitary toilet.
+\nTo take action against environmental polluters
+</string>
+
+    <string name="deptEducation1">EDUCATION - শিক্ষা</string>
+    <string name="deptEducation2">To prepare pedagogy for city corporation educational institutes.
+\nTo monitor all educational institute of Chittagong City Corporation.
+\nTo organize admission test.
+\nTo conduct all internal examination.
+\nTo publish the results.
+\nCelebrate national days.
+\nTo arrange Inter-school-college Scout-Guide-Rover-Ranger Camp.
+\nRoad Christening in city corporation area.</string>
+
+
+    <string name="deptEngineering1">ENGINEERING - প্রকৌশল"</string>
+    <string name="deptEngineering2">To prepare development plan.
+\nTo call quotation and tenders for development works, vehicles, electronics, electrical and mechanical equipments etc .
+\nTo develop and maintain infrastructure for communication (constructing and maintaining roads, bridges, culvert, footpath, foot over bridge etc.)
+\nElectrifying the streets of Chittagong City.
+\nTo issue contractor licenses.
+\nMaintenance vehicles, electrical and mechanical equipments.</string>
+
+
+
+    <string name="deptAccounts1">ACCOUNTS - হিসাব বিভাগ</string>
+    <string name="deptAccounts2">To maintain accounts. (contractors bills, suppliers bill, staff salary bills, TnT bills, Gas bills, WASA’s bills, Electric bills and bills of engineering department of the corporation.)
+\nTo examine and pay the all kinds of bills.
+\nTo prepare yearly budget.
+\nTo prepare all kinds of cheque.
+\nTo supply all kinds of papers to Govt. audit team.
+\nTo prepare annual provident fund report \n\n</string>
+
+    <string name="ctgHistory">\nচট্টগ্রাম বার আউলিয়ার পূণ্যভূমি। বিশ্ব ইতিহাসে চট্টগ্রাম একটি ঐতিহ্যবাহী নগরী। বয়স ও সমৃদ্ধির দিক দিয়ে একসময় চট্টগ্রাম ছিল পৃথিবীর অভিজাত বন্দরসমূহের মধ্যে অন্যতম গুরুত্বপূর্ণ বন্দর। দুই হাজার বছরের অধিককাল পর্যন্ত চট্টগ্রাম এশিয়ার শ্রেষ্ঠ বন্দর রূপে পরিগণিত ছিল। সেই স্বর্ণালি গৌরবমাখা দিন আমাদের আজো গর্বিত করে এবং চট্টগ্রামকে বিশ্বমানের নগরী হিসেবে গড়ে তোলার জন্য আমাদের উদ্বুদ্ধ করে। বর্তমানে চট্টগ্রাম মহানগরীতে প্রায় ষাট লক্ষ মানুষের বসবাস। এই মহানগরীর জনসেবা বিবেচনায় প্রধানতম গুরুত্বপূর্ণ প্রতিষ্ঠান হচ্ছে চট্টগ্রাম সিটি কর্পোরেশন।
+\n\nচট্টগ্রাম সিটি কর্পোরেশন ২২শে জুন ১৮৬৩ সালে চট্টগ্রাম মিউনিসিপ্যালিটি নামে প্রতিষ্ঠিত হয়েছিল। চট্টগ্রাম মিউনিসিপ্যালিটি প্রতিষ্ঠালগ্নে কেবলমাত্র ৬ বর্গমাইল এলাকা জুড়ে বিস্তৃত ছিল। যা এ, বি, সি, ডি এবং ই নামে মাত্র ৫টি ওয়ার্ডে বিভক্ত ছিল। বর্তমানে চট্টগ্রাম সিটি কর্পোরেশন ৪১টি ওয়ার্ডে বিভক্ত। মি. জেডি ওয়ার্ড প্রথম প্রশাসক হিসেবে নিয়োগপ্রাপ্ত হন। প্রয়াত খাঁন বাহাদুর আব্দুস ছাত্তার প্রথম মিউনিসিপ্যালিটির চেয়ারম্যান হিসেবে নির্বাচিত হন। মিউনিসিপ্যালিটি-এর ইতিহাসে প্রয়াত নুর আহমদ ছিলেন একজন তাৎপর্যপূর্ণ ব্যক্তিত্ব যিনি প্রথম পৌরসভার অধীনে অবৈতনিক শিক্ষা ব্যবস্থা চালু করেন। তিনি ৩০ বছর যাবৎ মিউনিসিপ্যালিটির দায়িত্ব পালন করেন।
+\n\n২৭ জুন ১৯৭৭ সালে চট্টগ্রাম মিউনিসিপ্যালিটিকে চট্টগ্রাম পৌরসভা নামকরণ করা হয় এবং প্রয়াত ফজল করিম প্রথম পৌরসভা চেয়ারম্যান হিসেবে নির্বাচিত হন।
+\n\n১৬ সেপ্টেম্বর ১৯৮২ সালে পৌরসভাকে মিউনিসিপ্যাল কর্পোরেশনে রূপান্তর করা হয় এবং বিগ্রেডিয়ার মফিজুর রহমান চৌধুরী প্রশাসক হিসেবে নিয়োগপ্রাপ্ত হন। পরবর্তীতে ৩১ জুলাই ১৯৯০ সালে চট্টগ্রাম সিটি কর্পোরেশন নামকরণ করা হয় এবং মি. মাহামুদুল ইসলাম চৌধুরীকে মেয়র হিসেবে বাংলাদেশ সরকার নিয়োগ দেন। এরপর মি. মীর মোহাম্মদ নাছির উদ্দিনকে ১৯৯৪ সালের নির্বাচন পর্যন্ত দায়িত্ব দেওয়া হয়। চট্টগ্রাম সিটি কর্পোরেশনের ইতিহাসে এবিএম মহিউদ্দিন চৌধুরী প্রথম জনগণের ভোটে নির্বাচিত মেয়র। ২০১০ সালের নির্বাচনে মোহাম্মদ মনজুর আলম চট্টগ্রাম সিটি কর্পোরেশনের মেয়র হিসেবে নির্বাচিত হন এবং সর্বশেষ ২৮ এপ্রিল ২০১৫ সালে অনুষ্ঠিত সিটি কর্পোরেশন নির্বাচনে আ জ ম নাছির উদ্দীন বিপুল ভোটে জয়ী হয়ে মেয়রের দায়িত্ব গ্রহণ করেন।
+\n</string>
+
+    <string-array name="services_list">
+        <item>1.সড়ক আলোকায়ন ও সড়কবাতি রক্ষনাবেক্ষন</item>
+        <item>2.রাস্তা, নালা, খাল, ব্রীজ, কালভার্ট এবং ফুটপাত ইত্যাদির উন্নয়ন ও সংস্কার</item>
+        <item>3.গ্যাস, পানির লাইন স্থাপনের জন্য রাস্তা কর্তনের অনুমতি প্রদান</item>
+        <item>4.জরুরী মরদেহ পরিবহন ও সংরক্ষণ</item>
+        <item>5.নালা-নর্দমা ও কঠিন আবর্জনা পরিষ্কার</item>
+        <item>6.মশক নিধনের ব্যবস্থা গ্রহন</item>
+        <item>7.মাতৃসদন হাসপাতাল, জেনারেল হাসপাতাল, দাতব্য চিকিৎসালয় ও হোমিও দাতব্য চিকিৎসালয় পরিচালনা</item>
+        <item>8.ইপিআই কার্যক্রমের আওতায় মা ও শিশুদের টীকা দান এবং কৃমি নিয়ন্ত্রণ ও ভিটামিন এ+ ক্যাম্পেইন পরিচালনা</item>
+        <item>9.জন্ম/মৃত্যু নিবন্ধন ও সনদ প্রদান</item>
+        <item>10.জাতীয়তা,ওয়ারিশ ও  চারিত্রিক সনদ প্রদান</item>
+        <item>11.মাধ্যমিক ও উচ্চ মাধ্যমিক বিদ্যালয়, ফোরকানিয়া মাদ্রাসা, সংস্কৃত টোল ও কিন্ডারগার্ডেন পরিচালনা</item>
+        <item>12.ট্রেড লাইসেন্স নতুন ইস্যু/নবায়ন, নাম ও মালিকানা পরিবর্তন ইত্যাদি</item>
+        <item>13.যান্ত্রিক ও অযান্ত্রিক যানবাহন কর আদায় করা</item>
+        <item>14.হোল্ডিং নম্বর প্রদান, হোল্ডিং এর নাম পরিবর্তন, হোল্ডিং কর পৃথককরণ</item>
+        <item>15.হাট-বাজার, কমিউনিটি ল্যাট্রিন, পার্ক, জলাশয়, খেয়াঘাট ইজারা প্রদান ও মার্কেট পরিচালনা</item>
+        <item>16.শালিসী ও নালিসী আদালত পরিচালনার মাধ্যমে মামলা নিষ্পত্তিকরণ</item>
+        <item>17.নগরীর আবাসন সংকট নিরসনকল্পে আবাসিক প্লট ও ফ্ল্যাট বিতরণ</item>
+        <item>18.কম্পিউটার ইনস্টিটিউট ও টেকনিক্যাল  ট্রেনিং ইনস্টিটিউট পরিচালনা</item>
+        <item>19.শিশুদের বিনোদন সুবিধা বৃদ্ধিতে শিশুপার্ক পরিচালনা</item>
+        <item>20.বয়স্ক শিক্ষা ও শিক্ষক প্রশিক্ষণ কেন্দ্র পরিচালনা</item>
+        <item>21.সাংস্কৃতিক কর্মকান্ডে সুস্থ বিকাশের লক্ষ্যে থিয়েটার ইনস্টিটিউট পরিচালনা</item>
+        <item>22.চট্টগ্রাম সিটি কর্পোরেশন পরিচালিত বিভিন্ন মার্কেটের দোকান বরাদ্দ ও হস্তান্তর</item>
+        <item>23.ডিপ্লোমা ইন মিডওয়াইফারি ইনস্টিটিউট ও হেলথ টেকনোলজি পরিচালনা</item>
+
+    </string-array>
+    <string-array name="ongoing_project">
+        <item>1. Imporvement of Port Connecting Road by RCC from Alanker to Nimtola. (Ch-2.00km-4.00km)</item>
+        <item>2. Imporvement of Port Connecting Road by RCC from Alanker to Nimtola. (Ch-4.00km-6.00km)</item>
+        <item>3. Improvement of Agrabad Access Road by over lay and wideining with RCC</item>
+        <item>4. Construction of 1200 m long overpass starting from Sagarika road Alankar crossing to A. K. Khan Crossing</item>
+        <item>5. Construction of 1200 m long overpass at Jakir Hossain Road Rail crossing (1)</item>
+        <item>6. Construction of 650 m long overpass at New Market Crossing</item>
+        <item>7. New construction of Six Stored building at Patanga girls high School and College cum Cyclone shelter</item>
+        <item>8. New construction of Mohabbat Ali Girls High School cum Cyclone shelter</item>
+        <item>9. New construction of Ahmed Mia City Corp. girls School cum Cyclone shelter</item>
+        <item>10.Re-construction of Laldighi central disaster management control office, library and community center cum cyclone shelter</item>
+
+        <item>11.Re-construction of East Madarbari girls high school cum cyclone shelter</item>
+        <item>12.Re-construction of West Madarbari girls high school cum cyclone shelter</item>
+        <item>13.New construction of Patantully boys high school cum cyclone center</item>
+        <item>14.New construction of Rabindra Nazrul high school cum cyclone center</item>
+        <item>15.Construction of 65m bridge on Marinars Road</item>
+        <item>16.Re-construction of road by RCC from Sotsong Asrom Nibashi to Soroni Road (2.0 km)</item>
+    </string-array>
+    <string-array name="upcoming_project_name">
+    <item>1. Dev. Of Tandachri Road with adjucent drain  (Ch.0-00 to 1-372 Km.)
+
+</item>
+    <item>2. Dev. Of Durga bari/Amanat Ali Master Bari And Saittanonda Ashrom Road and Foteybad Station  Road (Ch.0-00 to 1-637 Km.)
+
+</item>
+    <item>3. Dev. Of Fela Gazi Sodu para Fokirkill, Safor ali, Chand miar Bari, Niaji Buri, Fateabad College Road (Ch.0-00 to 0-959 Km.)
+
+</item>
+    <item>4. Dev.Of Chandra Nagor And Chowdhury Nagor Road with drain (Ch.0-00 to 0-914 Km.)
+
+</item>
+    <item>5.  Dev. Of Bayzid Clipton Garment To Batalion Road  with drain(Ch.0-00 to 0-914 Km.)
+
+</item>
+    <item>6. Dev. Of Khaza Road  with drain(Ch.0-00 to 0-460 Km.)
+
+</item>
+    <item>7. Dev. Of Chadni Cinema Road with drain (Ch.0-00 to 0-610 Km.)
+
+</item>
+    <item>8. Dev. Of Kondokia Khal Par Road  with drain(Ch.0-00 to 0-610 Km.)
+
+</item>
+    <item>9. Dev. Of Ser Shah Coloni Kunguchya R/A Road with drain (Ch.0-00 to 0-610 Km.)
+
+</item>
+<item>10. Dev. Of Roas From Batalian Road To Shasid Menar To Biozoid Thana  Road To Rubi Gate with drain (Ch.0-00 to 1-220 Km.)
+</item>
+
+    <item>11. Dev. Of Chakreso Kanon Road  with drain(Ch.0-00 to 0-457 Km.)
+
+</item>
+    <item>12. Dev. Of Road From Polytechnical Road To Bangla Bazer Road  with drain (Ch.0-00 to 1-250 Km.)
+
+</item>
+    <item>13. Dev. Of Sersha Colony Road Lane bye lane with drain (Ch.0-00 to 1-800 Km.)
+
+</item>
+    <item>14. Dev, of Vologonj Road  with drain(Ch.0-00 to 0-650 Km.)
+
+</item>
+    <item>15. Dev. of Fakira Badh Jalalabadh Link Road  with drain(Ch.0-00 to 0-450 Km.)
+
+</item>
+    <item>16. Dev. of Sha Habibullah Road  with drain(Ch.0-00 to 0-250 Km.)
+
+</item>
+    <item>17. Dev. of Abdul Karim Munshi Road with drain (Ch.0-00 to 0-350 Km.)
+
+</item>
+    <item>18. Dev. of Shadulla Khan road  with drain(Ch.0-00 to 0-950 Km.)
+
+</item>
+    <item>19. Dev. of Hazee Para Road with drain (Baniar Pull To Asay Canay Awlia College) (Ch.0-00 to 1-200 Km.)
+
+</item>
+    <item>20. Dev. of Saleh Nagor Rood with drain (Hazi Para School To Khondokar Para) (Ch.0-00 to1-400 Km.)
+
+</item>
+    </string-array>
+
+
+    <string-array name="future_plan_list">
+
+    <item>১. ৫ হাজার কোটি টাকা ব্যয়ে ফ্লাড কন্ট্রোল এন্ড ওয়াটার লগিং ম্যানেজমেন্ট সিস্টেম বাসত্মবায়ন করে চট্টগ্রাম নগরীর জলাবদ্ধতা স্থায়ীভাবে নিরসন করা।</item>
+<item>২. চট্টগ্রামকে গ্রিন ও ক্লিন সিটিতে পরিণত করা।</item>
+<item>৩. চট্টগ্রাম নগরীকে স্মার্ট সিটিতে রূপামত্মর করা।</item>
+<item>৪. নগরীর ছাত্রীদের এবং কর্মজীবি মহিলাদের যাতায়াতের সুবিধার জন্য বিশেষ রুটে ২০টি এসি বাস চালুকরণ।</item>
+<item>৫. নগরীর যানজট নিরসনে বাস-ট্রাক টার্মিনাল স্থাপন।</item>
+<item>৬. কালুর ঘাটে গ্রীন এ্যাপারেল জোন স্থাপন।</item>
+<item>৭. সাইক্লোন শেল্টার সেন্টারসহ স্কুল নির্মাণ।</item>
+<item>৮. জাইকার সহায়তায় অত্যাধুনিক সলিড ওয়েষ্ট ম্যানেজমেন্ট ব্যবস্থা প্রবর্তন।</item>
+<item>৯. নগরীতে বিদ্যমান অব্যবহৃত পাহাড়সমূহকে পরিকল্পিত উন্নয়নের আওতায় নিয়ে সেখানে বিনোদন/পর্যটন, শিক্ষা, চিকিৎসা ও বিদেশী বিনিয়োগকারীদের জন আবাসন সুবিধা হিসেবে গড়ে তোলা।</item>
+<item>১০. চট্টগ্রাম সিটি কর্পোরেশন এলাকায় ২৬টি খাল খনন এবং প্রয়োজনীয় পাম্প হাউজসহ সস্নুইস গেইট নিমার্ণ।</item>
+<item>১১. নগরীতে বিদ্যমান খেলার মাঠ ও উন্মুক্ত স্থান সমূহের সংরক্ষণ।</item>
+<item>১২. বিশেষ রম্নটে কমিউটার ট্রেন সার্ভিস চালুকরন।</item>
+<item>১৩. কালুরঘাট থেকে কর্ণফুলী নদীর পাড় ঘেসে বন্দর পর্যমত্ম রিং রোড, কালভার্ট  ও স্লুইস গেইট নির্মাণ।</item>
+<item>১৪. নগরীতে প্রয়োজনীয় ফ্লাইওভার নিমার্ণ।</item>
+<item>১৫. নগরীর সকল কাঁচা রাসত্মাকে পাকা রাসত্মায় উন্নয়ন।</item>
+<item>১৬. মেডিকেল কলেজ ও বার্ণ ইউনিট স্থাপন।</item>
+
+    </string-array>
+
+
+</resources>

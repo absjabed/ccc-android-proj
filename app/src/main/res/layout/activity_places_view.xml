@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_form_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/backgroung"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.parvez_n_jabed_co.ccc_project.HistoricalPlacesActivities.PlacesNameActivity">
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/placeTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="@string/placeFoyzLake"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/placeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="----------------------------------------------------------------------"/>
+    <ScrollView
+        android:layout_below="@id/dotdottxt"
+        android:id="@+id/scrollView1"
+        android:paddingTop="5dp"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/placeImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/foys_lake"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0"
+        android:text="@string/placeInfo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/placeInfoTxt"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeFoyzLakeInfo"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0"
+            android:text="@string/placeGo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/placeGoTxt"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeFoyzLakeGo"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0"
+            android:text="@string/placeLocation"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/placeLocationTxt"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeFoyzLakeGo"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

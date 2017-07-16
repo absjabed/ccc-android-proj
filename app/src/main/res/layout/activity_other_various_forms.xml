@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_other_various_forms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    tools:context="com.parvez_n_jabed_co.ccc_project.FormRelatedActivities.OtherVariousFormsActivity">
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="ট্রেড লাইসেন্স, বিভিন্ন নিবন্ধন ও অন্যান্য ফর্ম সমূহ"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="----------------------------------------------------------------------"/>
+
+
+
+    <ListView
+        android:layout_below="@+id/dotdottxt"
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+</RelativeLayout>

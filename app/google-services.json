@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "209928762771",
+    "firebase_url": "https://cccandroidapp-7ea95.firebaseio.com",
+    "project_id": "cccandroidapp-7ea95",
+    "storage_bucket": "cccandroidapp-7ea95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209928762771:android:c3d8dea754fe85bf",
+        "android_client_info": {
+          "package_name": "com.parvez_n_jabed_co.ccc_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209928762771-i9p2up687fa1gbc055iefqka9kfh824m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuDS8taOmsi3AdyeAQvhD8HI1dMd_44wE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

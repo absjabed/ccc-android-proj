@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_icon_name_list2"
+android:layout_width="match_parent"
+android:background="@drawable/backgroung"
+android:layout_height="match_parent"
+
+tools:context="com.parvez_n_jabed_co.ccc_project.IconNameList2">
+<ImageView
+    android:id="@+id/topHeader"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:src="@drawable/commonback"/>
+<TextView
+    android:id="@+id/activityTitle"
+    android:layout_below="@+id/topHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="17dp"
+    android:textColor="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:text="------"/>
+<TextView
+    android:id="@+id/dotdottxt"
+    android:layout_below="@+id/activityTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:textColor="#000000"
+    android:text="----------------------------------------------------------------------"/>
+
+<ListView
+    android:layout_below="@id/dotdottxt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:dividerHeight="8dp"
+
+    android:id="@+id/icon_list_view2"
+
+    >
+
+</ListView>
+
+
+</RelativeLayout>

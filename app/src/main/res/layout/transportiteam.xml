@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#15005923"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/trans_pic"
+        android:layout_centerVertical="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        />
+
+    <TextView
+        android:id="@+id/trans_gert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/trans_pic"
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+        android:text=""
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/transport_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resture her"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/trans_gert"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

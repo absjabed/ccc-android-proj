@@ -1,0 +1,724 @@
+<resources>
+    <string name="app_name">Chittagong City Corporation </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <drawable name="backgroung">@drawable/background</drawable>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event">ইভেন্ট</string>
+    <string name="title_activity_event2">Event2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_example2">example2Activity</string>
+    <string name="title_activity_example32">লাইফ স্টাইল</string>
+    <string name="title_activity_zed_sky">জেটস্কি</string>
+
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <!--Other string resources also defined in this file… -->
+    <string name="feedbacktype1">Praise</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+
+    <string-array name="feedbacktypelist">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+    </string-array>
+
+    <string name="title_activity_hotelmotel2">হোটেল মোটেল</string>
+    <string name="title_activity_ainsri">আইন শৃঙ্খলা বাহিনী</string>
+
+
+    <!-- Counsilors drawable picture Array -->
+    <array name="counsilor_pic">
+        <item>@drawable/counsilor1</item>
+        <item>@drawable/counsilor2</item>
+        <item>@drawable/counsilor3</item>
+        <item>@drawable/counsilor4</item>
+        <item>@drawable/counsilor5</item>
+        <item>@drawable/counsilor6</item>
+        <item>@drawable/counsilor7</item>
+        <item>@drawable/counsilor8</item>
+        <item>@drawable/counsilor9</item>
+        <item>@drawable/counsilor10</item>
+        <item>@drawable/counsilor11</item>
+        <item>@drawable/counsilor12</item>
+        <item>@drawable/counsilor13</item>
+        <item>@drawable/counsilor14</item>
+        <item>@drawable/counsilor15</item>
+        <item>@drawable/counsilor16</item>
+        <item>@drawable/counsilor17</item>
+        <item>@drawable/counsilor18</item>
+        <item>@drawable/counsilor19</item>
+        <item>@drawable/counsilor20</item>
+        <item>@drawable/counsilor21</item>
+        <item>@drawable/counsilor22</item>
+        <item>@drawable/counsilor23</item>
+        <item>@drawable/counsilor24</item>
+        <item>@drawable/counsilor25</item>
+        <item>@drawable/counsilor26</item>
+        <item>@drawable/counsilor27</item>
+        <item>@drawable/counsilor28</item>
+        <item>@drawable/counsilor29</item>
+        <item>@drawable/counsilor30</item>
+        <item>@drawable/counsilor31</item>
+        <item>@drawable/counsilor32</item>
+        <item>@drawable/counsilor33</item>
+        <item>@drawable/counsilor34</item>
+        <item>@drawable/counsilor35</item>
+        <item>@drawable/counsilor36</item>
+        <item>@drawable/counsilor37</item>
+        <item>@drawable/counsilor38</item>
+        <item>@drawable/counsilor39</item>
+        <item>@drawable/counsilor40</item>
+        <item>@drawable/counsilor41</item>
+        <item>@drawable/wcounsilor42</item>
+        <item>@drawable/wcounsilor43</item>
+        <item>@drawable/wcounsilor44</item>
+        <item>@drawable/wcounsilor45</item>
+        <item>@drawable/wcounsilor46</item>
+        <item>@drawable/wcounsilor47</item>
+        <item>@drawable/wcounsilor48</item>
+        <item>@drawable/wcounsilor49</item>
+        <item>@drawable/wcounsilor50</item>
+        <item>@drawable/wcounsilor51</item>
+        <item>@drawable/wcounsilor52</item>
+        <item>@drawable/wcounsilor53</item>
+        <item>@drawable/wcounsilor54</item>
+        <item>@drawable/wcounsilor55</item>
+    </array>
+
+    <!-- Counsilors Name Array -->
+    <string-array name="counsilor_name">
+        <item>জনাব তৌফিক আহমদ চৌধুরী</item>
+        <item>জনাব মোঃ সাহেদ ইকবাল (বাবু)</item>
+        <item>জনাব কফিল উদ্দিন খান</item>
+        <item>জনাব মোঃ সাইফুদ্দিন খালেদ</item>
+        <item>জনাব মোঃ আজম</item>
+        <item>জনাব এম আশরাফুল আলম</item>
+        <item>জনাব মোঃ মোবারক আলী</item>
+        <item>জনাব মোঃ মোরশেদ আলম</item>
+        <item>জনাব মোঃ জহুরুল আলম জসিম</item>
+        <item>জনাব নিছার উদ্দিন আহমেদ (মঞ্জু)</item>
+        <item>জনাব মোরশেদ আকতার চৌধুরী</item>
+        <item>জনাব মোঃ সাবের আহম্মেদ</item>
+        <item>জনাব মোহাম্মদ হোসেন হিরণ</item>
+        <item>জনাব আবুল ফজল কবির আহমদ (মানিক)</item>
+        <item>জনাব মোঃ গিয়াস উদ্দিন</item>
+        <item>জনাব সাইয়েদ গোলাম হায়দার মিন্টু</item>
+        <item>জনাব এ কে এম জাফরুল ইসলাম</item>
+        <item>জনাব হাজী মোঃ হারুন উর রশীদ</item>
+        <item>জনাব আলহাজ্ব মোহাং ইয়াছিন চৌধুরী (আছু)</item>
+        <item>জনাব চৌধুরী হাসান মাহমুদ হাসনী</item>
+        <item>জনাব শৈবাল দাশ সুমন</item>
+        <item>জনাব মোহাম্মদ সলিম উল্লাহ</item>
+        <item>জনাব মোহাম্মদ জাবেদ</item>
+        <item>জনাব নাজমুল হক (ডিউক)</item>
+        <item>জনাব এস এম এরশাদ উল্লাহ</item>
+        <item>জনাব মোঃ আবুল হাশেম</item>
+        <item>জনাব এইচ.এম. সোহেল</item>
+        <item>জনাব মোঃ আবদুল কাদের</item>
+        <item>জনাব গোলাম মোহাম্মদ জোবায়ের</item>
+        <item>জনাব মাজহারুল ইসলাম চৌধুরী</item>
+        <item>জনাব তারেক সোলেমান সেলিম</item>
+        <item>জনাব জহর লাল হাজারী</item>
+        <item>জনাব হাসান মুরাদ (বিপ্লব)</item>
+        <item>জনাব মোহাম্মদ ইসমাইল</item>
+        <item>জনাব হাজী নুরুল হক</item>
+        <item>জনাব মোহাম্মদ হাবিবুল হক</item>
+        <item>জনাব মোহাম্মদ শফিউল আলম</item>
+        <item>জনাব গোলাম মোঃ চৌধুরী</item>
+        <item>জনাব জিয়াউল হক সুমন</item>
+        <item>জনাব হাজী মোঃ জয়নাল আবেদীন</item>
+        <item>জনাব ছালেহ আহম্মদ চৌধুরী</item>
+        <item>সৈয়দা কাশপিয়া নাহরিন</item>
+        <item>জোবাইরা নার্গিস খান</item>
+        <item>জেসমিন পারভীন জেসী</item>
+        <item>আবিদা আজাদ</item>
+        <item>মনোয়ারা বেগম মনি</item>
+        <item>মোছাম্মৎ ফারজানা পারভীন</item>
+        <item>আনজুমান আরা বেগম</item>
+        <item>নীলু নাগ</item>
+        <item>ফারহানা জাবেদ</item>
+        <item>জেসমিনা খানম</item>
+        <item>মিসেস ফেরদৌসি আকবর</item>
+        <item>আফরোজা কালাম</item>
+        <item>বেগম লুৎফুন্নেছা দোভাষ বেবী</item>
+        <item>শাহানুর বেগম</item>
+    </string-array>
+
+
+    <!-- Counsilors Phone No Array -->
+    <string-array name="counsilor_phone">
+        <item>Ph: ০১৮১২-২৫৩২৭৩</item>
+        <item>Ph: ০১৮১৩-৫৪০১০৯</item>
+        <item>Ph: ০১৮১৯-৩১৩৫১৫</item>
+        <item>Ph: ০১৮১৭-৭১৮৩২১</item>
+        <item>Ph: ০১৭১৫-৯৬৫৯১১, ০৩১-৬৭২৬০৮</item>
+        <item>Ph: ০১৬১৬-৩৩৩৯৪২, ০১৮৪২-৩৩৩৯৪২</item>
+        <item>Ph: ০১৮১৯-২৯৪২৫৫</item>
+        <item>Ph: ০১৮১৯-৫২০০০৭</item>
+        <item>Ph: ০১৭১১-৯৭১৫৩২</item>
+        <item>Ph: ০১৭১১-৩১১৭৯৭</item>
+        <item>Ph: ০১৭১১-৩৫৪২৫৯</item>
+        <item>Ph: ০১৭১১-৭৪৮১৫০</item>
+        <item>Ph: ০১৬৭০-৩১৩১৩১</item>
+        <item>Ph: ০১৭১৭-৩৭৭৮০৯</item>
+        <item>Ph: ০১৭১৫-৩২১৮২০</item>
+        <item>Ph: ০১৭১১-১৬৪৪৪৭</item>
+        <item>Ph: ০১৮১৯-৬৪২৬৮৭</item>
+        <item>Ph: ০১৮১৯-৩১৬৮৫৮</item>
+        <item>Ph: ০১৭১৮-২৭৬৬০৯</item>
+        <item>Ph: ০১৮১৯-৩১৫৯০৬</item>
+        <item>Ph: ০১৯১১-৮৮৫১৯৯</item>
+        <item>Ph: ০১৮১৯-৩২৭৬৯২</item>
+        <item>Ph: ০১৮১৯-৩১৭৩০১</item>
+        <item>Ph: ০১৮১৯-৩১২৮০৯</item>
+        <item>Ph: ০১৭১৪-৪৮৮৭০০</item>
+        <item>Ph: ০১৮১৮-৬২৫৭৩১</item>
+        <item>Ph: ০১৮১৯-৩১১০৩১, ০১৭১১-৪৪৪০১৬</item>
+        <item>Ph: ০১৮৫৯-৩৪৬৪৬২</item>
+        <item>Ph: ০১৭১১-৩০৮০৮২</item>
+        <item>Ph: ০১৭১১-৭৬২০০১</item>
+        <item>Ph: ০১৮১৯-৩২১৯৪৮</item>
+        <item>Ph: ০১৮১৫-০১৬২৬৪</item>
+        <item>Ph: ০১৭১৫-৪০৬২৭০</item>
+        <item>Ph: ০১৮১৯-৩১২৪৮৩</item>
+        <item>Ph: ৬১২৪৯৮ (বাসা), ০১৮৫১-৫৯০১৯৯</item>
+        <item>Ph: ০১৭৭৭-৭৯৬৮০০</item>
+        <item>Ph: ০১৫৩৪-৮৮২০৩২, ভাই-০১৮১৯৬৩৯৮৯৪</item>
+        <item>Ph: ০১৮১৯-৩১৯৩৪৫</item>
+        <item>Ph: ০১৭১১-৭৪৯৩৮৮</item>
+        <item>Ph: ০১১৯৭-১২৯৩২২</item>
+        <item>Ph: ০১৮১৬-১০৯১১২, ০১৬৭৬-৯৬৯০০০</item>
+        <item>Ph: ০১৭২০-৬০১০৮৬</item>
+        <item>Ph: ০১৭১৬-১৪৭৮৮৮</item>
+        <item>Ph: ০১৮১১-৩৯৪২৮১</item>
+        <item>Ph: ০১৮১৯-৯৮২১০৩</item>
+        <item>Ph: ০১৯১৩-৬৩০৯২৭</item>
+        <item>Ph: ০১৮৩২-৫৮১৬৩৩</item>
+        <item>Ph: ০১৭১২-১১৬২৯৪</item>
+        <item>Ph: ০১৮২২-৫৩৪২৭৯</item>
+        <item>Ph: ০১৭১৬-১০১৫০৭</item>
+        <item>Ph: ০১৮১৯-১৭৩২৮০</item>
+        <item>Ph: ০১৮১৯-৮৮৭৫৮৫</item>
+        <item>Ph: ০১৮১৯-৯৪০৩৯২</item>
+        <item>Ph: ০১৮১৯-৩৬০৪৫০</item>
+        <item>Ph: ০১১৯৫-১২৯৩২২</item>
+    </string-array>
+
+
+    <!-- Counsilors Word No Array -->
+    <string-array name="counsilor_ward">
+        <item>০১ নং দঃ পাহাড়তলী</item>
+        <item>০২ নং জালালাবাদ</item>
+        <item>০৩ নং পাঁচলাইশ</item>
+        <item>০৪ নং চান্দগাঁও</item>
+        <item>০৫ নং মোহরা</item>
+        <item>০৬ নং পূর্ব ষোলশহর</item>
+        <item>০৭ নং পঃ ষোলশহর</item>
+        <item>০৮ নং শুলক বহর</item>
+        <item>০৯ নং উঃ পাহাড়তলী</item>
+        <item>১০ নং উত্তর কাট্টলী</item>
+        <item>১১ নং দক্ষিণ কাট্টলী</item>
+        <item>১২ নং সরাইপাড়া</item>
+        <item>১৩ নং পাহাড়তলী</item>
+        <item>১৪ নং লালখান বাজার</item>
+        <item>১৫ নং বাগমনিরাম</item>
+        <item>১৬ নং চকবাজার</item>
+        <item>১৭ নং পঃ বাকলিয়া</item>
+        <item>১৮ নং পূর্ব বাকলিয়া</item>
+        <item>১৯ নং দঃ বাকলিয়া</item>
+        <item>২০ নং দেওয়ান বাজার</item>
+        <item>২১ নং জামালখান</item>
+        <item>২২ নং এনায়েত বাজার</item>
+        <item>২৩ নং উত্তর পাঠানটুলি</item>
+        <item>২৪ নং উত্তর আগ্রাবাদ</item>
+        <item>২৫ নং রামপুর</item>
+        <item>২৬ নং উত্তর হালিশহর</item>
+        <item>২৭ নং দক্ষিণ আগ্রাবাদ</item>
+        <item>২৮ নং পাঠানটুলি</item>
+        <item>২৯ নং পঃ মাদারবাড়ী</item>
+        <item>৩০ নং পূর্ব মাদারবাড়ী</item>
+        <item>৩১ নং আলকরণ</item>
+        <item>৩২ নং আন্দরকিল্লা</item>
+        <item>৩৩ নং ফিরিঙ্গী বাজার</item>
+        <item>৩৪ নং পাথরঘাটা</item>
+        <item>৩৫ নং বক্সির হাট</item>
+        <item>৩৬ নং গোসাইল ডাঙ্গা</item>
+        <item>৩৭ নং উঃ মঃ হালিশহর</item>
+        <item>৩৮ নং দঃ মঃ হালিশহর</item>
+        <item>৩৯ নং দক্ষিণ হালিশহর</item>
+        <item>৪০ নং উত্তর পতেঙ্গা</item>
+        <item>৪১ নং দক্ষিণ পতেঙ্গা</item>
+        <item>১,২,৩</item>
+        <item>৪,৫,৬</item>
+        <item>৭,৮</item>
+        <item>৯,১০,১৩</item>
+        <item>১৪,১৫,২১</item>
+        <item>১৭,১৮,১৯</item>
+        <item>১৬, ২০, ৩২</item>
+        <item>২২,৩০,৩১</item>
+        <item>১২,২৩,২৪</item>
+        <item>১১,২৫,২৬</item>
+        <item>২৮,২৯,৩৬</item>
+        <item>২৭,৩৭,৩৮</item>
+        <item>৩৩,৩৪,৩৫</item>
+        <item>৩৯,৪০,৪১</item>
+    </string-array>
+
+
+    <string-array name="ccc_types">
+        <item>মেয়র</item>
+        <item>কাউন্সিলর</item>
+        <item>অফিসিয়াল কর্মকর্তা</item>
+        <item>সি/ক বিভাগ সমূহ</item>
+    </string-array>
+
+
+    <string-array name="department_types">
+        <item>Secretariat</item>
+        <item>Health</item>
+        <item>Revenue</item>
+        <item>Conservancy</item>
+        <item>Education</item>
+        <item>Engineering</item>
+        <item>Accounts</item>
+
+
+    </string-array>
+
+
+    <string-array name="education_types">
+        <item>কিন্ডার গার্টেন</item>
+        <item>বালক উচ্চ বিদ্যালয়</item>
+        <item>বালিকা উচ্চ বিদ্যালয়</item>
+        <item>বালক-বালিকা উচ্চ বিদ্যালয়</item>
+        <item>কলেজ সমূহ</item>
+        <item>প্রশিক্ষণ কেন্দ্র</item>
+        <item>বিশ্ববিদ্যালয়</item>
+
+    </string-array>
+    <!--Computer Institute & Theater Institute -->
+    <string-array name="computer_school_name">
+        <item>সিটি কর্পোরেশন শিক্ষক প্রশিক্ষণ কেন্দ্র</item>
+        <item>সিটি কর্পোরেশন থিয়েটার ইনস্টিটিউট</item>
+        <item>চট্টগ্রাম সিটি কর্পোরেশন কম্পিউটার ইনস্টিটিউট</item>
+        <item>সিটি কর্পোরেশন কম্পিউটার কলেজ (জামালখান ক্যাম্পাস)</item>
+        <item>সিটি কর্পোরেশন কম্পিউটার কলেজ (কাপাসগোলা ক্যাম্পাস)</item>
+        <item>সিটি কর্পোরেশন কম্পিউটার কলেজ (সরাইপাড়া ক্যাম্পাস)</item>
+        <item>সিটি কর্পোরেশন কম্পিউটার কলেজ (মনছুরাবাদ ক্যাম্পাস)</item>
+        <item>সিটি কর্পোরেশন কম্পিউটার কলেজ (পুলিশ লাইন ক্যাম্পাস)</item>
+    </string-array>
+
+
+    <string-array name="computer_school_head_name">
+        <item></item>
+        <item>জনাব আহমেদ ইকবাল হায়দার, আর্টিস্টিক ডাইরেক্টর</item>
+        <item>জনাব আনিছ আহমেদ, পরিচালক</item>
+        <item></item>
+        <item>জনাব আনিছ আহমেদ, পরিচালক</item>
+        <item>জনাব শেখ মোঃ হাবিব উল্লাহ, কো-অর্নিনেটর</item>
+        <item>মিসেস লাকী রানী পারিয়াল, কো-অর্নিনেটর</item>
+        <item>জনাব আনিছ আহমেদ, পরিচালক </item>
+    </string-array>
+
+    <string-array name="computer_school_phone">
+        <item>০৪৪৩৩৩০৮৯৭২</item>
+        <item>০১৭১৩-১০৫০২৬	৮৪১৫০৪</item>
+        <item>০১৭১১-৩০৭৮৭৮	৬২৬২৪২</item>
+        <item>৬১৬৯৪৮</item>
+        <item>০১৭১১-৩০৭৮৭৮</item>
+        <item>০১৮১৯-৮০৮৮৯৩</item>
+        <item>০১৮১৭-৭১৭৫৫২</item>
+        <item>০১৭১১-৩০৭৮৭৮</item>
+    </string-array>
+
+    <!--Balika uccho biddaloy -->
+    <string-array name="balika_school_name">
+        <item>পশ্চিম মাদারবাড়ী সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পূর্ব মাদারবাড়ী সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পাঠানটুলী সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পাঠানটুলী খান সাহেব সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>গোসাইলডাঙ্গা কে.বি.এ.এইচ দোভাষ সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পোস্তারপাড় আঃ খাতুন সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পূর্ব বাকলিয়া সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>আলকরণ সুঃ আহমদ সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>বলুয়ারদিঘী সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>কাপাসগোলা সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পাথরঘাটা মেনকা সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>জামালাখান কুসুম কুমারী সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>অপর্ণাচরণ সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>গুল-এজার বেগম সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>কৃষ্ণ কুমারী সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>ফিরোজশাহ সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>বাগমনিরাম সিরাজা খাতুন সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>কাট্টলী সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>হালিশহর আহমদ মিয়া সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পতেঙ্গা সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>পাঁচলাইশ সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>ইমারাতুন্নেসা সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>ফতেয়াবাদ বহুমূখী সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>ফতেয়াবাদ শৈলবালা সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+        <item>শহীদ নগর সি.ক. বালিকা উচ্চ বিদ্যালয়</item>
+    </string-array>
+
+    <string-array name="balika_school_head_name">
+        <item>মোঃ আমির হোছাইন, প্রধান শিক্ষক</item>
+        <item>মোঃ মোখলেছুর রহমান, প্রঃ শিঃ</item>
+        <item>আশরাফুননেছা, প্রঃ শিঃ </item>
+        <item>সাধন কান্তি দাশ, সঃ প্রঃ শিক্ষক (ভাঃ)</item>
+        <item>আব্দুস ছালাম, প্রঃ শিঃ (ভাঃ)</item>
+        <item>মোঃ নেজামুল হক, প্রঃ শিঃ (ভাঃ)</item>
+        <item>জারেকা বেগম, অধ্যক্ষ (ভাঃ প্রাঃ)</item>
+        <item>আয়েশা পারভীন, প্রঃ শিঃ</item>
+        <item>মঞ্জু আরা বেগম, প্রঃ শিঃ (ভাঃ প্রাঃ)</item>
+        <item>সুকুমার দেবনাথ, প্রঃ শিঃ </item>
+        <item>দীপা চৌধুরী, প্রঃ শিঃ (ভারপ্রাপ্ত)</item>
+        <item>চম্পা মজুমদার, প্রঃ শিঃ</item>
+        <item>মমতা বেগম, অধ্যক্ষ (ভাঃ)</item>
+        <item>মোঃ আলী আকবর, প্রঃ শিঃ</item>
+        <item>মোহাম্মদ আবুল হোসেন, প্রঃ শিঃ </item>
+        <item>মোশাররফ হোসেন মজুমদার, প্রঃ শিঃ</item>
+        <item>মোঃ আবুল কাশেম, প্রধান শিক্ষক</item>
+        <item>জনাব মোঃ আবু তালেব, অধ্যক্ষ (ভাঃ)</item>
+        <item>উম্মে রায়হান, প্রঃ শিঃ (ভাঃ প্রাঃ)</item>
+        <item>মিলন আচার্য্য, প্রঃ শিঃ</item>
+        <item>মোঃ আবু তৈয়ব, প্রঃ শিঃ (ভাঃপ্রাঃ)</item>
+        <item>ফেরদৌস আরা বেগম, প্রঃ শিঃ</item>
+        <item>এস.এম বখতেয়ার, অধ্যক্ষ (ভারপ্রাপ্ত)</item>
+        <item>মোঃ সাইফুল ইসলাম, প্রধান শিক্ষক (ভাঃ)</item>
+        <item>কমলেশ ধর, প্রধান শিক্ষক</item>
+    </string-array>
+
+    <string-array name="balika_school_phone">
+        <item>০১৮১৭-৭৭৫২৫২	৭২০৪৫৯</item>
+        <item>০১৮১৬-০৫২৭৮৬	৬৩২৫৯১</item>
+        <item>০১৭২১-৬১৩৪৯৮	২৫২০৪৬৩</item>
+        <item>০১৮১৮-৮৮৩৬৩১	২৫২১২৮৬</item>
+        <item>০১৮১৩-২৫২৯০৯	৭২১৭৮১</item>
+        <item>০১৮১৭-৭৮২৮২৩	৭২১৮৫৪</item>
+        <item>০১৭২৭-৭২৯৩৩০	৬৩৯২৮১</item>
+        <item>০১৮১১-১৮১৯৮৪	৬৩০৬৫৮</item>
+        <item>০১৭৩১-৩৬২৩৩৭	৬১৬৩৩০</item>
+        <item>০১৮১৫-৭১৬২৩০	৬৫৪৫০৭</item>
+        <item>০১৯১৪-৭৫৬৫৫৯	৬১৯৮৭৬</item>
+        <item>০১৭২৭-৭৬৬৫৮০	৬১৩৬৬৮</item>
+        <item>০১৮১৯-৫৩৫২৫৩	৬১৩১৬৩</item>
+        <item>০১৭১৬-৩১০০৩৫	৬৩৭৭০২</item>
+        <item>০১৭১৬-৩৯১৪৪২	৬১৫০৬৩</item>
+        <item>০১৭১১-০৪১৮০৬	৭৫০৩৭১</item>
+        <item>০১৮১৫-৬২০৫৪১	৬৩৭৪৫৭</item>
+        <item>০১৮১১-৯৩৯৩৪৬	৭৫২৬২৯</item>
+        <item>০১৭১১-৩৭১৪৮২	৭৪১০২৫</item>
+        <item>০১৮১৯-৬০৫২০৬	২৫০০২৮৮</item>
+        <item>০১৮১৯-৬৭১৩৬৪	৬৮৪৩৬৫</item>
+        <item>০১৭১২-৮৭০৭৯৭	৬৮১৬১৫</item>
+        <item>০১৮১৯-০৬৩২৯০	৬৮৩৪৯৬</item>
+        <item>০১৮১৬-১১০০৯৪</item>
+        <item>০১৮২৮-৭১৯৭৫০	৬১২৪৭২</item>
+    </string-array>
+
+
+    <!--Balok uccho biddaloy -->
+    <string-array name="balok_school_name">
+        <item>পাঠানটুলী সি.ক. বালক উচ্চ বিদ্যালয়</item>
+        <item>পোস্তারপাড় সি.ক. বালক উচ্চ বিদ্যালয়</item>
+        <item>কদম মোবারক সি.ক. বালক উচ্চ বিদ্যালয়</item>
+        <item>লামাবাজার এ.এ.এস সি.ক. বালক উচ্চ বিদ্যালয়</item>
+        <item>আলকরণ নুর আহমদ সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>বাগমনিরাম আবদুর রশিদ সি.ক. বালক উচ্চ বিদ্যালয়</item>
+        <item>পূর্ব বাকলিয়া সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>পাথরঘাটা সি.ক. বালক উচ্চ বিদ্যালয়</item>
+    </string-array>
+
+
+    <string-array name="balok_school_head_name">
+        <item>নুরুদ্দোজা ফরাজী, প্রঃ শিঃ</item>
+        <item>মোঃ সামশুল আলম, প্রঃ শিঃ</item>
+        <item>আবদুল গফুর, সঃ প্রঃ শিক্ষক (ভাঃ)</item>
+        <item>মোঃ ফরিদ উদ্দিন, প্রঃ শিঃ</item>
+        <item>মোহাম্মদ হোছেন, প্রধান শিক্ষক (ভাঃ)</item>
+        <item>টিংকু কুমার ভৌমিক, প্রধান শিক্ষক (ভাঃ)</item>
+        <item>মোঃ আলাউদ্দিন, প্রধান শিক্ষক</item>
+        <item>হরিনারায়ন ভট্টচার্য্য, প্রঃ শিঃ (ভাঃ প্রাঃ)</item>
+    </string-array>
+
+    <string-array name="balok_school_phone">
+        <item>০১৮১৮-৭৬৮২৯৪	৭২৩৯৯৫</item>
+        <item>০১৮১৮-২৭৮৫৯২	৭১৫৪২৫</item>
+        <item>০১৭১২-৬৫৯৪৯৬,০১৯৯১-৯৪৫১১৭\n৬১৭০৫৪</item>
+        <item>০১৮১৮-০২৮০২৮	৬৩৩৪৬১</item>
+        <item>০১৮১৪-২৫৭৭৩৯	৬৩৬৭৪</item>
+        <item>০১৭১২-৫১৩৩১৫	৬১৬৪৬৯</item>
+        <item>০১৮১৯-৬৩৪৪৯০	২৮৬৫৫০৮</item>
+        <item>০১৮১৮-৯১৮৮৪৭</item>
+    </string-array>
+
+
+    <!--Balok Balika uccho biddaloy -->
+    <string-array name="balok_balika_school_name">
+        <item>সরাইপাড়া সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>হালিশহর আলহাজ্ব মহব্বত আলী সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>ছালেহ্ জহুর সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>রেলওয়ে হাসপাতাল কলোনী সি.ক. উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>চর-চাক্তাই সি.ক. উচ্চ বিদ্যালয় </item>
+        <item>দক্ষিণ পতেঙ্গা সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>কুলগাঁও সি.ক. উচ্চ বিদ্যালয় </item>
+        <item>হাজী আবদুল আলী সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>জুলেখা আমিনুর রহমান সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>আয়ুব বিবি সি.ক. স্কুল ও কলেজ</item>
+        <item>হোসেন আহমদ চৌধুরী সি.ক. উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>ভোলানাথ মনোরমা সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>রামপুর সি.ক. উচ্চ বিদ্যালয়</item>
+        <item>চট্টগ্রাম সিটি কর্পোরেশন মিউনিসিপ্যাল মডেল স্কুল এন্ড কলেজ</item>
+    </string-array>
+
+
+    <string-array name="balok_balika_school_head_name">
+        <item>এ.কে.এম মোঃ উল্লাহ, প্রঃ শিঃ</item>
+        <item>সুমেধ তাপস বড়–য়া, সঃ প্রঃ শিক্ষক (ভাঃ)</item>
+        <item>আকতার হোছাইন, প্রঃ শিঃ </item>
+        <item>উত্তম কুমার আচার্য্য, প্রঃ শিঃ </item>
+        <item>অরুন চন্দ্র দাশ, প্রঃ শিঃ (ভাঃ) </item>
+        <item>হারুনুর রশীদ মিয়া, প্রঃ শিঃ </item>
+        <item>এস.এম এহসান উদ্দিন, প্রধান শিক্ষক</item>
+        <item>রোমা বড়–য়া, প্রঃ শিঃ</item>
+        <item>মানিক চন্দ্র বৈদ্য, প্রঃ শিঃ (ভাঃ)</item>
+        <item>মোহাম্মদ মাহফুজুর রহমান, অধ্যক্ষ (ভাঃ)</item>
+        <item>রেহেনা আক্তার খানম, অধ্যক্ষ (ভাঃ প্রাঃ)</item>
+        <item>নজরুল ইসলাম, সহকারী শিক্ষক (দায়িত্ব প্রাপ্ত)</item>
+        <item>স্বপন কুমার নাথ, সহকারী শিক্ষক </item>
+        <item>সাহেদুল কবির চৌধুরী, অধ্যক্ষ (ভাঃ)</item>
+    </string-array>
+
+    <string-array name="balok_balika_school_phone">
+        <item>০১৭১২-২৭৮৯৫৫	৭৫১৫৬৬</item>
+        <item>০১৭১৫-৯২১৩৩৪	২৫২১৯৬৩</item>
+        <item>০১৮১৯-৮৫৮০০০	৬২৮৩১৩</item>
+        <item>০১৭১৬-৩৭০১৬২	৬৩৭৬৭৯</item>
+        <item>০১৮১৮-১৪৮৬৩১	২৮৬১০৯৬</item>
+        <item>০১৭১১-১২১৩০৮	২৫০০৭৯৯</item>
+        <item>০১৭১২-২১৫৮৯৫, ০১৮১২-৫৬৭৭২২	</item>
+        <item>০১৭১২-২৬৮২০৪	৭৫০৯৯১</item>
+        <item>০১৮১৮-৮৭৪৭৬০	৬১৫৮৯৮</item>
+        <item>০১৮৪০-৮৪৮১৯৪	২৮৫৩২৮৮</item>
+        <item>০১৭১৩-১০৮৮১৩	২৫৮১৬৫১</item>
+        <item>০১৭৫২৬৫৪৮৯৪</item>
+        <item>(দায়িত্ব প্রাপ্ত)০১৭১৬-৩৯৬২০০</item>
+        <item>০১৮১৭-৭২৭৪৭৫</item>
+    </string-array>
+
+    <!--Kindar Garden School -->
+    <string-array name="kindar_school_name">
+        <item>পশ্চিম নাসিরাবাদ আঃ হাঃ সরাইপাড়া সি.ক. কিন্ডার গার্টেন</item>
+        <item>পূর্ব বাকলিয়া সি.ক. কিন্ডার গার্টেন</item>
+        <item>উত্তর আগ্রাবাদ আঃ রহমান সি.ক. কিন্ডার গার্টেন</item>
+        <item>ইমারাতুন্নেসা সি.ক. কিন্ডার গার্টেন </item>
+        <item>পাঁচলাইশ সি.ক. কিন্ডার গার্টেন</item>
+        <item>ছালেহ্ জহুর সি.ক. কিন্ডার গার্টেন</item>
+        <item>জহুর আহমদ চৌধুরী সি.ক. প্রাথমিক বিদ্যালয়</item>
+        <item>কবির আহমদ সি.ক. প্রাথমিক বিদ্যালয়</item>
+        <item>রবীন্দ্র-নজরুল একাডেমী</item>
+    </string-array>
+
+
+    <string-array name="kindar_school_head_name">
+        <item>মিসেস কঙ্কন দাশ, অধ্যক্ষ</item>
+        <item>মিসেস শাহীন আক্তার, অধ্যক্ষ</item>
+        <item>মিসেস শামীমা ইয়াছমিন, অধ্যক্ষ</item>
+        <item>মিসেস ফাতেমা সায়কা আজাদ, অধ্যক্ষ</item>
+        <item>মিসেস তাহেরা বেগম, অধ্যক্ষ</item>
+        <item>মিসেস আফরোজা ইয়াছমিন, অধ্যক্ষ</item>
+        <item>জনাব অশোক কুমার দেব, প্রধান শিক্ষক</item>
+        <item>মিসেস খাইরুননেছা বেগম, প্রধান শিক্ষক</item>
+        <item>মিসেস শমিষ্ঠা দত্ত, অধ্যক্ষ</item>
+    </string-array>
+
+    <string-array name="kindar_school_phone">
+        <item>০১৭১১-৭৩৯৫৮১</item>
+        <item>০১৯১১-২২২৩০০</item>
+        <item>০১৮২৩-৭২৫৮৫৮</item>
+        <item>০১৮১৮-২৪৬১৫১	২৫৮০৭৬৬</item>
+        <item>০১৬৭০-৪২৬৩৬১	৬৮৪৩৬৫</item>
+        <item>০১৯২৬-১৩৪৭৭০</item>
+        <item>০১৮৩১-৩১৩৯০৪</item>
+        <item>০১৬৭৩-৬৮৭৭৪৬</item>
+        <item>০১৭১১-৩৯৫৮৩০</item>
+    </string-array>
+    <!--College List -->
+    <string-array name="college_name">
+        <item>সরাইপাড়া সি.ক. কলেজ</item>
+        <item>পোস্তারপাড় আছমা খাতুন সি.ক. কলেজ</item>
+        <item>পতেঙ্গা সি.ক. মহিলা কলেজ </item>
+        <item>কুলগাঁও সি.ক. কলেজ</item>
+        <item>আয়ুব বিবি সি.ক. স্কুল ও কলেজ</item>
+        <item>কাপাসগোলা সি.ক. মহিলা কলেজ</item>
+        <item>জরিনা-মফজল সি.ক. কলেজ</item>
+        <item>কুয়াইশ বুড়িশ্চর শেখ মোঃ সি.ক. কলেজ </item>
+        <item>চট্টগ্রাম সি.ক. প্রিমিয়ার কলেজ</item>
+        <item>দেওয়ানহাট সি.ক. কলেজ </item>
+        <item>পাঁচলাইশ এস.এম নাছির উদ্দিন সি.ক. মহিলা কলেজ</item>
+        <item>চট্টগ্রাম সি.ক. কায়সার-নিলুফার কলেজ</item>
+        <item>চট্টগ্রাম সি.ক. কমার্স কলেজ</item>
+        <item>অপর্ণাচরণ সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>কাট্টলী সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>পূর্ব বাকলিয়া সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>হোসেন আহম্মদ চৌধুরী সি.ক. উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>রেলওয়ে হাসপাতাল কলোনী সি.ক. উচ্চ বিদ্যালয় ও কলেজ </item>
+        <item>ফতেয়াবাদ বহুমূখী সি.ক. বালিকা উচ্চ বিদ্যালয় ও কলেজ</item>
+        <item>পাথরঘাটা সি.ক. মহিলা মহাবিদ্যালয়</item>
+        <item>চট্টগ্রাম সিটি কর্পোরেশন মিউনিসিপ্যাল মডেল স্কুল এন্ড কলেজ</item>
+    </string-array>
+
+
+    <string-array name="college_head_name">
+        <item>মিসেস রওশন আক্তার, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস লাভলী মজুমদার, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস ইসমত আরা বেগম, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব মোঃ আমিনুল হক খান, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব মোঃ মাহফুজুর রহমান, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস মনোয়ার জাহান, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস হাজেরা খাতুন, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব মোঃ জয়নাল আবেদিন, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব মোঃ মোজাম্মেল হক, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস ঝিনু আরা বেগম, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস জয়নাব বেগম, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব শেখ মোঃওমর ফারুক, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব মোঃ আবু তৈয়ব চৌধুরী, অধ্যক্ষ(ভাঃ)</item>
+        <item>মিসেস মমতা বেগম, অধ্যক্ষ (ভাঃ)</item>
+        <item>জনাব মোঃ আবু তালেব, অধ্যক্ষ (ভাঃ)</item>
+        <item>মিসেস জারেকা বেগম, অধ্যক্ষ (ভাঃ)</item>
+        <item>রেহেনা আক্তার খানম, অধ্যক্ষ (ভারপ্রাপ্ত)</item>
+        <item>জনাব উত্তর কুমার আচার্য্য,, অধ্যক্ষ (ভাঃ)</item>
+        <item>এস.এম বখতেয়ার, অধ্যক্ষ (ভারপ্রাপ্ত)</item>
+        <item>জনাব ফরহাদুর রহমান চৌধুরী, অধ্যক্ষ</item>
+        <item>সাহেদুল কবির চৌধুরী, অধ্যক্ষ (ভাঃ)</item>
+    </string-array>
+
+    <string-array name="college_phone">
+        <item>০১৮১৯-৩১৭৪৫৭	২৭৭৩৬৮৭</item>
+        <item>০১৮১৯-১৬৪৯২৭	৭২১৮৫৪</item>
+        <item>০১৫৫৮-২৯০১৮৫	২৫০১৫৩৩</item>
+        <item>০১৭১১-৯৮৯১৫৬	৬৮৩৫১৬</item>
+        <item>০১৮৪০-৮৪৮১৯৪	২৮৫৩২৮৮</item>
+        <item>০১৭১১-৪২২৩৫৮	২৫৫২০২২</item>
+        <item>০১৮১৬-২৩৬৪৫৮	৭১০৫৪৩</item>
+        <item>০১৮১৯-৩৯৮২২১	৬৭০০২৬</item>
+        <item>০১৮১৯১৭৭৫৪৯	--</item>
+        <item>০১৮১৭-৭৪৪১২৮	২৫২৪৩৩০</item>
+        <item>০১৯১১-৮৬২৮০৪	২৫৮৪২১০</item>
+        <item>০১৮১৮-১৪৪৭৯৯	৬২৫০১০</item>
+        <item>০১৮১৯-৩৩০২৮৩	২৫১৫৭৯৮</item>
+        <item>০১৮১৯-৫৩৫২৫৩	--</item>
+        <item>০১৮১১-৯৩৯৩৪৬	--</item>
+        <item>০১৭২৭-৭২৯৩৩০	৬৩৯২৮১</item>
+        <item>০১৭১৩-১০৮৮১৩	২৫৮১৬৫১</item>
+        <item>০১৭১৬-৩৭০১৬২	৬৩৭৬৭৯</item>
+        <item>০১৮১৯-০৬৩২৯০	৬৮৩৪৯৬</item>
+        <item>০১৮১৪-৮৯৪২৪৫	--</item>
+        <item>০১৮১৭-৭২৭৪৭৫	--</item>
+    </string-array>
+
+    <string-array name="health_types">
+        <item>প্রসাশনিক কার্যালয়</item>
+        <item>সি/ক মেমন মাতৃসদন হাসপাতাল</item>
+        <item>চট্টগ্রাম সি/ক জেনারেল হাসপাতাল</item>
+        <item>মোস্তফা হাকিম সি/ক মাতৃসদন হাসপাতাল</item>
+        <item>ছাফা মোতালেব সি/ক মাতৃসদন হাসপাতাল</item>
+        <item>ওয়ার্ড ভিত্তিক স্বাস্থ্য কেন্দ্র সমুহ</item>
+        <item>মিডওয়াইফারী ইনিষ্টিটিউট</item>
+        <item>ইনষ্টিটিউট অব হেলথ টেকনোলজি</item>
+    </string-array>
+
+    <string-array name="complain_types">
+
+        <item>রাস্তা</item>
+        <item>ময়লা-আবর্জনা</item>
+        <item>রোড লাইট</item>
+        <item>নালা নর্দমা</item>
+        <item>দুর্নীতি</item>
+        <item>অবৈধ কার্যক্রম</item>
+        <item>নিজস্ব অভিযোগ</item>
+    </string-array>
+
+
+    <string-array name="tax_types">
+        <item>Tax __ Office</item>
+        <item>Tax __ Rulls</item>
+        <item>Holding____</item>
+        <item>Request____</item>
+    </string-array>
+
+    <string-array name="emargency_types">
+        <item>এ্যাম্বুলেন্স</item>
+        <item>হাসপাতাল</item>
+        <item>পুলিশ</item>
+        <item>র‍্যাব</item>
+        <item>ফায়ার সার্ভিস</item>
+        <item>সংবাদপত্র</item>
+        <item>ওয়াসা</item>
+    </string-array>
+    <array name="emargency_pic">
+        <item>@drawable/ambulance</item>
+        <item>@drawable/health</item>
+        <item>@drawable/police</item>
+        <item>@drawable/rab</item>
+        <item>@drawable/fireservice</item>
+        <item>@drawable/newspaper</item>
+        <item>@drawable/wasa</item>
+    </array>
+    <string-array name="entertainment_types">
+        <item>সিনেমা হল</item>
+        <item>লাইব্রেরী</item>
+        <item>দর্শনীয় স্থান সমূহ</item>
+        <item>শপিংমল সমূহ</item>
+        <item>চট্টগ্রামের সংক্ষিপ্ত ইতিহাস</item>
+    </string-array>
+    <array name="entertainment_pic">
+        <item>@drawable/cinema</item>
+        <item>@drawable/library</item>
+        <item>@drawable/places</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/history</item>
+
+    </array>
+
+    <string name="title_activity_jet2">জেটস্কি</string>
+    <string name="title_activity_toak">টুয়াক</string>
+    <string name="title_activity_complain">অভিযোগ/ পরামর্শ</string>
+    <string name="title_activity_beach_bike">বীচ বাইক</string>
+    <string name="title_activity_pera">প্যারাসেইলিং</string>
+    <string name="title_activity_culture_evt">কালচারাল ইভেন্ট</string>
+    <string name="title_activity_transport">ট্রান্সপোর্ট</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tide">জোয়ারভাটার সময়</string>
+    <string name="title_activity_location">আপনার অবস্থান</string>
+    <string name="title_activity_help_line">হট লাইন</string>
+    <string name="title_activity_blank">BlankActivity</string>
+
+    <string name="meyorSpeesh">
+    In the name of almighty Allah, The most beneficent and merciful.
+
+    Chittagong is a wonderful City blessed with a lot of beloved saints of Almighty Allah. So it is aptly called ‘virtuous land of Bara-Aowlia’ for many decades. It is one of the most beautiful cities in the world endowed with its fascinating natural beauty, geographical location, cultural heritage and hospitality of its people attracted the travelers from different part of the world. As a Commercial capital of Bangladesh, businessmen and tourists are being attracted by this city for a long time. Chittagong bears the testimony of congenial atmosphere for investment, trade, industrial operation and tourism as well.
+
+    We want to get Chittagong as a mega city of international standard, a water-logging free livable city, a desired land for national as well as international tourists, a congenial business hub for national and international business community. I would like to seek all sorts of cooperation from all strata of our city dwellers to make our dream into a reality.
+
+    I would like to convey my heart felt thanks and gratitude to Honorable Prime Minister Sheikh Hasina for keeping me in her faith. I am very much grateful to all inhabitants of Chittagong City for casting their valuable vote in my favour for the landslide victory.
+</string>
+    <string name="feedbacktitle">অভিযোগ বাক্স</string>
+    <string name="feedbackname">অভিযোগ/পরামর্শ</string>
+    <string name="feedbackemail">ইমেইল</string>
+    <string name="feedbackbody">আপনার অভিযোগ এখানে লিখুন....</string>
+    <string name="feedbackresponse">আপনি কি ইমেলের মাধ্যমে জবাব পেতে চান?</string>
+    <string name="feedbackbutton">আমাদের আপনার প্রতিক্রিয়া পাঠান</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_web_view"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parvez_n_jabed_co.ccc_project.WebViewActivity">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="9"
+        android:id="@+id/webView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/downloadBtn"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        android:textColor="#000000"
+        android:text="Download This Form"
+        android:onClick="onDownloadButtonClicked"
+        android:layout_weight="1"
+        android:layout_height="50dp" />
+
+</LinearLayout>

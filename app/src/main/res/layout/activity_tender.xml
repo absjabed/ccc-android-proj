@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/backgroung"
+    tools:context="com.parvez_n_jabed_co.ccc_project.TenderActivity">
+    <LinearLayout
+        android:id="@+id/gvLayouttender"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="20dp"
+
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp"
+        android:layout_weight="7">
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridviewtender"
+
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

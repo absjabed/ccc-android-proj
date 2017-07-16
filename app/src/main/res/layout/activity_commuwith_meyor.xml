@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_commuwith_meyor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/backgroung"
+    tools:context="com.parvez_n_jabed_co.ccc_project.CommuwithMeyor">
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="সাক্ষাৎ সম্পর্কিত তথ্য দিন"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:text="----------------------------------------------------------------------"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="9">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            app:bootstrapBrand="primary"
+            app:bootstrapHeading="h6"
+            android:textStyle="bold"
+            android:text="মেয়রের সাথে সাক্ষাত করতে যথাযথ কারন ও সম্ভাব্য তারিখ সহ আপনার তথ্য  প্রদান করুন। ইমেইল অথবা এসএমএস এর মাধ্যমে আপনার সাথে যোগাযোগ করা হবে।"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            app:bootstrapBrand="success"
+            app:bootstrapHeading="h6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:labelFor="@+id/ETname"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="*আপনার নামঃ"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            app:bootstrapBrand="success"
+            app:roundedCorners="true"
+            android:id="@+id/ETname"
+            android:paddingLeft="3dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/bootstrap_dropdown_divider">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            app:bootstrapBrand="success"
+            app:bootstrapHeading="h6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:labelFor="@+id/ETemail"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="*ঠিকানা (ওয়ার্ড নং সহ):"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            app:bootstrapBrand="success"
+            app:roundedCorners="true"
+            android:id="@+id/ETaddress"
+            android:textColor="#000000"
+            android:paddingLeft="3dp"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/bootstrap_dropdown_divider">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            app:bootstrapBrand="success"
+            app:bootstrapHeading="h6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:labelFor="@+id/ETdescription"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="*সাক্ষাতের কারনঃ"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            app:bootstrapBrand="success"
+            app:roundedCorners="true"
+            android:id="@+id/ETdescription"
+            android:paddingLeft="3dp"
+            android:maxLength="500"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/bootstrap_dropdown_divider">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            app:bootstrapBrand="success"
+            app:bootstrapHeading="h6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:labelFor="@+id/ETemail"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="*মোবাইল ও ই-মেইলঃ"/>
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            app:bootstrapBrand="success"
+            app:roundedCorners="true"
+            android:id="@+id/ETphone"
+            android:paddingLeft="3dp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/bootstrap_dropdown_divider">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            app:bootstrapBrand="primary"
+            app:roundedCorners="true"
+            android:id="@+id/submitForm"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:onClick="onClickSubmitForm"
+            android:layout_height="match_parent"
+            android:text="অনুরোধ জমা দিন"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

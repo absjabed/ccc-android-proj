@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_commuwith_meyor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:weightSum="10"
+    android:paddingRight="10dp"
+    android:background="@drawable/backgroung"
+    tools:context="com.parvez_n_jabed_co.ccc_project.CommunicationActivity">
+
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="যোগাযোগ"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:text="----------------------------------------------------------------------"/>
+
+
+        <Button
+            android:id="@+id/meetMayor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:onClick="onClickMeetMayor"
+            android:background="@drawable/btnbackground"
+            android:text="মেয়রের সাথে সাক্ষাৎ করুন"/>
+    <Button
+        android:id="@+id/cccNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClickcccNumbers"
+        android:layout_margin="10dp"
+        android:background="@drawable/btnbackground"
+        android:text=" সি/ক তে যোগাযোগের নাম্বার সমূহ" />
+
+    </LinearLayout>
+
