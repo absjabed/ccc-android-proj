@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent10);
                         break;
                     case Constant_Var.COMPLAIN_ACTIVITY:
-                        Intent intent11 = new Intent(MainActivity.this,Complain_Activity.class);
+                        Intent intent11 = new Intent(MainActivity.this,ComplainActivityNew.class);
                         startActivity(intent11);
                         break;
                     case Constant_Var.HELPLINE_ACTIVITY:

@@ -52,50 +52,50 @@ public class TenderRelatedFormsActivity extends AppCompatActivity {
                 if(position==FormTypes.HAT_BAZARER_DORPOTRO)
                 {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this,WebViewActivity.class);
-                    intent.putExtra("URL","https://drive.google.com/file/d/0ByXcNtvRHMV6ZU9WRDdnSnBtcXM/view");
+                    intent.putExtra("URL","https://goo.gl/scWLpW"); //https://drive.google.com/file/d/0ByXcNtvRHMV6ZU9WRDdnSnBtcXM/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.DOKANER_DORPOTRO)
                 {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this,WebViewActivity.class);
-                    intent.putExtra("URL","https://drive.google.com/file/d/0ByXcNtvRHMV6ejZENnNSYUZ1YUE/view");
+                    intent.putExtra("URL","https://goo.gl/vz2Vg5"); //https://drive.google.com/file/d/0ByXcNtvRHMV6ejZENnNSYUZ1YUE/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.NARSARI_ER_DORPOTRO) {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6aXBETzBOa3NIbDg/view");
+                    intent.putExtra("URL", "https://goo.gl/QKyVxz"); //https://drive.google.com/file/d/0ByXcNtvRHMV6aXBETzBOa3NIbDg/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.FLOOR_ER_DORPOTRO) {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6OVZERHdwNjhaT0k/view");
+                    intent.putExtra("URL", "https://goo.gl/84NPnE"); //https://drive.google.com/file/d/0ByXcNtvRHMV6OVZERHdwNjhaT0k/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.POSHU_JOBAI_KHANAR_DORPOTRO) {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6cnFUUmFtbHlZMjg/view");
+                    intent.putExtra("URL", "https://goo.gl/nnWpYz"); //https://drive.google.com/file/d/0ByXcNtvRHMV6cnFUUmFtbHlZMjg/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.TOILET_ER_DORPOTRO) {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6X2E5eVdSRE1DRGs/view");
+                    intent.putExtra("URL", "https://goo.gl/brwA5p"); //https://drive.google.com/file/d/0ByXcNtvRHMV6X2E5eVdSRE1DRGs/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.PARKING_ER_DORPOTRO) {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6OGh6REIzbzZ3M28/view");
+                    intent.putExtra("URL", "https://goo.gl/YcY2cb");  //https://drive.google.com/file/d/0ByXcNtvRHMV6OGh6REIzbzZ3M28/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.FERI_GHAT_ER_DORPOTRO) {
                     Intent intent = new Intent(TenderRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6QTZVZURGWW1aMW8/view");
+                    intent.putExtra("URL", "https://goo.gl/RgSVyA"); //https://drive.google.com/file/d/0ByXcNtvRHMV6QTZVZURGWW1aMW8/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }

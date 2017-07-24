@@ -47,9 +47,9 @@ public class LiveTestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_live_test);
 
-
+/*
         liveET = (EditText) findViewById(R.id.liveLinkET);
-        liveBtnIP = (Button) findViewById(R.id.liveBtn);
+        liveBtnIP = (Button) findViewById(R.id.liveBtn);*/
         liveBtnNew = (Button) findViewById(R.id.liveBtnAnother);
 
         if (!isNetworkAvailable()) {
@@ -73,7 +73,7 @@ public class LiveTestActivity extends AppCompatActivity {
 
             alertDialogBuilder.setNegativeButton(" Cancel ", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                    liveBtnIP.setEnabled(false);
+                    //liveBtnIP.setEnabled(false);
                     liveBtnNew.setEnabled(false);
                     dialog.cancel();
                     //finish();
@@ -98,7 +98,7 @@ public class LiveTestActivity extends AppCompatActivity {
          Toast.makeText(this, "Please enter an id", Toast.LENGTH_LONG).show();
          return;
          }*/
-        loading = ProgressDialog.show(this, "Please wait...", "Geting things ready for you....", false, false);
+        loading = ProgressDialog.show(this, "একটু অপেক্ষা করুন...", "সেটিংস লোড হচ্ছে....", false, false);
 
         String url = Constant_Var.LIVE_BROADCASTING_LINK.trim();
 
@@ -123,16 +123,12 @@ public class LiveTestActivity extends AppCompatActivity {
         requestQueue.add(stringRequest);
     }
 
-    public void liveActivity(View view) {
-        link = liveET.getText().toString().trim();
+   /* public void liveActivity(View view) {
+       // link = liveET.getText().toString().trim();
         Intent intent = new Intent(LiveTestActivity.this, WebViewActivity.class);
         intent.putExtra("URL", link);
         startActivity(intent);
-    }
-
-    public void onClickLiveButtonNew(View view) {
-
-    }
+    }*/
 
     private void getLinkStatus() {
         JSONObject jsonObject;
@@ -160,7 +156,7 @@ public class LiveTestActivity extends AppCompatActivity {
     public void onClickLiveAnotherButton(View view) {
         try {
             if (json_response == null) {
-                Toast.makeText(this, "There is a Problem with your Internet connection", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "ইন্টারনেট সংযোগ কানেকশন চেক করুন।", Toast.LENGTH_LONG).show();
 
             } else {
 //                Toast.makeText(this, json_response, Toast.LENGTH_SHORT).show();

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroung"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <ImageView
+        android:id="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/commonback"/>
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_below="@+id/topHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="ছবি বা ভিডিও সহ অভিযোগ জমা দিন"/>
+    <TextView
+        android:id="@+id/dotdottxt"
+        android:layout_below="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:text="----------------------------------------------------------------------"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            app:bootstrapBrand="success"
+            android:text="আপনার নামঃ"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:id="@+id/complainNameLabel"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            app:bootstrapBrand="secondary"
+            android:text="rtyuiop qwertyuiop"/>
+
+
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            app:bootstrapBrand="success"
+            android:text="আপনার অভিযোগ"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:id="@+id/complainDescriptionLabel"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            app:bootstrapBrand="secondary"
+            android:text=" qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            app:bootstrapBrand="success"
+            android:layout_gravity="center_horizontal"
+            android:text="আপনার মোবাইল নং / ইমেইল ঠিকানা"/>
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:id="@+id/complainEmailPhoneLabel"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:bootstrapBrand="secondary"
+            android:text="wertyuiop qwertyuiop qwertyuiop qwertyuiop qwertyuiop"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapLabel
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapBrand="success"
+            android:layout_gravity="center_horizontal"
+            android:text="সংযুক্ত ছবি / ভিডিও"/>
+        <!-- To display picture taken -->
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:visibility="gone"
+            android:layout_marginTop="15dp"/>
+
+        <!-- Videoview to preview recorded video -->
+
+        <VideoView
+            android:id="@+id/videoPreview"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="400dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/txtPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="35dp"
+            android:visibility="gone"/>
+
+        <!--<Button
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#00008B"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="gone"
+            android:text="Upload to Server"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"/>-->
+       <com.beardedhen.androidbootstrap.BootstrapButton
+           android:id="@+id/btnUploadB"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:bootstrapBrand="primary"
+           app:bootstrapSize="lg"
+           android:textStyle="bold"
+           android:text="অভিযোগ জমা দিন"
+           app:buttonMode="regular"
+           app:showOutline="false"
+           app:roundedCorners="true"/>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -20,7 +20,7 @@
         android:textSize="17dp"
         android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:text="ট্রেড লাইসেন্স, বিভিন্ন নিবন্ধন ও অন্যান্য ফর্ম সমূহ"/>
+        android:text="বিভিন্ন নিবন্ধন ও অন্যান্য ফর্ম সমূহ"/>
     <TextView
         android:id="@+id/dotdottxt"
         android:layout_below="@+id/activityTitle"

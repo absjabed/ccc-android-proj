@@ -131,7 +131,7 @@
             android:labelFor="@+id/ETdescription"
             android:gravity="center"
             android:textStyle="bold"
-            android:text="*সাক্ষাতের কারনঃ"/>
+            android:text="সাক্ষাতের কারনঃ"/>
         <com.beardedhen.androidbootstrap.BootstrapEditText
             app:bootstrapBrand="success"
             app:roundedCorners="true"

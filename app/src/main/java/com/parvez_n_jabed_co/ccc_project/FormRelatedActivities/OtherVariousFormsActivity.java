@@ -16,7 +16,7 @@ public class OtherVariousFormsActivity extends AppCompatActivity {
     ListView list;
     String[] web = {
             "জন্ম নিবন্ধন ফর্ম",
-           // "জন্ম নিবন্ধন ফর্ম (অনলাইন আবেদন)",
+            "জন্ম নিবন্ধন ফর্ম (অনলাইন আবেদন)",
             "মৃত্যু নিবন্ধন ফর্ম",
             "\tমূল্যায়ন এবং মূল্যনির্ধারণের \nবিরুদ্ধে আপত্তির পিটিশন ফর্ম",
             "\tতথ্য পরিবর্তন (রেকর্ড পরিবর্তন)\n করার জন্যে আবেদন ফর্ম",
@@ -51,36 +51,35 @@ public class OtherVariousFormsActivity extends AppCompatActivity {
 
                 if(position==FormTypes.BIRTH_CERTIFICATE) {
                     Intent intent = new Intent(OtherVariousFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6aEQ0M1o5T25Ud2c/view");
+                    intent.putExtra("URL", "https://goo.gl/5jtGoU"); //https://drive.google.com/file/d/0ByXcNtvRHMV6aEQ0M1o5T25Ud2c/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
-                }
-            /*    else if(position==FormTypes.BIRTH_CERTIFICATE_ONLINE) {
+                }else if(position==FormTypes.BIRTH_CERTIFICATE_ONLINE) {
                     Intent intent = new Intent(OtherVariousFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://bris.lgd.gov.bd/pub/?pg=application_form");
+                    intent.putExtra("URL", "https://goo.gl/77ihLc"); //https://bris.lgd.gov.bd/pub/?pg=application_form
                     startActivity(intent);
-                }*/
+                }
                 else if(position==FormTypes.DEATH_CERTIFICATE) {
                     Intent intent = new Intent(OtherVariousFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6Y1ctV1JBVzVHeTA/view");
+                    intent.putExtra("URL", "https://goo.gl/A16AUX");  //https://drive.google.com/file/d/0ByXcNtvRHMV6Y1ctV1JBVzVHeTA/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.ASSISMENT_VALUEATION_OBJECTION) {
                     Intent intent = new Intent(OtherVariousFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6VFIxM242QlQ4aFE/view");
+                    intent.putExtra("URL", "https://goo.gl/k25Gyi"); //https://drive.google.com/file/d/0ByXcNtvRHMV6VFIxM242QlQ4aFE/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.MUTATION_APPLICATION_MULLAYON) {
                     Intent intent = new Intent(OtherVariousFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6OTlRcHIyTkp6bGM/view");
+                    intent.putExtra("URL", "https://goo.gl/cyr64v");  //https://drive.google.com/file/d/0ByXcNtvRHMV6OTlRcHIyTkp6bGM/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.SEPTIK_TANK_CLEANING) {
                     Intent intent = new Intent(OtherVariousFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6d0c2TjNJWmk2UkE/view");
+                    intent.putExtra("URL", "https://goo.gl/LnbqYt");  //https://drive.google.com/file/d/0ByXcNtvRHMV6d0c2TjNJWmk2UkE/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }

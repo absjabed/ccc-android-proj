@@ -19,9 +19,9 @@ public class CommunicationActivity extends AppCompatActivity {
     }
 
     public void onClickcccNumbers(View view) {
-            Intent intent = new Intent(CommunicationActivity.this, PdfViewActivity.class);
-            intent.putExtra("pdfName","Contact list for Apps.pdf");
-            intent.putExtra("ACTIVITYNAME","যোগাযোগের নাম্বার সমূহ");
+            Intent intent = new Intent(CommunicationActivity.this, WebViewActivity.class);
+            intent.putExtra("URL", "https://goo.gl/wJDvTv");  //https://drive.google.com/file/d/0ByXcNtvRHMV6Ui1IQnNDSXR4Ylk/view
+            intent.putExtra("visible",1);
             startActivity(intent);
     }
 }

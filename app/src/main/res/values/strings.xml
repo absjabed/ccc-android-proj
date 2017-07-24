@@ -649,6 +649,17 @@
         <item>নিজস্ব অভিযোগ</item>
     </string-array>
 
+    <array name="bootstrap_dropdown_example_data">
+        <item>রাস্তা</item>
+        <item>ময়লা-আবর্জনা</item>
+        <item>রোড লাইট</item>
+        <item>নালা-নর্দমা</item>
+        <item>দুর্নীতি</item>
+        <item>{dropdown_separator}</item>
+        <item>অবৈধ-কার্যক্রম</item>
+        <item>নিজস্ব অভিযোগ</item>
+
+    </array>
 
     <string-array name="tax_types">
         <item>Tax __ Office</item>
@@ -705,6 +716,8 @@
     <string name="title_activity_location">আপনার অবস্থান</string>
     <string name="title_activity_help_line">হট লাইন</string>
     <string name="title_activity_blank">BlankActivity</string>
+<string name="liveInfo">সিটি কর্পোরেশন এর সকল কার্যক্রম সম্পর্কে নগরবাসী কে অবগত রাখতে চসিক এর নতুন সংযোজন নগরভবন থেকে যেকোন সময় সকল ধরনের জরুরী সভা,সংবাদ সম্মেলন অথবা জরুরী নির্দেশনা
+এবার থেকে নগরবাসী সরাসরি চাঁটগা নগর মোবাইল অ্যাপ্লিকেশনের মাধ্যমে লাইভ (সরাসরি সম্প্রচার) দেখতে পাবেন। এবং মাননীয় মেয়র মহোদয় কতৃক প্রদত্ত যেকোন জরুরী ঘোষণা সম্পর্কে নগরবাসীকে মুহূর্তেই অবগত করা হবে।</string>
 
     <string name="meyorSpeesh">
     In the name of almighty Allah, The most beneficent and merciful.

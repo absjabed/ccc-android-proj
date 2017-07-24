@@ -26,7 +26,7 @@
         android:textSize="20dp"
         android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:text="যোগাযোগ"/>
+        android:text="সি/ক এ যোগাযোগের মাধ্যম"/>
     <TextView
         android:id="@+id/dotdottxt"
         android:layout_below="@+id/activityTitle"
@@ -42,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
+            android:textColor="#000000"
             android:onClick="onClickMeetMayor"
             android:background="@drawable/btnbackground"
             android:text="মেয়রের সাথে সাক্ষাৎ করুন"/>
@@ -49,6 +50,7 @@
         android:id="@+id/cccNumbers"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="#000000"
         android:onClick="onClickcccNumbers"
         android:layout_margin="10dp"
         android:background="@drawable/btnbackground"

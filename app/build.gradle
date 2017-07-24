@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.parvez_n_jabed_co.ccc_project"
         minSdkVersion 14
@@ -16,6 +17,19 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    packagingOptions {
+
+        exclude 'META-INF/DEPENDENCIES'
+
+        exclude 'META-INF/NOTICE'
+
+        exclude 'META-INF/LICENSE'
+
+        exclude 'META-INF/NOTICE.txt'
+
+        exclude 'META-INF/LICENSE.txt'
+
     }
 }
 
@@ -32,6 +46,10 @@ dependencies {
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.beardedhen:androidbootstrap:2.3.1'
     testCompile 'junit:junit:4.12'
+    compile files('libs/httpclient-4.3.6.jar')
+    compile files('libs/httpcore-4.3.3.jar')
+    compile files('libs/httpmime-4.3.6.jar')
+
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -22,6 +22,14 @@ public class Constant_Var {
     public static final String COMPLAIN_URL = "http://automateinfosys.com/scripts/cccComplain.php";
     public static final String KEY_COMPLAIN_DESCRIPTION = "complain_description";
     public static final String KEY_COMPLAIN_PHONE_EMAIL = "complain_phone_email";
+    public static final String KEY_COMPLAIN_NAME = "complain_name";
+
+
+    // File upload url (replace the ip with your server address)
+    public static final String FILE_UPLOAD_URL = "http://automateinfosys.com/FileUpload/fileUpload.php";
+
+    // Directory name to store captured images and videos
+    public static final String IMAGE_DIRECTORY_NAME = "Android File Upload";
 
     public static final int CCC_ACTIVITY = 0;
     public static final int EDUCATION_ACTIVITY = 1;

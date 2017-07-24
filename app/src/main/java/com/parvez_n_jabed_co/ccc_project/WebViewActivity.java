@@ -50,8 +50,8 @@ public class WebViewActivity extends AppCompatActivity {
         wv1.getSettings().setJavaScriptEnabled(true);
 
         prDialog = new ProgressDialog(WebViewActivity.this);
-        prDialog.setTitle("Please Wait");
-        prDialog.setMessage("Loading....");
+        prDialog.setTitle("একটু অপেক্ষা করুন");
+        prDialog.setMessage("পেজ লোড হচ্ছে....");
         prDialog.setIndeterminate(false);
         prDialog.setCancelable(false);
         wv1.loadUrl(URL);
@@ -98,7 +98,14 @@ public class WebViewActivity extends AppCompatActivity {
 
     public void onDownloadButtonClicked(View view) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
-        String title = "Complete Action Using";
+        String title = "অন্য অ্যাপ্লিকেশন দিয়ে লিংকটি ওপেন করুন";
+        Intent chooser = Intent.createChooser(intent, title);
+        startActivity(chooser);
+    }
+
+    public void onClickLoadAnotherBtn(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
+        String title = "অন্য অ্যাপ্লিকেশন দিয়ে লিংকটি ওপেন করুন";
         Intent chooser = Intent.createChooser(intent, title);
         startActivity(chooser);
     }

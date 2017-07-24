@@ -38,14 +38,14 @@ public class TreadLisenseForms extends AppCompatActivity {
                 if(position==FormTypes.TRADE_LICENSE)
                 {
                     Intent intent = new Intent(TreadLisenseForms.this,WebViewActivity.class);
-                    intent.putExtra("URL","https://drive.google.com/file/d/0ByXcNtvRHMV6cW5iUW9LYWNjYXc/view");
+                    intent.putExtra("URL","https://goo.gl/VSY8kc"); //https://drive.google.com/file/d/0ByXcNtvRHMV6cW5iUW9LYWNjYXc/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.RENEW_TRADE_LICENSE)
                 {
                     Intent intent = new Intent(TreadLisenseForms.this,WebViewActivity.class);
-                    intent.putExtra("URL","https://drive.google.com/file/d/0ByXcNtvRHMV6c29EMXhqRWp4WVU/view");
+                    intent.putExtra("URL","https://goo.gl/cBCJYJ");  //https://drive.google.com/file/d/0ByXcNtvRHMV6c29EMXhqRWp4WVU/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }

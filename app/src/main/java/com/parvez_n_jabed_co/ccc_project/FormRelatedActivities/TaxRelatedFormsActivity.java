@@ -51,7 +51,7 @@ public class TaxRelatedFormsActivity extends AppCompatActivity {
                 if(position==FormTypes.TAX_PAYMENT_FORM)
                 {
                     Intent intent = new Intent(TaxRelatedFormsActivity.this,WebViewActivity.class);
-                    intent.putExtra("URL","https://drive.google.com/file/d/0ByXcNtvRHMV6OHZ1UVh1dXRqSnc/view");
+                    intent.putExtra("URL","https://goo.gl/45UTzV");// https://drive.google.com/file/d/0ByXcNtvRHMV6OHZ1UVh1dXRqSnc/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
 //                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/0ByXcNtvRHMV6OHZ1UVh1dXRqSnc/view"));
@@ -62,30 +62,30 @@ public class TaxRelatedFormsActivity extends AppCompatActivity {
                 else if(position==FormTypes.DOKAN_HOSTANTOR)
                 {
                     Intent intent = new Intent(TaxRelatedFormsActivity.this,WebViewActivity.class);
-                    intent.putExtra("URL","https://drive.google.com/file/d/0ByXcNtvRHMV6ZXNYZThwX0VfYVE/view");
+                    intent.putExtra("URL","https://goo.gl/nQVTPF");  //https://drive.google.com/file/d/0ByXcNtvRHMV6ZXNYZThwX0VfYVE/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.DOKANER_OSTHAYI_CHUKTI) {
                     Intent intent = new Intent(TaxRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6OEZhZkFZeDFZZG8/view");
+                    intent.putExtra("URL", "https://goo.gl/UasUCW");  //https://drive.google.com/file/d/0ByXcNtvRHMV6OEZhZkFZeDFZZG8/view
                     startActivity(intent);
                 }
                 else if(position==FormTypes.FLAT_ER_ABEDON_FORM) {
                     Intent intent = new Intent(TaxRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6SmJZeUtzQ3VOaTA/view");
+                    intent.putExtra("URL", "https://goo.gl/gQSZDM");  //https://drive.google.com/file/d/0ByXcNtvRHMV6SmJZeUtzQ3VOaTA/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.FLAT_BORADDER_ABEDON) {
                     Intent intent = new Intent(TaxRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6MnoxT09DWHo2S1U/view");
+                    intent.putExtra("URL", "https://goo.gl/YVRECn"); //https://drive.google.com/file/d/0ByXcNtvRHMV6MnoxT09DWHo2S1U/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }
                 else if(position==FormTypes.HOUSING_PROKOLPER_ABEDON) {
                     Intent intent = new Intent(TaxRelatedFormsActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "https://drive.google.com/file/d/0ByXcNtvRHMV6SDNmV19VTkQ4Qk0/view");
+                    intent.putExtra("URL", "https://goo.gl/tLEVKK"); //https://drive.google.com/file/d/0ByXcNtvRHMV6SDNmV19VTkQ4Qk0/view
                     intent.putExtra("visible",1);
                     startActivity(intent);
                 }

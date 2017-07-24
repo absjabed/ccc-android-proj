@@ -1,5 +1,6 @@
 package com.parvez_n_jabed_co.ccc_project;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -56,6 +57,10 @@ public class CommuwithMeyor extends AppCompatActivity {
             try {
                 submitToServer(name, address, phone, description);
                 Toast.makeText(this, "আমরা আপনার অনুরোধ যাচাই করে আপনার সাথে শীঘ্রই যোগাযোগ করবো", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CommuwithMeyor.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                CommuwithMeyor.this.finish();
             }catch (Exception ex){
                 Toast.makeText(this, "সার্ভারে তথ্য পাঠানো যায়নি: "+ex.getMessage(), Toast.LENGTH_SHORT).show();
             }

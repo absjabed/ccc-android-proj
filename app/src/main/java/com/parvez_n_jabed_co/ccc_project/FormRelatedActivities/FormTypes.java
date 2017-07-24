@@ -37,11 +37,11 @@ public class FormTypes {
     public static final int RENEW_TRADE_LICENSE = 1;
     // Other Form Types
     public static final int BIRTH_CERTIFICATE = 0;
-   // public static final int BIRTH_CERTIFICATE_ONLINE = 2;
-    public static final int DEATH_CERTIFICATE = 1 ;
-    public static final int ASSISMENT_VALUEATION_OBJECTION = 2;
-    public static final int MUTATION_APPLICATION_MULLAYON = 3;
-    public static final int SEPTIK_TANK_CLEANING = 4;
+    public static final int BIRTH_CERTIFICATE_ONLINE = 1;
+    public static final int DEATH_CERTIFICATE = 2 ;
+    public static final int ASSISMENT_VALUEATION_OBJECTION = 3;
+    public static final int MUTATION_APPLICATION_MULLAYON = 4;
+    public static final int SEPTIK_TANK_CLEANING = 5;
 
     // Tax Payment sys
     public static final int HOLDING_TAX_PAYMENT = 0;
