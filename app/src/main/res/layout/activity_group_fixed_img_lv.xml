@@ -4,7 +4,7 @@
     android:id="@+id/activity_group_fixed_img_lv"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroung"
+    android:background="@drawable/cccfinalback"
 
     tools:context="com.parvez_n_jabed_co.ccc_project.GroupFixedImgLVActivity">
     <ImageView

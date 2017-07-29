@@ -129,7 +129,7 @@ public class GameActivity extends Activity {
 		startActivity(intent10);
 	}
 	public  void startActivityComplain() {
-		Intent intent11 = new Intent(GameActivity.this, Complain_Activity.class);
+		Intent intent11 = new Intent(GameActivity.this, ComplainActivityNew.class);
 		startActivity(intent11);
 	}
 	public  void startActivityHealpline() {

@@ -44,7 +44,6 @@ public class TaxActivity extends AppCompatActivity {
         list=(ListView)findViewById(R.id.list);
         list.setAdapter(adapter);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
@@ -55,15 +54,19 @@ public class TaxActivity extends AppCompatActivity {
 //                            Uri.parse("www.ccctax.org"));
 //                    startActivity(browserIntent);
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ccctax.org/"));
-                    String title = "Complete Action Using";
+                    String title = "অন্য অ্যাপ্লিকেশন দিয়ে লিংকটি ওপেন করুন";
                     Intent chooser = Intent.createChooser(intent, title);
                     startActivity(chooser);
 
                 }
                 else if(position==FormTypes.RE_CHECK_TAX_REQUEST)
                 {
-                    Intent intent = new Intent(TaxActivity.this,ReCheckTaxActivity1.class);
-                    startActivity(intent);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ccctax.org/"));
+                    String title = "অন্য অ্যাপ্লিকেশন দিয়ে লিংকটি ওপেন করুন";
+                    Intent chooser = Intent.createChooser(intent, title);
+                    startActivity(chooser);
+                    /*Intent intent = new Intent(TaxActivity.this,ReCheckTaxActivity1.class);
+                    startActivity(intent);*/
                 }
             }
         });

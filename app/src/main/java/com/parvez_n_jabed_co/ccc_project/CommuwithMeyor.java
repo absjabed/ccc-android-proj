@@ -31,10 +31,10 @@ public class CommuwithMeyor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_commuwith_meyor);
-        ETname = (BootstrapEditText) findViewById(R.id.ETname);
-        ETaddress = (BootstrapEditText) findViewById(R.id.ETaddress);
-        ETphone = (BootstrapEditText) findViewById(R.id.ETphone);
-        ETdescription = (BootstrapEditText) findViewById(R.id.ETdescription);
+        ETname = (BootstrapEditText) findViewById(R.id.ETnamem);
+        ETaddress = (BootstrapEditText) findViewById(R.id.ETaddressm);
+        ETdescription = (BootstrapEditText) findViewById(R.id.ETdescriptionm);
+        ETphone = (BootstrapEditText) findViewById(R.id.ETphonem);
     }
 
     public void onClickSubmitForm(View view) throws JSONException {
@@ -51,11 +51,11 @@ public class CommuwithMeyor extends AppCompatActivity {
 
             name = ETname.getText().toString().trim();
             address = ETaddress.getText().toString().trim();
-            phone = ETphone.getText().toString().trim();
             description = ETdescription.getText().toString().trim();
+            phone = ETphone.getText().toString().trim();
 
             try {
-                submitToServer(name, address, phone, description);
+                submitToServer(name, address, description, phone);
                 Toast.makeText(this, "আমরা আপনার অনুরোধ যাচাই করে আপনার সাথে শীঘ্রই যোগাযোগ করবো", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(CommuwithMeyor.this, MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

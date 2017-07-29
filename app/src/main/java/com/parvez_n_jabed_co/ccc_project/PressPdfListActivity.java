@@ -21,13 +21,13 @@ public class PressPdfListActivity extends AppCompatActivity {
     ListView list;
     String[] web = {
             "সর্বশেষ প্রেস রিলিজ সমূহ",
-            "প্রেস রিলিজ 12-07-2017",
-            "প্রেস রিলিজ 11-07-2017",
-            "প্রেস রিলিজ 10-07-2017",
-            "প্রেস রিলিজ 09-07-2017",
-            "প্রেস রিলিজ 08-07-2017",
-            "প্রেস রিলিজ 07-07-2017",
-            "প্রেস রিলিজ 05-07-2017"
+            "প্রেস রিলিজ 28-07-2017",
+            "প্রেস রিলিজ 27-07-2017",
+            "প্রেস রিলিজ 26-07-2017",
+            "প্রেস রিলিজ 25-07-2017",
+            "প্রেস রিলিজ 24-07-2017",
+            "প্রেস রিলিজ 23-07-2017",
+            "প্রেস রিলিজ 22-07-2017"
 
     } ;
     /*Integer[] imageId = {
@@ -73,44 +73,37 @@ public class PressPdfListActivity extends AppCompatActivity {
                 else if(position==1)
                 {
                     Intent intent = new Intent(PressPdfListActivity.this,WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%2012-07-2017_0.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-28-07-2017");
                     startActivity(intent);
                 }
                 else if(position==2) {
                     Intent intent = new Intent(PressPdfListActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%20110-07-2017.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-27-07-2017");
                     startActivity(intent);
                 }
                 else if(position==3) {
                     Intent intent = new Intent(PressPdfListActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%2010-07-2017.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-26-07-2017");
                     startActivity(intent);
                 }
                 else if(position==4) {
                     Intent intent = new Intent(PressPdfListActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%2009-07-2017.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-25-07-2017");
                     startActivity(intent);
                 }
                 else if(position==5) {
                     Intent intent = new Intent(PressPdfListActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%2008-07-2017.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-24-07-2017");
                     startActivity(intent);
                 }
                 else if(position==6) {
                     Intent intent = new Intent(PressPdfListActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%2007-07-2017.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-23-07-2017");
                     startActivity(intent);
                 }
                 else if(position==7) {
                     Intent intent = new Intent(PressPdfListActivity.this, WebViewActivity.class);
-                    intent.putExtra("URL", "http://www.ccc.org.bd/sites/default/files/press/Press%20Release%2005-07-2017.pdf");
-                    intent.putExtra("visible",1);
+                    intent.putExtra("URL", "http://www.ccc.org.bd/press-release-22-07-2017");
                     startActivity(intent);
                 }
             }

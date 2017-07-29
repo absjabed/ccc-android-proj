@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
 
         gridview.setAdapter(new FruitAdapter(
 
-                new FruitItem("সি/ক অফিসিয়ালস",R.drawable.officials), //CCC Internal
+                new FruitItem("চসিক অফিসিয়ালস",R.drawable.officials), //CCC Internal
                 new FruitItem("শিক্ষা",R.drawable.education), //Education
                 new FruitItem("স্বাস্থ্য",R.drawable.health),//Health
                 new FruitItem("প্রেস রিলিজ",R.drawable.newspaper), //Press Release

@@ -114,13 +114,13 @@ public class UploadActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // uploading the file to server
-                Toast.makeText(UploadActivity.this, "ছবি/ভিডিও সহ আপনার অভিযোগ সাবমিট হওয়া পর্যন্ত অপেক্ষা করুন।", Toast.LENGTH_SHORT).show();
-                btnUploadB.setEnabled(false);
                 if (!isNetworkAvailable()) {
 
                     Toast.makeText(UploadActivity.this, "দুঃখিত, আপানার ইন্টারনেট সংযোগ চালু করে আবার চেষ্টা করুন।", Toast.LENGTH_SHORT).show();
 
                 }else{
+                    Toast.makeText(UploadActivity.this, "ছবি/ভিডিও সহ আপনার অভিযোগ সাবমিট হওয়া পর্যন্ত অপেক্ষা করুন।", Toast.LENGTH_SHORT).show();
+                    btnUploadB.setEnabled(false);
                     new UploadFileToServer().execute();
                 }
 

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_icon_name__list_view"
     android:layout_width="match_parent"
-    android:background="@drawable/backgroung"
+    android:background="@drawable/cccfinalback"
     android:layout_height="match_parent"
 
 tools:context="com.parvez_n_jabed_co.ccc_project.Icon_name_List_view">

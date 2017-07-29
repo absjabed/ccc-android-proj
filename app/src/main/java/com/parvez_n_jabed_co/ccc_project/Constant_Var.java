@@ -5,28 +5,27 @@ package com.parvez_n_jabed_co.ccc_project;
  */
 
 public class Constant_Var {
-                                                        //http://automateinfosys.com/cccfcm/LiveLink/getLink.php?id=1
-    public static final String LIVE_BROADCASTING_LINK = "http://automateinfosys.com/cccfcm/LiveLink/getLink.php?id=1";
-    //"http://180.234.141.190/AndroidPushNotification-PHP-Backend/LiveLink/getLink.php?id=1";
+
+    public static final String LIVE_BROADCASTING_LINK = "http://automateinfosys.com/cccapp/cccfcm/LiveLink/getLink.php?id=1";
     public static final String KEY_status = "status";
     public static final String JSON_ARRAY = "result";
 
     // Meet Mayor Info Datas///scripts
-    public static final String MEET_MAYOR_URL = "http://automateinfosys.com/scripts/meetmayor.php";
+    public static final String MEET_MAYOR_URL = "http://automateinfosys.com/cccapp/scripts/meetmayor.php";
     public static final String KEY_NAME = "user_name";
     public static final String KEY_ADDRESS = "user_address";
     public static final String KEY_DESCRIPTION = "user_description";
     public static final String KEY_PHONE_EMAIL = "user_phone_email";
 
     // Complain info Data....scripts
-    public static final String COMPLAIN_URL = "http://automateinfosys.com/scripts/cccComplain.php";
+    public static final String COMPLAIN_URL = "http://automateinfosys.com/cccapp/scripts/cccComplain.php";
     public static final String KEY_COMPLAIN_DESCRIPTION = "complain_description";
     public static final String KEY_COMPLAIN_PHONE_EMAIL = "complain_phone_email";
     public static final String KEY_COMPLAIN_NAME = "complain_name";
 
 
     // File upload url (replace the ip with your server address)
-    public static final String FILE_UPLOAD_URL = "http://automateinfosys.com/FileUpload/fileUpload.php";
+    public static final String FILE_UPLOAD_URL = "http://automateinfosys.com/cccapp/FileUpload/fileUpload.php";
 
     // Directory name to store captured images and videos
     public static final String IMAGE_DIRECTORY_NAME = "Android File Upload";

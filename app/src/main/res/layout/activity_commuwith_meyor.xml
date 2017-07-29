@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    android:background="@drawable/backgroung"
+    android:background="@drawable/cccfinalback"
     tools:context="com.parvez_n_jabed_co.ccc_project.CommuwithMeyor">
     <ImageView
         android:id="@+id/topHeader"
@@ -74,7 +74,7 @@
         <com.beardedhen.androidbootstrap.BootstrapEditText
             app:bootstrapBrand="success"
             app:roundedCorners="true"
-            android:id="@+id/ETname"
+            android:id="@+id/ETnamem"
             android:paddingLeft="3dp"
             android:textColor="#000000"
             android:textStyle="bold"
@@ -104,7 +104,7 @@
         <com.beardedhen.androidbootstrap.BootstrapEditText
             app:bootstrapBrand="success"
             app:roundedCorners="true"
-            android:id="@+id/ETaddress"
+            android:id="@+id/ETaddressm"
             android:textColor="#000000"
             android:paddingLeft="3dp"
             android:inputType="textEmailAddress"
@@ -135,7 +135,7 @@
         <com.beardedhen.androidbootstrap.BootstrapEditText
             app:bootstrapBrand="success"
             app:roundedCorners="true"
-            android:id="@+id/ETdescription"
+            android:id="@+id/ETdescriptionm"
             android:paddingLeft="3dp"
             android:maxLength="500"
             android:textColor="#000000"
@@ -167,7 +167,7 @@
         <com.beardedhen.androidbootstrap.BootstrapEditText
             app:bootstrapBrand="success"
             app:roundedCorners="true"
-            android:id="@+id/ETphone"
+            android:id="@+id/ETphonem"
             android:paddingLeft="3dp"
             android:textColor="#000000"
             android:inputType="text"

@@ -28,7 +28,7 @@ import java.util.Map;
 public class FirebaseMessagingService extends com.google.firebase.messaging.FirebaseMessagingService {
 
     private static final String TAG = "FirebaseMessagingServic";
-    String extraData;
+    String extraData, fcmBtnLink;
     public FirebaseMessagingService() {
     }
 
@@ -43,6 +43,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
             String message = data.get("text").trim(); //get message
             String click_action = data.get("click_action"); //get click_action
             extraData = data.get("extra_information").trim();
+            //fcmBtnLink = data.containsKey("button_link") ? data.get("button_link").trim() : "";
 
             Log.d(TAG, "Message Notification Title: " + title);
             Log.d(TAG, "Message Notification Body: " + message);
@@ -109,7 +110,14 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
             intent.putExtra("Body", messageBody);
             intent.putExtra("Extra",extraData);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        }else{
+        }/*else if(click_action.equals("BUTTONwithNOTIFICATION")){
+            intent = new Intent(this, NotificationActivity.class);
+            intent.putExtra("Title", title);
+            intent.putExtra("Body", messageBody);
+            intent.putExtra("Extra",extraData);
+            intent.putExtra("ButtonLink", fcmBtnLink);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        }*/else{
             intent = new Intent(this, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }

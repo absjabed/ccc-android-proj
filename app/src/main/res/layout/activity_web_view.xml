@@ -35,7 +35,7 @@
         android:background="#FFFFFF"
         android:visibility="gone"
         android:textColor="#000000"
-        android:text="Download This Form"
+        android:text="Download"
         android:onClick="onDownloadButtonClicked"
         android:layout_weight="1"
         android:layout_height="50dp" />

@@ -10,7 +10,7 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
 <LinearLayout
     android:orientation="vertical"
     android:id="@+id/linlayoutmain"
-    android:background="@drawable/backgroung"
+    android:background="@drawable/cccfinalback"
     android:weightSum="15"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -47,9 +47,8 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                     android:layout_height="match_parent">
                     <Button android:id="@+id/improject"
                         android:layout_width="match_parent"
-                        android:text="PROJECT"
                         android:textSize="25dp"
-                        android:background="#30123fd1"
+                        android:background="@drawable/cccprojects"
                         android:layout_height="match_parent"/>
 
                 </LinearLayout>
@@ -60,9 +59,8 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                     android:layout_height="match_parent">
                     <Button android:id="@+id/imservices"
                         android:layout_width="match_parent"
-                        android:text="SERVICES"
                         android:textSize="25dp"
-                        android:background="#302d50c4"
+                        android:background="@drawable/cccseba"
                         android:layout_height="match_parent"/>
 
                 </LinearLayout>
@@ -82,9 +80,8 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                     android:layout_height="match_parent">
                     <Button android:id="@+id/imfutureplan"
                         android:layout_width="match_parent"
-                        android:text="FUTURE PLAN"
                         android:textSize="25dp"
-                        android:background="#302d50c4"
+                        android:background="@drawable/cccfuture"
                         android:layout_height="match_parent"/>
 
                 </LinearLayout>
@@ -95,10 +92,9 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                     android:layout_width="0dp"
                     android:layout_height="match_parent">
                     <Button android:id="@+id/imlive"
-                        android:text="LIVE"
                         android:textSize="25dp"
                         android:layout_width="match_parent"
-                        android:background="#30123fd1"
+                        android:background="@drawable/ccclive"
                         android:layout_height="match_parent"/>
 
                 </LinearLayout>

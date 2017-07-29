@@ -6,7 +6,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
 android:paddingLeft="@dimen/activity_horizontal_margin"
-android:background="@drawable/backgroung"
+android:background="@drawable/cccfinalback"
 android:paddingRight="@dimen/activity_horizontal_margin"
 tools:context="com.parvez_n_jabed_co.ccc_project.DepartmentViewActivity">
 <ImageView

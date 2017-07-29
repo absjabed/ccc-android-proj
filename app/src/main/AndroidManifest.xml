@@ -6,11 +6,12 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_ccc"
+        android:icon="@mipmap/ic_ccc_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -30,7 +31,6 @@
         </activity>
         <activity android:name=".GroupListViewActivity" />
         <activity android:name=".Icon_name_List_view" />
-        <activity android:name=".Complain_Activity" />
         <activity android:name=".Mayor_CEOActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
@@ -65,7 +65,6 @@
         <activity android:name=".DepartmentListActivity" />
         <activity android:name=".DepartmentViewActivity" />
         <activity android:name=".HistoryActivity" />
-        <activity android:name=".PdfViewActivity" />
         <activity android:name=".PressPdfListActivity" />
         <activity android:name=".DefaultListView" />
         <activity android:name=".NotificationActivity">
