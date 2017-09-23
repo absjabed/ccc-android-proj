@@ -52,6 +52,11 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                         android:layout_height="match_parent"/>
 
                 </LinearLayout>
+                <View
+                    android:background="#FFFFFF"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"></View>
+
                 <LinearLayout
                     android:layout_weight="1"
                     android:orientation="horizontal"
@@ -67,7 +72,10 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
 
 
             </LinearLayout>
-
+            <View
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
             <LinearLayout
                 android:layout_weight="2"
                 android:layout_width="match_parent"
@@ -85,6 +93,11 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                         android:layout_height="match_parent"/>
 
                 </LinearLayout>
+                <View
+
+                    android:background="#FFFFFF"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"></View>
                 <LinearLayout
                     android:layout_weight="1"
                     android:orientation="horizontal"
@@ -101,7 +114,10 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
 
 
             </LinearLayout>
-
+            <View
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></View>
         </LinearLayout>
 
         <LinearLayout

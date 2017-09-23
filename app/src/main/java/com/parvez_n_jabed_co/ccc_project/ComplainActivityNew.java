@@ -7,9 +7,11 @@ import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,7 +25,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+import android.Manifest;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -345,7 +347,17 @@ public class ComplainActivityNew extends AppCompatActivity implements AdapterVie
                             e.printStackTrace();
                         }*/
 
-                        captureImage();
+
+                        int PERMISSION_ALL = 1;
+
+                        String[] PERMISSIONS =  {Manifest.permission.CALL_PHONE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.SEND_SMS, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
+
+                        if(!hasPermissions(this, PERMISSIONS)){
+                            ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
+                        }else
+                        {
+                            captureImage();
+                        }
                     }
                 }
             }
@@ -359,6 +371,8 @@ public class ComplainActivityNew extends AppCompatActivity implements AdapterVie
             Toast.makeText(this, "প্রয়োজনীয় সকল তথ্য অবশ্যই প্রদান করতে হবে", Toast.LENGTH_SHORT).show();
 
         }else{
+
+
             if(ETdescription.getText().toString().trim().length()>=500){
                 Toast.makeText(this, "আপনার অভিযোগ অবশ্যই ৫০০ অক্ষরের মধ্যে হতে হবে।", Toast.LENGTH_SHORT).show();
             }else {
@@ -380,7 +394,17 @@ public class ComplainActivityNew extends AppCompatActivity implements AdapterVie
                         } catch (UnsupportedEncodingException e) {
                             e.printStackTrace();
                         }*/
-                        recordVideo();
+
+                        int PERMISSION_ALL = 1;
+
+                        String[] PERMISSIONS =  {Manifest.permission.CALL_PHONE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.SEND_SMS, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
+
+                        if(!hasPermissions(this, PERMISSIONS)){
+                            ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
+                        }else
+                        {
+                            recordVideo();
+                        }
                     }
                 }
             }
@@ -551,6 +575,17 @@ public class ComplainActivityNew extends AppCompatActivity implements AdapterVie
         }
 
         return mediaFile;
+    }
+
+    public static boolean hasPermissions(Context context, String... permissions) {
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && context != null && permissions != null) {
+            for (String permission : permissions) {
+                if (ActivityCompat.checkSelfPermission(context, permission) != PackageManager.PERMISSION_GRANTED) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
 }

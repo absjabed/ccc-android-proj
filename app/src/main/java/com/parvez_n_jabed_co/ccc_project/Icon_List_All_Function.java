@@ -387,19 +387,57 @@ public class Icon_List_All_Function {
     public  static Intent entertainment_list(Context context,int postion)
     {
         Intent intent = new Intent();
-       /* if(postion==0)
+        if(postion==0)
         {
+            Bundle bundle1 = new Bundle();
+            bundle1.putInt("ACTIVITY",Constant_Var.CINEMA_HALL_ACTIVITY);
+            bundle1.putInt("TYPE_NAME",R.array.cinema_hall_name);
+            bundle1.putInt("TYPE_ADDRESS",R.array.cinema_hall_address);
+            bundle1.putInt("TYPE_OPENDAY",R.array.cinema_hall_phone);
+            bundle1.putInt("TYPE_PIC",R.drawable.cinema);
+            bundle1.putString("ACTIVITYNAME",Constant_Var.CINEMALIST_ACTIVITY_NAME);
+            Intent intent1 = new Intent(context,NameIconNewActivity.class);
+            intent1.putExtras(bundle1);
+            return  intent1;
+
 //Cinema Hall List
         } else if(postion==1)
         {
 
+            Bundle bundle1 = new Bundle();
+            bundle1.putInt("ACTIVITY",Constant_Var.LIBRATY_ACTIVITY);
+            bundle1.putInt("TYPE_NAME",R.array.library_name);
+
+            bundle1.putInt("TYPE_ADDRESS",R.array.library_address);
+            bundle1.putInt("TYPE_OPENDAY",R.array.library_open_date);
+
+            bundle1.putInt("TYPE_PIC",R.drawable.library);
+
+            bundle1.putString("ACTIVITYNAME",Constant_Var.LIBRARY_ACTIVITY_NAME);
+            Intent intent1 = new Intent(context,NameIconNewActivity.class);
+            intent1.putExtras(bundle1);
+            return  intent1;
+
             //Library List
-        }else*/ if(postion==2){
+        }else if(postion==2){
             intent = new Intent(context,PlacesNameActivity.class);
-        }/*else if(postion==3)
+        }else if(postion==3)
          {
+
+             Bundle bundle1 = new Bundle();
+             bundle1.putInt("ACTIVITY",Constant_Var.SHOPPINGMALL_ACTIVITY);
+             bundle1.putInt("TYPE_NAME",R.array.shopping_mall_name);
+
+             bundle1.putInt("TYPE_ADDRESS",R.array.shopping_mall_address);
+             bundle1.putInt("TYPE_OPENDAY",R.array.shopping_mall_open_date);
+
+             bundle1.putInt("TYPE_PIC",R.drawable.location);
+             bundle1.putString("ACTIVITYNAME",Constant_Var.SHOPPING_ACTIVITY_NAME);
+             Intent intent1 = new Intent(context,NameIconNewActivity.class);
+             intent1.putExtras(bundle1);
+             return  intent1;
              //Shopping Mall List
-         }*/else if(postion==4){
+         }else if(postion==4){
         intent = new Intent(context,HistoryActivity.class);
     }
 

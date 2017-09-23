@@ -17,7 +17,7 @@ import java.util.List;
 
 public class ListViewNormalSecond extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
-    String[] hospital_names= new String[20];
+    String[] hospital_names= new String[50];
     int activity;
     TextView activity_title;
     List<TransportItem> rowItems;

@@ -27,12 +27,12 @@ public class AboutUsActivity extends AppCompatActivity {
     public void onClickAboutUs(View view) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(AboutUsActivity.this);
         alertDialogBuilder
-                .setMessage("চাঁটগা নগর Developers:\n" +
+                .setMessage("CCC App Developers:\n" +
                         "Mohammad Abu Bakar Siddqe Jabed\n" +
                         "Email: absjabed@gmail.com\n"+
                         "Phone: +8801676749372\n\n"+
                         "And \n\n" +
-                        "Khaled Mosharrof Parvez\n" +
+                        "Md. Khaled Mosharraf Parvez\n" +
                         "Email: kmparvez2@gmail.com\n"+
                         "Phone: +8801843298326\n")
                 .setTitle("About Developers")
@@ -51,7 +51,7 @@ public class AboutUsActivity extends AppCompatActivity {
 
     public void onClickPlay(View view) {
         //playstore link
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.parvez_n_jabed_co.ccc_project"));
         String title = "Open with another application";
         Intent chooser = Intent.createChooser(intent, title);
         startActivity(chooser);
@@ -76,7 +76,7 @@ public class AboutUsActivity extends AppCompatActivity {
             smsnumber = "01676749372; 01843298326";
         }
 
-        String smstxt = "Any thing you want to know from us, developers............\n\n\n\n-চাঁটগা নগর";
+        String smstxt = "Any thing you want to know from us, developers............\n\n\n\n-CCC App";
 
         Uri uri = Uri.parse("smsto:"+smsnumber);
         Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
@@ -98,8 +98,8 @@ public class AboutUsActivity extends AppCompatActivity {
 //sharing implementation here
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
-        String shareBody = "Chittagong City Corporation - Official Android Application (চাঁটগা নগর). DownLoad Link: ";
-        sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Ctg City Corp. Official App (চাঁটগা নগর)");
+        String shareBody = "Chittagong City Corporation - Official Android Application (CCC App). DownLoad Link: https://play.google.com/store/apps/details?id=com.parvez_n_jabed_co.ccc_project";//com.parvez_n_jabed_co.ccc_project
+        sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Ctg City Corp. Official App (CCC App)"); // https://play.google.com/store/apps/details?id=com.orioninformatics.digitaldhaka
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
         startActivity(Intent.createChooser(sharingIntent, "Share via"));
     }

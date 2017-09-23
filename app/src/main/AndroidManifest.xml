@@ -7,11 +7,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.SEND_SMS" />
-
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_ccc_launcher"
+        android:icon="@mipmap/ic_ccc"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -88,7 +88,8 @@
         <activity android:name=".AboutUsActivity" />
         <activity android:name=".CommunicationActivity" />
         <activity android:name=".ComplainActivityNew" />
-        <activity android:name=".UploadActivity"></activity>
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".NameIconNewActivity"></activity>
     </application>
 
 </manifest>

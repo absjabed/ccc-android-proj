@@ -327,5 +327,228 @@
     <string name="placeLaldighiGo">উক্ত দশর্নীয় স্থানে যাওয়ার জন্য বাস বা অটোরিক্সা ব্যবহার করা যেতে পারে। </string>
     <string name="placeLaldighiLocation">চট্টগ্রাম</string>
 
+
+    <string-array name="cinema_hall_name">
+        <item>Almas Cinema Hall</item>
+        <item>Theatre Institute Chattagram</item>
+        <item>BGB Hall</item>
+        <item>Momtaz Hall</item>
+        <item>Baitul Izzat Cinema Hall</item>
+        <item>Cinema Palace</item>
+    </string-array>
+
+
+    <string-array name="cinema_hall_address">
+        <item>Address:\n\tKazir Dewri, Chittagong, Bangladesh</item>
+        <item>Address:\n\t110 J C Guha Rd, Chittagong 4000, Bangladesh</item>
+        <item>Address:\n\tHalishahar H-Block Road Chittagong Bangladesh, Bangladesh</item>
+        <item>Address:\n\tKazem Ali Rd, Chittagong, Bangladesh</item>
+        <item>Address:\n\tChittagong - Bandarban Hwy, Bangladesh</item>
+        <item>Address:\n\tMovie theater in Chittagong, Bangladesh</item>
+    </string-array>
+
+
+    <string-array name="cinema_hall_phone">
+        <item>Phone:\n+880 31-610137</item>
+        <item>Phone:\n+880 1848-372528</item>
+        <item>Phone:\n</item>
+        <item>Phone:\n</item>
+        <item>Phone:\n</item>
+        <item>Phone:\n</item>
+    </string-array>
+
+    // Library List array names =>
+    //	library_name
+    //	library_address
+    //	library_open_date
+
+    <string-array name="library_name">
+        <item>Chittagong Divisional Library</item>
+        <item>Allama Shah Abdul Jabbar Public Library</item>
+        <item>Military Station Library</item>
+    </string-array>
+
+
+    <string-array name="library_address">
+        <item>Address:\n\tChittagong, Bangladesh</item>
+        <item>Address:\n\tGround Floor, Jilani Market, Dhaka Trunk Rd, Chittagong 4100, Bangladesh</item>
+        <item>Address:\n\tChittagong, Bangladesh</item>
+    </string-array>
+
+
+    <string-array name="library_open_date">
+    <item>Hours:\n
+\tSunday\t	9AM–8PM
+\n\tMonday\t	9AM–8PM
+\n\tTuesday\t	9AM–8PM
+\n\tWednesday\t	9AM–8PM
+\n\tThursday\t	Closed
+\n\tFriday\t	Closed
+\n\tSaturday\t	9AM–8PM
+\n\t\t	*Hours might differ</item>
+    <item>Hours:\n
+\tSunday\t	10AM–9PM
+\n\tMonday\t	10AM–9PM
+\n\tTuesday\t	10AM–9PM
+\n\tWednesday\t	10AM–9PM
+\n\tThursday\t	10AM–9PM
+\n\tFriday\t	10AM–9PM
+\n\tSaturday\t	10AM–9PM</item>
+    <item>Hours:\n
+\tSunday\t	8AM–9PM
+\n\tMonday\t	8AM–9PM
+\n\tTuesday\t	8AM–9PM
+\n\tWednesday\t	8AM–9PM
+\n\tThursday\t	Closed
+\n\tFriday\t	Closed
+\n\tSaturday\t	8AM–9PM</item>
+    </string-array>
+
+    // Shopping Mall array names =>
+    //	shopping_mall_name
+    //	shopping_mall_address
+    //	shopping_mall_open_date
+
+    <string-array name="shopping_mall_name">
+        <item>Sanmar Ocean City</item>
+        <item>Mimi Super Market</item>
+        <item>Central Shopping Complex</item>
+        <item>AFMI PLAZA (আফমী প্লাজা)</item>
+        <item>Chittagong Shopping Complex</item>
+        <item>Finlay Square</item>
+        <item>Lucky Plaza</item>
+        <item>Akhtaruzzaman Centre</item>
+        <item>VIP Tower</item>
+        <item>Zahur Hawkers Market</item>
+        <item>Khulshi Town Center</item>
+        <item>Alongkar Shopping Complex</item>
+        <item>Vasavi Shopping Mall</item>
+    </string-array>
+
+
+    <string-array name="shopping_mall_address">
+        <item>Address:\n\tCDA Ave, Chittagong, Bangladesh</item>
+        <item>Address:\n\tChittagong, Bangladesh</item>
+        <item>Address:\n\t562 O.R. Nizam Rd, Chittagong, Bangladesh</item>
+        <item>Address:\n\tNo1/A Baizid Bostami Road Chittagong, Chittagong 4000, Bangladesh</item>
+        <item>Address:\n\tChittagong, Bangladesh</item>
+        <item>Address:\n\t2 CDA Ave, Chittagong, Bangladesh</item>
+        <item>Address:\n\tChittagong, Bangladesh</item>
+        <item>Address:\n\t4100 Sheikh Mujib Rd, Chittagong, Bangladesh</item>
+        <item>Address:\n\tChatteswari Road, Chittagong, Bangladesh</item>
+        <item>Address:\n\tLoyal Rd, Chittagong, Bangladesh</item>
+        <item>Address:\n\tZakir Hossain By Ln, Chittagong, Bangladesh</item>
+        <item>Address:\n\tঅলঙ্কার মোড়, Chittagong, Bangladesh</item>
+        <item>Address:\n\tCDA Ave, Chittagong, Bangladesh</item>
+    </string-array>
+
+
+    <string-array name="shopping_mall_open_date">
+    <item>Hours:\n
+\tSunday\t	10AM–10PM
+\n\tMonday\t	10AM–10PM
+\n\tTuesday\t	Closed
+\n\tWednesday\t	10AM–10PM
+\n\tThursday\t	10AM–10PM
+\n\tFriday\t	10AM–10PM
+\n\tSaturday\t	10AM–10PM</item>
+    <item>Hours:\n
+\tSunday\t	Closed
+\n\tMonday\t	2–9PM
+\n\tTuesday\t	10AM–9PM
+\n\tWednesday\t	10AM–9PM
+\n\tThursday\t	10AM–9PM
+\n\tFriday\t	10AM–9PM
+\n\tSaturday\t	10AM–9PM</item>
+    <item>Hours:\n
+\tSunday\t	10AM–10PM
+\n\tMonday\t	10AM–10PM
+\n\tTuesday\t	10AM–10PM
+\n\tWednesday\t	10AM–10PM
+\n\tThursday\t	10AM–10PM
+\n\tFriday\t	10AM–10PM
+\n\tSaturday\t	Closed</item>
+    <item>Hours:\n
+\tSunday\t	Closed
+\n\tMonday\t	2–9PM
+\n\tTuesday\t	10AM–9PM
+\n\tWednesday\t	10AM–9PM
+\n\tThursday\t	10AM–9PM
+\n\tFriday\t	10AM–9PM
+\n\tSaturday\t	10AM–9PM</item>
+    <item>Hours:\n
+\tSunday\t	8AM–11PM
+\n\tMonday\t	8AM–11PM
+\n\tTuesday\t	8AM–11PM
+\n\tWednesday\t	8AM–11PM
+\n\tThursday\t	8AM–11PM
+\n\tFriday\t	Closed
+\n\tSaturday\t	8AM–11PM</item>
+    <item>Hours:\n
+\tSunday\t	10AM–9PM
+\n\tMonday\t	10AM–9PM
+\n\tTuesday\t	10AM–9PM
+\n\tWednesday\t	Closed
+\n\tThursday\t	10AM–9PM
+\n\tFriday\t	10AM–9PM
+\n\tSaturday\t	10AM–9PM</item>
+    <item>Hours:\n
+\tSunday\t	9AM–9PM
+\n\tMonday\t	9AM–9PM
+\n\tTuesday\t	9AM–9PM
+\n\tWednesday\t	9AM–9PM
+\n\tThursday\t	9AM–9PM
+\n\tFriday\t	Closed
+\n\tSaturday\t	2–9PM</item>
+    <item>Hours:\n
+\tSunday\t	Closed
+\n\tMonday\t	10AM–10PM
+\n\tTuesday\t	10AM–10PM
+\n\tWednesday\t	10AM–10PM
+\n\tThursday\t	10AM–10PM
+\n\tFriday\t	10AM–10PM
+\n\tSaturday\t	10AM–10PM</item>
+    <item>Hours:\n
+\tSunday\t	2–9PM
+\n\tMonday\t	10AM–9PM
+\n\tTuesday\t	10AM–9PM
+\n\tWednesday\t	10AM–9PM
+\n\tThursday\t	10AM–9PM
+\n\tFriday\t	10AM–9PM
+\n\tSaturday\t	Closed</item>
+    <item>Hours:\n
+\tSunday\t	9AM–11PM
+\n\tMonday\t	9AM–11PM
+\n\tTuesday\t	9AM–11PM
+\n\tWednesday\t	9AM–11PM
+\n\tThursday\t	9AM–11PM
+\n\tFriday\t	Closed
+\n\tSaturday\t	9AM–11PM</item>
+    <item>Hours:\n
+\tSunday\t	9AM–10PM
+\n\tMonday\t	9AM–10PM
+\n\tTuesday\t	9AM–10PM
+\n\tWednesday\t	9AM–10PM
+\n\tThursday\t	9AM–10PM
+\n\tFriday\t	9AM–10PM
+\n\tSaturday\t	9AM–10PM</item>
+    <item>Hours:\n
+\tSunday\t	Closed
+\n\tMonday\t	9AM–10PM
+\n\tTuesday\t	9AM–10PM
+\n\tWednesday\t	9AM–10PM
+\n\tThursday\t	9AM–10PM
+\n\tFriday\t	9AM–10PM
+\n\tSaturday\t	9AM–10PM</item>
+    <item>Hours:\n
+\tSunday\t	11:45AM–9PM
+\n\tMonday\t	11:45AM–9PM
+\n\tTuesday\t	11:45AM–9PM
+\n\tWednesday\t	11:45AM–9PM
+\n\tThursday\t	11:45AM–9PM
+\n\tFriday\t	11:45AM–9PM
+\n\tSaturday\t	11:45AM–9PM</item>
+    </string-array>
+
 </resources>
 

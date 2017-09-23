@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Chittagong City Corporation </string>
+    <string name="app_name">CtgCityCorp.</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
 
@@ -303,7 +303,6 @@
         <item>বালক-বালিকা উচ্চ বিদ্যালয়</item>
         <item>কলেজ সমূহ</item>
         <item>প্রশিক্ষণ কেন্দ্র</item>
-        <item>বিশ্ববিদ্যালয়</item>
 
     </string-array>
     <!--Computer Institute & Theater Institute -->
@@ -720,14 +719,16 @@
 এবার থেকে নগরবাসী সরাসরি চাঁটগা নগর মোবাইল অ্যাপ্লিকেশনের মাধ্যমে লাইভ (সরাসরি সম্প্রচার) দেখতে পাবেন। এবং মাননীয় মেয়র মহোদয় কতৃক প্রদত্ত যেকোন জরুরী ঘোষণা সম্পর্কে নগরবাসীকে মুহূর্তেই অবগত করা হবে।</string>
 
     <string name="meyorSpeesh">
-    In the name of almighty Allah, The most beneficent and merciful.
+বিসমিল্লাহির রাহমানির রাহীম\n
+চট্টগ্রাম আল্লাহর অসংখ্য পছন্দনীয় আউলিয়ার আর্শীবাদকৃত সুন্দর একটি শহর এ কারণে চট্টগ্রামকে বহু শতক ধরে “বার আউলিয়ার পূণ্য ভূমি” নামে ডাকা হয়। সুতরাং এটা প্রাকৃতিক সৌর্ন্দয্য, ভৌগোলিক অবস্থান, সাংস্কৃতিক ঐতিহ্য এবং আতিথেয়তার দিক থেকে পৃথিবীর বিভিন্ন শহরগুলোর মধ্যে খুব সুন্দর একটি শহর যা পৃথিবীর বিভিন্ন দেশের পর্যটকদের বেশ আকর্ষিত করে। বাংলাদেশের বাণিজ্যিক রাজধানী হিসেবে পরিচিত এই শহর বহু আগে থেকেই ব্যবসায়ী এবং পর্যটকদের আকর্ষিত করে আসছে। চট্টগ্রাম বিনিয়োগ, বাণিজ্য, শিল্প পরিচালনা এবং পর্যটন শিল্পেও অনুকূল পরিবেশ-বান্ধবের সাক্ষ্যও বহন করে।
+আমরা চট্টগ্রামকে জলাবদ্ধতা মুক্ত বাসযোগ্য, দেশী এবং বিদেশী পর্যকটদের আকাঙ্ক্ষিত পর্যটন স্থান, দেশী এবং বিদেশী বিনিয়োগকারীদের জন্য বিনিয়োগবান্ধব হাব হিসেবে আন্তর্জাতিক মানের মেগা সিটি হিসেবে গড়তে তুলতে চাই।\n
 
-    Chittagong is a wonderful City blessed with a lot of beloved saints of Almighty Allah. So it is aptly called ‘virtuous land of Bara-Aowlia’ for many decades. It is one of the most beautiful cities in the world endowed with its fascinating natural beauty, geographical location, cultural heritage and hospitality of its people attracted the travelers from different part of the world. As a Commercial capital of Bangladesh, businessmen and tourists are being attracted by this city for a long time. Chittagong bears the testimony of congenial atmosphere for investment, trade, industrial operation and tourism as well.
+আমার প্রতি দৃঢ় বিশ্বাস রাখার জন্য আমি আমার হৃদয় থেকে ধন্যবাদ ও কৃতজ্ঞতা জানাতে চাই মাননীয় প্রধানমন্ত্রী জননেত্রী শেখ হাসিনাকে। আমি চট্টগ্রামবাসীর প্রতি চিরকৃতজ্ঞ আমাকে বিপুল ভোটে নির্বাচিত করার জন্য।
 
-    We want to get Chittagong as a mega city of international standard, a water-logging free livable city, a desired land for national as well as international tourists, a congenial business hub for national and international business community. I would like to seek all sorts of cooperation from all strata of our city dwellers to make our dream into a reality.
-
-    I would like to convey my heart felt thanks and gratitude to Honorable Prime Minister Sheikh Hasina for keeping me in her faith. I am very much grateful to all inhabitants of Chittagong City for casting their valuable vote in my favour for the landslide victory.
-</string>
+আ.জ.ম নাছির উদ্দীন
+মেয়র
+চট্টগ্রাম সিটি কর্পোরেশন
+    </string>
     <string name="feedbacktitle">অভিযোগ বাক্স</string>
     <string name="feedbackname">অভিযোগ/পরামর্শ</string>
     <string name="feedbackemail">ইমেইল</string>

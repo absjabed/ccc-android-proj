@@ -20,7 +20,7 @@ import java.util.List;
 public class Icon_name_List_view extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
    TextView activity_title ;
-    String[] hospital_names= new String[20];
+    String[] hospital_names= new String[50];
 int activity;
     List<TransportItem> rowItems;
     ListView mylistview;

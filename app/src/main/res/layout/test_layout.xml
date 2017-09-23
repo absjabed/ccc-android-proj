@@ -47,7 +47,7 @@
             app:bootstrapBrand="primary"
             app:bootstrapHeading="h6"
             android:textStyle="bold"
-            android:text="অভিযোগের যথাযথ বিবরন আবশ্যক। চাইলে অভিযোগের সাথে ছবি অথবা ভিডিও যুক্ত করতে পারেন। ছবি অথবা ভিডিও এর আকার সর্বোচ্চ ১৫~২০ মেগাবাইটের বেশী হওয়া উচিৎ নয়।"
+            android:text="অভিযোগের যথাযথ বিবরন আবশ্যক। চাইলে অভিযোগের সাথে ছবি অথবা ভিডিও যুক্ত করতে পারেন। ছবি অথবা ভিডিও এর আকার সর্বোচ্চ ১০~১৫ মেগাবাইটের বেশী হওয়া উচিৎ নয়।"
             android:gravity="center_horizontal"/>
         <com.beardedhen.androidbootstrap.BootstrapLabel
             app:bootstrapBrand="success"

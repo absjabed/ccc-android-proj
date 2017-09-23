@@ -12,9 +12,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.parvez_n_jabed_co.ccc_project.AboutUsActivity">
     <ImageView
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:src="@drawable/commonback"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="160dp"
+        android:src="@drawable/cccfinallogo"/>
+
     <TextView
         android:id="@+id/activityTitle"
         android:layout_below="@+id/topHeader"
@@ -22,9 +30,10 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="20dp"
+        android:layout_marginTop="10dp"
         android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:text="চাঁটগা-নগর সম্পর্কে"/>
+        android:text="সিসিসি অ্যাপ সম্পর্কিত"/>
     <TextView
         android:id="@+id/dotdottxt"
         android:layout_below="@+id/activityTitle"
@@ -34,14 +43,9 @@
         android:textColor="#000000"
         android:text="----------------------------------------------------------------------"/>
 
-    <ImageView
-        android:layout_width="160dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_height="160dp"
-        android:src="@drawable/cccfinallogo"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:visibility="invisible"
         android:weightSum="5"
         android:orientation="horizontal">
@@ -119,42 +123,57 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:visibility="invisible"
+        android:layout_height="40dp"
+        android:gravity="center"
         android:weightSum="5"
         android:orientation="horizontal">
-        <ImageView
+        <TextView
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/abtiemail"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Email Us"
             android:layout_height="wrap_content" />
 
-        <ImageView
+        <TextView
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/abtisms"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Send sms"
             android:layout_height="wrap_content" />
-        <ImageView
+        <TextView
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/abtishare"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Share"
             android:layout_height="wrap_content" />
-        <ImageView
+        <TextView
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/abtplayiconf"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Play"
             android:layout_height="wrap_content" />
-        <ImageView
+        <TextView
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/abtiabtus"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="About Us"
             android:layout_height="wrap_content" />
-
 
     </LinearLayout>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:visibility="invisible"
         android:src="@drawable/automate"/>
 
 </LinearLayout>

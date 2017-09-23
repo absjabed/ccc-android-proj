@@ -94,10 +94,11 @@ public class Constant_Var {
     public static  final  int SERVICES_ACTIVITY = 53;
     public static  final  int ONGOINGPROJECT_ACTIVITY = 54;
     public static  final  int UPCOMMINGGPROJECT_ACTIVITY = 55;
+    public static  final  int SHOPPINGMALL_ACTIVITY = 56;
 
 
-    public static  final  String ONGOINGPROJECT_ACTIVITY_NAME = "চলমান প্রোজেক্ট সমূহ";
-    public static  final  String UPCOMMINGPROJECT_ACTIVITY_NAME = "আসন্ন প্রোজেক্ট সমূহ";
+    public static  final  String ONGOINGPROJECT_ACTIVITY_NAME = "চলমান প্রকল্প সমূহ";
+    public static  final  String UPCOMMINGPROJECT_ACTIVITY_NAME = "আসন্ন প্রকল্প সমূহ";
     public static  final  String SERVICE_ACTIVITY_NAME = "চট্টগ্রাম সিটি কর্পোরেশন প্রদত্ত নাগরিক সেবাসমূহ";
     public static  final  String FUTUREPLANE_ACTIVITY_NAME = "চট্টগ্রাম সিটি কর্পোরেশনের ভবিষ্যৎ পরিকল্পনা সমূহ";
 
@@ -136,6 +137,7 @@ public class Constant_Var {
     public static  final  String WASA_ACTIVITY_NAME = "ওয়াসা";
     public static  final  String COMPLAIN_ACTIVITY_NAME = "অভিযোগ";
 
+    public static  final  String SHOPPING_ACTIVITY_NAME = "শপিংমল লিস্ট";
 
 
 

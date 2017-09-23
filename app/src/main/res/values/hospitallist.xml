@@ -497,8 +497,8 @@
         <item>ভবিষ্যৎ পরিকল্পনা সমূহ</item>
     </string-array>
     <string-array name="project_name">
-        <item>চলমান প্রোজেক্ট সমূহ</item>
-        <item>আসন্ন প্রোজেক্ট সমূহ</item>
+        <item>চলমান প্রকল্প সমূহ</item>
+        <item>আসন্ন প্রকল্প সমূহ</item>
     </string-array>
 
 

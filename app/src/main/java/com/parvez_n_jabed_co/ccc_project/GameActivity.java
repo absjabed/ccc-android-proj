@@ -2,33 +2,165 @@ package com.parvez_n_jabed_co.ccc_project;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
+import android.graphics.PixelFormat;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.view.Menu;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageButton;
 
 import com.parvez_n_jabed_co.ccc_project.FormRelatedActivities.FormListActivity;
 import com.parvez_n_jabed_co.ccc_project.TaxRelatedActivities.TaxActivity;
+import com.parvez_n_jabed_co.ccc_project.TestActivities.LiveTestActivity;
 
 
 public class GameActivity extends Activity {
-
+	ImageButton imfb,imyoutube,imwebsite,imabtus, imsettings;
 	private static final int REQUEST_CALL = 1;
 	Intent callIntent;
 	GameView gameView;
-
+ImageButton project,services,futureplan,live;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		gameView=new GameView(this,this);
-		setContentView(gameView);
+		Window window = getWindow();
+		window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		window.setFormat(PixelFormat.RGBA_8888);
+
+		setContentView(R.layout.activity_game);
+		gameView=(GameView) findViewById(R.id.myGameView);
+		gameView.setActivity(this);
+
+		imfb = (ImageButton) findViewById(R.id.btnfba);
+		imyoutube = (ImageButton) findViewById(R.id.btnyoutube);
+		imwebsite = (ImageButton) findViewById(R.id.btnwebsite);
+		imabtus= (ImageButton) findViewById(R.id.btnabtus);
+		//  imtvv = (Button)findViewById(R.id.btnudvodhon);
+		imfb.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Intent webviewIntent = new Intent(GameActivity.this,WebViewActivity.class);
+				webviewIntent.putExtra("URL","https://www.facebook.com");
+				startActivity(webviewIntent);
+
+			}
+		});
+
+
+		imyoutube.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Intent webviewIntent = new Intent(GameActivity.this,WebViewActivity.class);
+				webviewIntent.putExtra("URL","https://www.youtube.com/channel/UCXa9UQkB_bC2rco11B6wRfw");
+				startActivity(webviewIntent);
+
+			}
+		});
+
+		imwebsite.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Intent webviewIntent = new Intent(GameActivity.this,WebViewActivity.class);
+				webviewIntent.putExtra("URL","http://www.ccc.org.bd");
+				startActivity(webviewIntent);
+
+			}
+		});
+       /* imtvv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent webviewIntent = new Intent(MainActivity.this,WelcomeActivity.class);
+
+                startActivity(webviewIntent);
+
+            }
+        });
+
+        */
+
+		imabtus.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Intent webviewIntent = new Intent(GameActivity.this,AboutUsActivity.class);
+				startActivity(webviewIntent);
+
+			}
+		});
+
+
+
+
+
+
+		project = (ImageButton) findViewById(R.id.imbtnproject);
+		services = (ImageButton) findViewById(R.id.imbtnservices);
+		futureplan = (ImageButton) findViewById(R.id.imbtnfutureplan);
+		live = (ImageButton) findViewById(R.id.imbtnlive);
+		project.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Bundle bundle2 = new Bundle();
+				bundle2.putInt("ACTIVITY",Constant_Var.PROJECT__ACTIVITY);
+				bundle2.putString("ACTIVITYNAME","সি/ক প্রজেক্ট সমূহ");
+				bundle2.putInt("TYPE_NAME",R.array.project_name);
+				bundle2.putInt("TYPE_PIC",R.drawable.forms);
+				Intent intent2 = new Intent(GameActivity.this,ListViewNormalSecond.class);
+				intent2.putExtras(bundle2);
+				startActivity(intent2);
+
+			}
+		});
+		services.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Bundle bundle1 = new Bundle();
+				bundle1.putInt("ACTIVITY",Constant_Var.SERVICES_ACTIVITY);
+				bundle1.putInt("TYPE_NAME",R.array.services_list);
+				bundle1.putString("ACTIVITYNAME",Constant_Var.SERVICE_ACTIVITY_NAME);
+				Intent intent1 = new Intent(GameActivity.this,DefaultListView.class);
+				intent1.putExtras(bundle1);
+				startActivity(intent1);
+			}
+		});
+		futureplan.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Bundle bundle1 = new Bundle();
+				bundle1.putInt("ACTIVITY",Constant_Var.FUTUREPLANE_ACTIVITY);
+				bundle1.putInt("TYPE_NAME",R.array.future_plan_list);
+				bundle1.putString("ACTIVITYNAME",Constant_Var.FUTUREPLANE_ACTIVITY_NAME);
+				Intent intent1 = new Intent(GameActivity.this,DefaultListView.class);
+				intent1.putExtras(bundle1);
+
+				startActivity(intent1);
+
+			}
+		});
+		live.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent webviewIntent = new Intent(GameActivity.this,LiveTestActivity.class);
+
+				startActivity(webviewIntent);
+			}
+		});
 
 
 

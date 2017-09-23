@@ -73,7 +73,7 @@ public class AnimationThread extends Thread {
 		*/
 
 		float ang = 360f/12f;
-		Point pointn = drawingThread.GetPosition(drawingThread.getScreenCenter(),(angll+(ang*ind))%360,300f-drawingThread.allPossibleRobots.get(0).getWidth()/2);
+		Point pointn = drawingThread.GetPosition(drawingThread.getScreenCenter(),(angll+(ang*ind))%360,drawingThread.centerIcon.getWidth()/2-drawingThread.allPossibleRobots.get(0).getWidth()/2);
 		robot.setCenter(pointn);
 
 

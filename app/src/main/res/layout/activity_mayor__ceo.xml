@@ -21,7 +21,7 @@
         app:civ_border_color="#ffffff"/>
 
     <TextView
-        android:text="আবু জাহেদ মোহাম্মাদ নাসির উদ্দিন"
+        android:text="আ.জ.ম নাছির উদ্দীন"
         android:gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

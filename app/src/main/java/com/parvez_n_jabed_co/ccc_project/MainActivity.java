@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Bundle bundle2 = new Bundle();
                 bundle2.putInt("ACTIVITY",Constant_Var.PROJECT__ACTIVITY);
-                bundle2.putString("ACTIVITYNAME","সি/ক প্রজেক্ট সমূহ");
+                bundle2.putString("ACTIVITYNAME","চসিক প্রকল্প সমূহ");
                 bundle2.putInt("TYPE_NAME",R.array.project_name);
                 bundle2.putInt("TYPE_PIC",R.drawable.forms);
                 Intent intent2 = new Intent(MainActivity.this,ListViewNormalSecond.class);
@@ -345,8 +345,6 @@ public class MainActivity extends AppCompatActivity {
                             startActivity(callIntent);
                         }
                         break;
-
-
                 }
             }
         });
