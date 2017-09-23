@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.parvez_n_jabed_co.ccc_project.GameActivity"
+        >
+
+
+
+        <com.parvez_n_jabed_co.ccc_project.GameView
+            android:id="@+id/myGameView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.parvez_n_jabed_co.ccc_project.GameView>
+
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:layout_weight="1"
+     android:weightSum="2"
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="1dp">
+     <LinearLayout
+         android:layout_weight="1"
+         android:layout_width="1dp"
+         android:layout_height="match_parent">
+         <ImageButton
+             android:id="@+id/imbtnproject"
+             android:src="@drawable/project"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_weight="1"
+         android:layout_width="1dp"
+         android:layout_height="match_parent">
+         <ImageButton
+             android:id="@+id/imbtnservices"
+             android:src="@drawable/service"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+     </LinearLayout>
+
+ </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+            <ImageButton
+
+                android:id="@+id/imbtnfutureplan"
+                android:src="@drawable/futureplan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/imbtnlive"
+                android:src="@drawable/live"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+<LinearLayout
+    android:layout_weight="1"
+android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="1dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:weightSum="8"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+
+                >
+                <ImageButton
+                    android:id="@+id/btnfba"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ifb"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btnyoutube"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/iyoutube"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btnwebsite"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/iwebsite"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btnabtus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/iabtus"
+                    />
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+    </FrameLayout>
+
