@@ -9,7 +9,7 @@
     android:paddingRight="10dp"
     android:paddingTop="3dp"
     android:background="@drawable/cccfinalback"
-    tools:context="com.parvez_n_jabed_co.ccc_project.TaxRelatedActivities.ReCheckTaxActivity1">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.TaxRelatedActivities.ReCheckTaxActivity1">
 
     <ImageView
         android:id="@+id/topHeader"

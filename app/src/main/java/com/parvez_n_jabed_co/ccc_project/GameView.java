@@ -1,18 +1,16 @@
 package com.parvez_n_jabed_co.ccc_project;
 
-import java.util.Random;
-
 import android.content.Context;
 import android.graphics.PixelFormat;
 import android.graphics.Point;
-import android.provider.ContactsContract;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 import android.view.VelocityTracker;
-import android.widget.Toast;
+
+import com.parvez_n_jabed_co.ccc_project.Activities.GameActivity;
 
 public class GameView extends SurfaceView implements Callback{
 	Context context;

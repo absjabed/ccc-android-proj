@@ -5,7 +5,7 @@ android:orientation="vertical"
 android:id="@+id/activity_main"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
-tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
+tools:context="com.parvez_n_jabed_co.ccc_project.Activities.MainActivity"
     >
 <LinearLayout
     android:orientation="vertical"
@@ -236,7 +236,7 @@ tools:context="com.parvez_n_jabed_co.ccc_project.MainActivity"
                 android:scrollHorizontally="true"
                 android:textColor="#ffffff"
                 android:textSize="15dp"
-                android:text="আপনার শহরকে পরিষ্কার পরিচ্ছন্ন রাখুন । আইনশৃঙ্খলা মেনে চলুন । বিপদজনক এলাকায় সতর্কতা অবলম্বন করুণ , নিরাপদ থাকুন । যে কোন ধরনের বিপদে আইন শৃঙ্খলা বাহিনীর সাহায্য নিন । "
+                android:text="@string/scrollLine"
                 android:layout_alignParentBottom="true"
 
                 android:layout_marginBottom="7dp" />

@@ -11,7 +11,7 @@
     android:paddingTop="15dp"
     android:weightSum="5"
     android:background="@drawable/cccfinalback"
-    tools:context="com.parvez_n_jabed_co.ccc_project.TaxRelatedActivities.RevenueCircleInfo">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.TaxRelatedActivities.RevenueCircleInfo">
     <LinearLayout
         android:layout_width="wrap_content"
         android:orientation="vertical"

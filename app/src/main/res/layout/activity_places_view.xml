@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:background="@drawable/cccfinalback"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    tools:context="com.parvez_n_jabed_co.ccc_project.HistoricalPlacesActivities.PlacesNameActivity">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.HistoricalPlacesActivities.PlacesNameActivity">
     <ImageView
         android:id="@+id/topHeader"
         android:layout_width="match_parent"

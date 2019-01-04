@@ -7,7 +7,7 @@
     android:weightSum="10"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.parvez_n_jabed_co.ccc_project.WebViewActivity">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.WebViewActivity">
 
     <WebView
         android:layout_width="match_parent"

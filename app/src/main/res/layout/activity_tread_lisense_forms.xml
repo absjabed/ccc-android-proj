@@ -9,7 +9,7 @@ android:paddingLeft="@dimen/activity_horizontal_margin"
 android:paddingRight="@dimen/activity_horizontal_margin"
     android:background="@drawable/cccfinalback"
 android:paddingTop="@dimen/activity_vertical_margin"
-tools:context="com.parvez_n_jabed_co.ccc_project.FormRelatedActivities.TreadLisenseForms">
+tools:context="com.parvez_n_jabed_co.ccc_project.Activities.FormRelatedActivities.TreadLisenseForms">
 <ImageView
     android:id="@+id/topHeader"
     android:layout_width="match_parent"

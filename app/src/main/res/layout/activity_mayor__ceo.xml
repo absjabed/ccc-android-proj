@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="10dp"
-    tools:context="com.parvez_n_jabed_co.ccc_project.Mayor_CEOActivity">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.Mayor_CEOActivity">
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/profile_image"

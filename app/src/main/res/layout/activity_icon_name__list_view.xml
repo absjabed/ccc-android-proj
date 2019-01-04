@@ -6,7 +6,7 @@
     android:background="@drawable/cccfinalback"
     android:layout_height="match_parent"
 
-tools:context="com.parvez_n_jabed_co.ccc_project.Icon_name_List_view">
+tools:context="com.parvez_n_jabed_co.ccc_project.Adapters.Icon_name_List_view">
     <ImageView
         android:id="@+id/topHeader"
         android:layout_width="match_parent"

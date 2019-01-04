@@ -9,7 +9,7 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:background="@drawable/cccfinalback"
-    tools:context="com.parvez_n_jabed_co.ccc_project.CommuwithMeyor">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.CommuwithMeyor">
     <ImageView
         android:id="@+id/topHeader"
         android:layout_width="match_parent"

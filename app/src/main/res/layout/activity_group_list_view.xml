@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cccfinalback"
-    tools:context="com.parvez_n_jabed_co.ccc_project.GroupListViewActivity">
+    tools:context="com.parvez_n_jabed_co.ccc_project.Activities.GroupListViewActivity">
 
     <ImageView
         android:id="@+id/topHeader"

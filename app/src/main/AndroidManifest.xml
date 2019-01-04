@@ -10,64 +10,66 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
+        android:name=".FirebaseIntregations.FireApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_ccc"
+        android:largeHeap="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="MAINACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebViewActivity">
+        <activity android:name=".Activities.WebViewActivity">
             <intent-filter>
                 <action android:name="WEB" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".GroupListViewActivity" />
-        <activity android:name=".Icon_name_List_view" />
-        <activity android:name=".Mayor_CEOActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".Activities.GroupListViewActivity" />
+        <activity android:name=".Adapters.Icon_name_List_view" />
+        <activity android:name=".Activities.Mayor_CEOActivity" />
+        <activity android:name=".Activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GroupFixedImgLVActivity" />
-        <activity android:name=".FormRelatedActivities.FormListActivity" />
-        <activity android:name=".FormRelatedActivities.TaxRelatedFormsActivity" />
-        <activity android:name=".FormRelatedActivities.TenderRelatedFormsActivity" />
-        <activity android:name=".FormRelatedActivities.OtherVariousFormsActivity" />
-        <activity android:name=".FormRelatedActivities.TreadLisenseForms" />
-        <activity android:name=".TaxRelatedActivities.TaxActivity" />
-        <activity android:name=".TaxRelatedActivities.HoldingTaxPayment1" />
-        <activity android:name=".TaxRelatedActivities.HoldingTaxPayment2" />
-        <activity android:name=".TaxRelatedActivities.HoldingTaxPaymentFinal" />
-        <activity android:name=".TaxRelatedActivities.ReCheckTaxActivity1" />
-        <activity android:name=".TaxRelatedActivities.TaxPaymentInfoActivity" />
-        <activity android:name=".TaxRelatedActivities.TradeLiscenceInfoActivity" />
-        <activity android:name=".TaxRelatedActivities.RevenueCircleInfo" />
-        <activity android:name=".TaxRelatedActivities.RevenueCircleOfficeInfo" />
-        <activity android:name=".HistoricalPlacesActivities.PlacesNameActivity" />
-        <activity android:name=".HistoricalPlacesActivities.PlacesViewActivity" />
-        <activity android:name=".TestActivities.LiveTestActivity" />
-        <activity android:name=".CommuwithMeyor" />
-        <activity android:name=".GameActivity" />
-        <activity android:name=".TenderActivity" />
-        <activity android:name=".ListViewNormalSecond" />
-        <activity android:name=".IconNameList2" />
-        <activity android:name=".DepartmentListActivity" />
-        <activity android:name=".DepartmentViewActivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".PressPdfListActivity" />
-        <activity android:name=".DefaultListView" />
-        <activity android:name=".NotificationActivity">
+        <activity android:name=".Activities.GroupFixedImgLVActivity" />
+        <activity android:name=".Activities.FormRelatedActivities.FormListActivity" />
+        <activity android:name=".Activities.FormRelatedActivities.TaxRelatedFormsActivity" />
+        <activity android:name=".Activities.FormRelatedActivities.TenderRelatedFormsActivity" />
+        <activity android:name=".Activities.FormRelatedActivities.OtherVariousFormsActivity" />
+        <activity android:name=".Activities.FormRelatedActivities.TreadLisenseForms" />
+        <activity android:name=".Activities.TaxRelatedActivities.TaxActivity" />
+        <activity android:name=".Activities.TaxRelatedActivities.HoldingTaxPayment1" />
+        <activity android:name=".Activities.TaxRelatedActivities.HoldingTaxPayment2" />
+        <activity android:name=".Activities.TaxRelatedActivities.HoldingTaxPaymentFinal" />
+        <activity android:name=".Activities.TaxRelatedActivities.ReCheckTaxActivity1" />
+        <activity android:name=".Activities.TaxRelatedActivities.TaxPaymentInfoActivity" />
+        <activity android:name=".Activities.TaxRelatedActivities.TradeLiscenceInfoActivity" />
+        <activity android:name=".Activities.TaxRelatedActivities.RevenueCircleInfo" />
+        <activity android:name=".Activities.TaxRelatedActivities.RevenueCircleOfficeInfo" />
+        <activity android:name=".Activities.HistoricalPlacesActivities.PlacesNameActivity" />
+        <activity android:name=".Activities.HistoricalPlacesActivities.PlacesViewActivity" />
+        <activity android:name=".OtherClasses.TestActivities.LiveTestActivity" />
+        <activity android:name=".Activities.CommuwithMeyor" />
+        <activity android:name=".Activities.GameActivity" />
+        <activity android:name=".Activities.TenderActivity" />
+        <activity android:name=".Adapters.ListViewNormalSecond" />
+        <activity android:name=".Adapters.IconNameList2" />
+        <activity android:name=".Activities.DepartmentListActivity" />
+        <activity android:name=".Activities.DepartmentViewActivity" />
+        <activity android:name=".Activities.HistoryActivity" />
+        <activity android:name=".Activities.PressPdfListActivity" />
+        <activity android:name=".Adapters.DefaultListView" />
+        <activity android:name=".Activities.NotificationActivity">
             <intent-filter>
                 <action android:name="NOTIFICATION" />
 
@@ -75,7 +77,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".OnlyClasses.FirebaseMessagingService">
+        <service android:name=".FirebaseIntregations.FirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -85,11 +87,11 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorPrimary" />
 
-        <activity android:name=".AboutUsActivity" />
-        <activity android:name=".CommunicationActivity" />
-        <activity android:name=".ComplainActivityNew" />
-        <activity android:name=".UploadActivity" />
-        <activity android:name=".NameIconNewActivity"></activity>
+        <activity android:name=".Activities.AboutUsActivity" />
+        <activity android:name=".Activities.CommunicationActivity" />
+        <activity android:name=".Activities.ComplainActivityNew" />
+        <activity android:name=".Activities.UploadActivity" />
+        <activity android:name=".Activities.NameIconNewActivity"></activity>
     </application>
 
 </manifest>
