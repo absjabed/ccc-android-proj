@@ -77,7 +77,10 @@ public class AboutUsActivity extends AppCompatActivity {
         Uri uri = Uri.parse("smsto:"+smsnumber);
         Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
         intent.putExtra("sms_body", smstxt);
-        startActivity(intent);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+
     }
 
     public void onClickEmail(View view) {

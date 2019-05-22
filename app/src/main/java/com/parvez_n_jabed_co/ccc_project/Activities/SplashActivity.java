@@ -7,11 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.VideoView;
-
 import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.AppUpdaterUtils;
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.objects.Update;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.parvez_n_jabed_co.ccc_project.R;
 

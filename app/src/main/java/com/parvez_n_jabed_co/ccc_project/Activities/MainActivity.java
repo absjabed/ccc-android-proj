@@ -340,9 +340,9 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent11);
                         break;
                     case Constant_Var.HELPLINE_ACTIVITY:
-                        if(ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED){
-                            ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.CALL_PHONE},REQUEST_CALL);
-                        }else{
+//                        if(ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED){
+//                            ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.CALL_PHONE},REQUEST_CALL);
+//                        }else{
                             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
                             alertDialogBuilder
                                     .setMessage(getString(R.string.popUp))
@@ -352,7 +352,7 @@ public class MainActivity extends AppCompatActivity {
                                             new DialogInterface.OnClickListener() {
 
                                                 public void onClick(DialogInterface dialog, int id) {
-                                                    callIntent = new Intent(Intent.ACTION_CALL);
+                                                    callIntent = new Intent(Intent.ACTION_DIAL);
                                                     callIntent.setData(Uri.parse("tel:16104"));
                                                     startActivity(callIntent);
                                                 }
@@ -365,7 +365,7 @@ public class MainActivity extends AppCompatActivity {
                             });
                             AlertDialog alert = alertDialogBuilder.create();
                             alert.show();
-                        }
+//                        }
                         break;
                 }
             }

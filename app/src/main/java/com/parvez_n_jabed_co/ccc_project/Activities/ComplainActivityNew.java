@@ -344,7 +344,7 @@ public class ComplainActivityNew extends AppCompatActivity implements AdapterVie
 
                         int PERMISSION_ALL = 1;
 
-                        String[] PERMISSIONS =  {Manifest.permission.CALL_PHONE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.SEND_SMS, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
+                        String[] PERMISSIONS =  {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
 
                         if(!hasPermissions(this, PERMISSIONS)){
                             ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
@@ -391,7 +391,7 @@ public class ComplainActivityNew extends AppCompatActivity implements AdapterVie
 
                         int PERMISSION_ALL = 1;
 
-                        String[] PERMISSIONS =  {Manifest.permission.CALL_PHONE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.SEND_SMS, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
+                        String[] PERMISSIONS =  {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
 
                         if(!hasPermissions(this, PERMISSIONS)){
                             ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
