@@ -25,13 +25,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.WebViewActivity">
+
+        <activity
+            android:name=".Activities.WebViewActivity"
+            android:alwaysRetainTaskState="true"
+            android:exported="false"
+            android:hardwareAccelerated="true">
             <intent-filter>
                 <action android:name="WEB" />
 
+                <category android:name="android.intent.category.BROWSABLE"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
+            <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
         </activity>
+
         <activity android:name=".Activities.GroupListViewActivity" />
         <activity android:name=".Adapters.Icon_name_List_view" />
         <activity android:name=".Activities.Mayor_CEOActivity" />

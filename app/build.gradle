@@ -7,8 +7,8 @@ android {
         applicationId "com.parvez_n_jabed_co.ccc_project"
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 4
-        versionName "1.0.4"
+        versionCode 6
+        versionName "1.0.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -66,6 +66,4 @@ dependencies {
     implementation 'com.firebase:firebase-client-android:2.5.2'
     implementation 'com.github.javiersantos:AppUpdater:2.7'
 }
-
-
 apply plugin: 'com.google.gms.google-services'

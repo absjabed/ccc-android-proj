@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent webviewIntent = new Intent(MainActivity.this,WebViewActivity.class);
-                webviewIntent.putExtra("URL","https://www.youtube.com/channel/UCXa9UQkB_bC2rco11B6wRfw");
+                webviewIntent.putExtra("URL","https://www.youtube.com/channel/UCXa9UQkB_bC2rco11B6wRfw/videos");
                 startActivity(webviewIntent);
 
             }
